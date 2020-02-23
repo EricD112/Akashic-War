@@ -12,43 +12,43 @@ ship "Rumpus"
 	sprite "ship/rumpus"
 	"never disabled"
 	attributes
-		category "Medium Warship"
+		category "Interceptor"
 		"cost" 10000000
-		"hull" 40000
-		"required crew" 10
-		"bunks" 25
-		"mass" 500
+		"hull" 13400
+		"required crew" 9
+		"bunks" 23
+		"mass" 230
 		"drag" 3
 		"heat dissipation" .5
 		"fuel capacity" 400
-		"cargo space" 60
-		"outfit space" 650
-		"weapon capacity" 250
-		"engine capacity" 200
+		"cargo space" 65
+		"outfit space" 389
+		"weapon capacity" 147
+		"engine capacity" 82
 		weapon
 			"blast radius" 60
 			"shield damage" 800
 			"hull damage" 800
 			"hit force" 400
 	outfits
-		"Sankrit Artillery" 4
+		"Sankrit Artillery" 3
 		
-		"Sankrit Core"
-		"Sankrit Energizer"
+		"Sankrit Core S"
+		"Sankrit Energizer S"
 		"Sankrit Hull Drone"
 		"Sankrit Cooling"
 		
-		"Type 3 Radiant Thruster"
-		"X5200 Ion Steering"
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
 		"Hyperdrive"
 	
 	engine -17 45.5
 	engine 17 45.5
 	turret -18.5 26
 	turret 18.5 26
-	gun -10 -45.5
-	gun 10 -45.5
-	gun 0 -43
+	gun -10 -45.5 "Sankrit Artillery"
+	gun 10 -45.5 "Sankrit Artillery"
+	gun 0 -43 "Sankrit Artillery"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
@@ -69,7 +69,7 @@ ship "Furor"
 	sprite "ship/furor"
 	"never disabled"
 	attributes
-		category "Medium Warship"
+		category "Light Warship"
 		"cost" 20000000
 		"hull" 70000
 		"required crew" 32
@@ -137,7 +137,7 @@ ship "Calamity"
 	sprite "ship/calamity"
 	"never disabled"
 	attributes
-		category "Heavy Warship"
+		category "Medium Warship"
 		"cost" 120000000
 		"hull" 130000
 		"required crew" 120
@@ -276,7 +276,7 @@ ship "Annihilation"
 	sprite "ship/annihilation"
 	"never disabled"
 	attributes
-		category "Heavy Warship"
+		category "Medium Warship"
 		"cost" 500000000
 		"shields" 130000 
 		"hull" 130000

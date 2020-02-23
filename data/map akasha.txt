@@ -1,0 +1,2781 @@
+# Copyright (c) 2020 by Becca Tommaso and @EricD112
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+system Acantha
+	pos 754.526 -240.561
+	government Akashic
+	habitable 851.84
+	link Akasha
+	link Arkadian
+	link Chisya
+	link Izrail
+	link Karme
+	asteroids "small rock" 1 2.016
+	asteroids "medium rock" 5 1.491
+	asteroids "large rock" 5 1.722
+	asteroids "small metal" 6 2.856
+	asteroids "medium metal" 30 1.176
+	asteroids "large metal" 6 2.457
+	trade Clothing 370
+	trade Electronics 725
+	trade Equipment 492
+	trade Food 268
+	trade "Heavy Metals" 1108
+	trade Industrial 603
+	trade "Luxury Goods" 1238
+	trade Medical 603
+	trade Metal 422
+	trade Plastic 393
+	fleet "Small Akashic Military" 800
+	fleet "Large Akashic Military" 1200
+	fleet "Akashic Mining" 1300
+	fleet "Akashic Transport" 600
+	fleet "Akashic Transport Convoy" 900
+	object
+		sprite star/k5
+		distance 58
+		period 17.1225
+		offset 180
+	object
+		sprite star/k5
+		distance 58
+		period 17.1225
+	object Acantha
+		sprite planet/earth
+		distance 274.76
+		period 62.4182
+	object
+		sprite planet/cloud8
+		distance 608.4
+		period 205.667
+	object
+		sprite planet/rock16
+		distance 808.65
+		period 315.153
+	object
+		sprite planet/gas2
+		distance 1741.9
+		period 996.359
+		offset 130.902
+		object
+			sprite planet/ice8
+			distance 186.568
+			period 15.4409
+			offset 268.085
+		object
+			sprite planet/station5
+			distance 504.896
+			period 68.7412
+			offset 15.1635
+	object
+		sprite planet/rock7
+		distance 3629.89
+		period 2997.23
+		offset 84.7167
+
+system Akasha
+	pos 677.068 -284.389
+	government Akashic
+	habitable 486.68
+	link Acantha
+	link "Ar Nebula"
+	link Areara
+	link Arkadian
+	link Ishtar
+	asteroids "medium rock" 26 2.9835
+	asteroids "large rock" 1 2.3205
+	asteroids "small metal" 8 3.4935
+	asteroids "medium metal" 4 1.9635
+	asteroids "large metal" 4 2.703
+	trade Clothing 351
+	trade Electronics 675
+	trade Equipment 565
+	trade Food 334
+	trade "Heavy Metals" 1067
+	trade Industrial 634
+	trade "Luxury Goods" 1171
+	trade Medical 609
+	trade Metal 514
+	trade Plastic 294
+	fleet "Small Akashic Military" 700
+	fleet "Large Akashic Military" 1600
+	fleet "Akashic Mining" 1200
+	fleet "Akashic Transport" 500
+	fleet "Akashic Transport Convoy" 800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock1
+		distance 246.09
+		period 69.997
+	object Akasha
+		sprite planet/forest3
+		distance 636.53
+		period 291.183
+		offset 325.368
+	object
+		sprite planet/desert10
+		distance 1178.42
+		period 733.48
+		offset 345.173
+	object
+		sprite planet/uranus
+		distance 1915.86
+		period 1520.49
+		offset 355.561
+		object
+			sprite planet/rock7
+			distance 219
+			period 13.8465
+		object
+			sprite planet/rock14
+			distance 365
+			period 29.7929
+
+system "Ar Nebula"
+	pos 632.491 -346.194
+	government Akashic
+	habitable 659.2
+	link Akasha
+	link Arkadian
+	link Arkono
+	link Armas
+	asteroids "small rock" 9 6.426
+	asteroids "medium rock" 20 2.6622
+	asteroids "large rock" 73 5.2326
+	asteroids "small metal" 24 3.9474
+	asteroids "medium metal" 45 4.6359
+	asteroids "large metal" 51 6.426
+	trade Clothing 322
+	trade Electronics 644
+	trade Equipment 600
+	trade Food 354
+	trade "Heavy Metals" 1005
+	trade Industrial 680
+	trade "Luxury Goods" 1097
+	trade Medical 593
+	trade Metal 503
+	trade Plastic 302
+	fleet "Small Akashic Military" 1000
+	fleet "Akashic Mining" 1800
+	fleet "Akashic Transport" 800
+	object
+		sprite star/wr
+		distance 41.7583
+		period 19.9698
+		offset 180
+	object
+		sprite star/m4
+		distance 76.2417
+		period 19.9698
+	object
+		sprite planet/ganymede
+		distance 249.532
+		period 61.4101
+	object
+		sprite planet/gas14
+		distance 2186.74
+		period 1593.12
+		object
+			sprite planet/dust3
+			distance 253
+			period 16.3885
+
+system Areara
+	pos 607.491 -276.899
+	government Akashic
+	habitable 719.96
+	link Akasha
+	link Ashksa
+	link Ayacan
+	link Ishtar
+	asteroids "small rock" 20 3.1944
+	asteroids "medium rock" 38 2.9766
+	asteroids "large rock" 4 1.3068
+	asteroids "medium metal" 2 2.9766
+	asteroids "large metal" 1 2.2748
+	trade Clothing 310
+	trade Electronics 733
+	trade Equipment 574
+	trade Food 320
+	trade "Heavy Metals" 997
+	trade Industrial 680
+	trade "Luxury Goods" 1267
+	trade Medical 580
+	trade Metal 461
+	trade Plastic 398
+	fleet "Small Akashic Military" 600
+	fleet "Large Akashic Military" 1300
+	fleet "Akashic Mining" 900
+	fleet "Akashic Transport" 500
+	fleet "Akashic Transport Convoy" 800
+	object
+		sprite star/k0
+		distance 28.8376
+		period 12.5167
+		offset 180
+	object
+		sprite star/m4
+		distance 60.1624
+		period 12.5167
+	object
+		sprite planet/titan
+		distance 182.202
+		period 36.6638
+	object Areara
+		sprite planet/forest4
+		distance 765.3
+		period 315.612
+		offset 46.504
+		object
+			sprite planet/europa
+			distance 170
+			period 19.858
+			offset 228.41
+	object
+		sprite planet/gas9
+		distance 1778.86
+		period 1118.45
+		offset 186.391
+		object
+			sprite planet/rock3
+			distance 259
+			period 15.6293
+	object
+		sprite planet/gas5
+		distance 3384.15
+		period 2934.81
+		offset 60.5407
+		object
+			sprite planet/dust7
+			distance 236
+			period 12.0563
+			offset 63.5331
+		object
+			sprite planet/dust5
+			distance 350
+			period 21.7746
+			offset 137.778
+		object
+			sprite planet/desert4
+			distance 459
+			period 32.7014
+			offset 59.1629
+
+system Ark
+	pos 1017.91 -266.075
+	government Uninhabited
+	habitable 1715
+	link Lemurian
+	trade Clothing 202
+	trade Electronics 833
+	trade Equipment 562
+	trade Food 289
+	trade "Heavy Metals" 918
+	trade Industrial 773
+	trade "Luxury Goods" 1231
+	trade Medical 684
+	trade Metal 416
+	trade Plastic 461
+	fleet Lemurian 100
+	object
+		sprite star/b5
+		period 10
+	object "The Ark Gate South"
+		sprite planet/wormhole
+		distance 1513.9
+		period 568.949
+	object "The Ark Gate North"
+		sprite planet/wormhole
+		distance 2507.95
+		period 2518.05
+
+system Arkadian
+	pos 715.175 -326.959
+	government Akashic
+	habitable 486.68
+	link Acantha
+	link Akasha
+	link "Ar Nebula"
+	link Chisya
+	asteroids "small rock" 33 2.9104
+	asteroids "medium rock" 125 3.5632
+	asteroids "large rock" 1 3.4816
+	asteroids "medium metal" 67 2.8288
+	asteroids "large metal" 9 3.5088
+	trade Clothing 343
+	trade Electronics 654
+	trade Equipment 501
+	trade Food 287
+	trade "Heavy Metals" 1065
+	trade Industrial 593
+	trade "Luxury Goods" 1194
+	trade Medical 558
+	trade Metal 458
+	trade Plastic 298
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Transport" 800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert7
+		distance 159.09
+		period 36.3833
+	object
+		sprite planet/desert6
+		distance 358.34
+		period 122.993
+	object
+		sprite planet/rock13
+		distance 1052.34
+		period 618.974
+	object
+		sprite planet/desert2
+		distance 1260.59
+		period 811.52
+	object
+		sprite planet/cloud1
+		distance 1581.84
+		period 1140.73
+	object
+		sprite planet/uranus
+		distance 6235.88
+		period 8928.63
+		object
+			sprite planet/rock3
+			distance 216
+			period 13.5629
+
+system Arkania
+	pos 486.853 -325.692
+	government Akashic
+	habitable 425.92
+	link Arkono
+	link Ayacan
+	link Kayana
+	asteroids "medium rock" 20 5.343
+	asteroids "large rock" 1 2.379
+	asteroids "medium metal" 3 5.187
+	asteroids "large metal" 1 5.382
+	trade Clothing 247
+	trade Electronics 733
+	trade Equipment 634
+	trade Food 492
+	trade "Heavy Metals" 839
+	trade Industrial 807
+	trade "Luxury Goods" 1079
+	trade Medical 542
+	trade Metal 492
+	trade Plastic 379
+	fleet "Small Akashic Military" 800
+	fleet "Akashic Mining" 1900
+	fleet "Akashic Transport" 600
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock16
+		distance 228
+		period 66.7265
+		object
+			sprite planet/rock17
+			distance 124
+			period 18.8451
+	object
+		sprite planet/lava4
+		distance 673
+		period 338.391
+	object
+		sprite planet/gas17
+		distance 1564.09
+		period 1198.92
+		object
+			sprite planet/luna
+			distance 205
+			period 12.5402
+		object
+			sprite planet/dust1
+			distance 315
+			period 23.8858
+		object
+			sprite planet/tethys
+			distance 435
+			period 38.7621
+		object Arkania
+			sprite planet/rhea
+			distance 618
+			period 65.6381
+
+system Arkono
+	pos 560.337 -375.568
+	government Akashic
+	habitable 320
+	link "Ar Nebula"
+	link Arkania
+	link Armas
+	link Ayacan
+	link Kayana
+	asteroids "small rock" 2 7.614
+	asteroids "medium rock" 2 9.396
+	asteroids "large rock" 1 8.586
+	asteroids "small metal" 1 9.396
+	trade Clothing 262
+	trade Electronics 727
+	trade Equipment 632
+	trade Food 436
+	trade "Heavy Metals" 897
+	trade Industrial 769
+	trade "Luxury Goods" 1068
+	trade Medical 525
+	trade Metal 506
+	trade Plastic 375
+	fleet "Small Akashic Military" 700
+	fleet "Akashic Mining" 800
+	fleet "Akashic Transport" 500
+	fleet "Akashic Transport Convoy" 1200
+	object
+		sprite star/k0
+		period 10
+	object "Arkono Outpost"
+		sprite planet/oberon
+		distance 1490.3
+		period 1043.16
+		offset 176.446
+	object
+		sprite planet/cloud3
+		distance 1713.17
+		period 1285.7
+		offset 168.403
+
+system Armas
+	pos 631.981 -392.409
+	government Akashic
+	habitable 486.68
+	link "Ar Nebula"
+	link Arkono
+	link Arstone
+	link Kamala
+	asteroids "small rock" 1 7.875
+	asteroids "medium rock" 3 8.175
+	asteroids "large rock" 1 5.625
+	asteroids "small metal" 3 4.125
+	asteroids "medium metal" 5 4.8
+	asteroids "large metal" 2 9.45
+	trade Clothing 278
+	trade Electronics 640
+	trade Equipment 686
+	trade Food 427
+	trade "Heavy Metals" 981
+	trade Industrial 717
+	trade "Luxury Goods" 982
+	trade Medical 601
+	trade Metal 466
+	trade Plastic 323
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Mining" 1400
+	fleet "Akashic Transport" 800
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust2
+		distance 148.01
+		period 32.6494
+	object
+		sprite planet/ice3
+		distance 385.25
+		period 137.105
+	object
+		sprite planet/gas3
+		distance 748.5
+		period 371.301
+	object
+		sprite planet/gas2
+		distance 1823.94
+		period 1412.39
+	object
+		sprite planet/gas15
+		distance 2132.83
+		period 1785.96
+
+system Arstone
+	pos 678.813 -429.262
+	government Akashic
+	habitable 425.92
+	link Armas
+	link Kamala
+	asteroids "small rock" 1 5.661
+	asteroids "medium rock" 54 3.876
+	asteroids "large rock" 49 4.59
+	asteroids "small metal" 2 3.672
+	asteroids "medium metal" 3 6.018
+	asteroids "large metal" 2 3.876
+	trade Clothing 274
+	trade Electronics 632
+	trade Equipment 706
+	trade Food 461
+	trade "Heavy Metals" 1033
+	trade Industrial 749
+	trade "Luxury Goods" 965
+	trade Medical 641
+	trade Metal 460
+	trade Plastic 301
+	fleet "Small Akashic Military" 700
+	fleet "Akashic Mining" 1200
+	fleet "Akashic Transport" 650
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas7
+		distance 1577.1
+		period 1213.9
+		offset 78.984
+		object Arstone
+			sprite planet/forest6
+			distance 486
+			period 17.206
+
+system Ashksa
+	pos 585.864 -233.536
+	government Akashic
+	habitable 4270
+	link Areara
+	link Ione
+	link Ixchel
+	asteroids "small rock" 37 3.3
+	asteroids "medium rock" 44 2.225
+	asteroids "large rock" 33 1.375
+	asteroids "small metal" 4 1.35
+	asteroids "medium metal" 10 3.55
+	asteroids "large metal" 23 1.35
+	trade Clothing 264
+	trade Electronics 823
+	trade Equipment 481
+	trade Food 317
+	trade "Heavy Metals" 961
+	trade Industrial 602
+	trade "Luxury Goods" 1386
+	trade Medical 698
+	trade Metal 361
+	trade Plastic 474
+	fleet "Small Akashic Military" 700
+	fleet "Large Akashic Military" 1100
+	fleet "Akashic Transport" 1200
+	fleet "Akashic Transport Convoy" 1200
+	object
+		sprite star/a5
+		distance 21.8091
+		period 11.1333
+		offset 180
+	object
+		sprite star/g5
+		distance 127.191
+		period 11.1333
+	object
+		sprite planet/cloud7
+		distance 314.441
+		period 34.1314
+	object
+		sprite planet/rock2
+		distance 586.331
+		period 86.9081
+	object
+		sprite planet/rock11
+		distance 915.941
+		period 169.686
+	object
+		sprite planet/gas12
+		distance 1678.63
+		period 420.997
+		object
+			sprite planet/rock17
+			distance 280
+			period 12.3061
+	object
+		sprite planet/gas4
+		distance 2654.04
+		period 836.965
+		object
+			sprite planet/rhea
+			distance 241
+			period 13.1954
+		object
+			sprite planet/rock14
+			distance 377
+			period 25.8172
+		object
+			sprite planet/lava0
+			distance 519
+			period 41.7012
+
+system Ayacan
+	pos 559.168 -312.497
+	government Akashic
+	habitable 625
+	link Areara
+	link Arkania
+	link Arkono
+	asteroids "large rock" 3 3.2292
+	asteroids "small metal" 3 3.2058
+	asteroids "large metal" 2 1.9656
+	trade Clothing 244
+	trade Electronics 758
+	trade Equipment 557
+	trade Food 420
+	trade "Heavy Metals" 922
+	trade Industrial 781
+	trade "Luxury Goods" 1161
+	trade Medical 501
+	trade Metal 503
+	trade Plastic 449
+	fleet "Small Akashic Military" 500
+	fleet "Akashic Mining" 1100
+	fleet "Akashic Transport" 400
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert7
+		distance 257.237
+		period 66.0114
+		offset 196.422
+	object "Ayacan Waters"
+		sprite planet/ocean5
+		distance 509.919
+		period 184.235
+		offset 107.078
+	object
+		sprite planet/dust2
+		distance 759.137
+		period 334.658
+		offset 321.913
+	object
+		sprite planet/gas16
+		distance 1162.14
+		period 633.879
+		offset 90.582
+		object
+			sprite planet/tethys
+			distance 173
+			period 11.9775
+		object
+			sprite planet/dust3
+			distance 265
+			period 22.7073
+	object
+		sprite planet/gas5
+		distance 1805.14
+		period 1227.12
+		offset 230.629
+		object
+			sprite planet/dust5
+			distance 244
+			period 12.6745
+
+system Azar
+	pos 431.129 -461.412
+	government Uninhabited
+	habitable 425.92
+	asteroids "small rock" 6 1.8876
+	asteroids "medium rock" 34 0.9768
+	asteroids "large rock" 5 1.7556
+	asteroids "small metal" 94 1.4652
+	asteroids "medium metal" 17 0.9108
+	asteroids "large metal" 15 1.9536
+	trade Clothing 230
+	trade Electronics 605
+	trade Equipment 469
+	trade Food 571
+	trade "Heavy Metals" 751
+	trade Industrial 756
+	trade "Luxury Goods" 927
+	trade Medical 704
+	trade Metal 541
+	trade Plastic 437
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock13
+		distance 275.21
+		period 88.4896
+		offset 77.6119
+		object
+			sprite planet/oberon
+			distance 141.798
+			period 21.2261
+			offset 120.053
+	object
+		sprite planet/desert10
+		distance 665.648
+		period 332.861
+		offset 237.311
+	object
+		sprite planet/rock3
+		distance 877.088
+		period 503.455
+		offset 296.528
+	object
+		sprite planet/gas5
+		distance 1499.53
+		period 1125.45
+		offset 342.698
+	object
+		sprite planet/gas6
+		distance 2302.37
+		period 2141.2
+		offset 353.954
+		object
+			sprite planet/ice8
+			distance 300.048
+			period 13.2755
+			offset 119
+		object Chira
+			sprite planet/europa
+			distance 403.048
+			period 20.668
+			offset 144.486
+
+system Cashira
+	pos 816.49 -440.933
+	government Akashic
+	habitable 1050.92
+	belt 1844
+	link Kapila
+	asteroids "medium metal" 1 2.3256
+	asteroids "large metal" 1 5.244
+	trade Clothing 242
+	trade Electronics 849
+	trade Equipment 626
+	trade Food 353
+	trade "Heavy Metals" 1108
+	trade Industrial 895
+	trade "Luxury Goods" 951
+	trade Medical 640
+	trade Metal 529
+	trade Plastic 300
+	object
+		sprite star/g5
+		distance 38.0966
+		period 11.2452
+	object
+		sprite star/k5
+		distance 55.9034
+		period 11.2452
+		offset 180
+	object
+		sprite planet/rock10
+		distance 274.903
+		period 56.24
+	object
+		sprite planet/lava6
+		distance 494.113
+		period 135.524
+	object
+		sprite planet/gas7
+		distance 1350.11
+		period 612.111
+		object
+			sprite planet/tethys
+			distance 251
+			period 14.1462
+		object
+			sprite planet/dust3
+			distance 337
+			period 22.0077
+		object
+			sprite planet/rock17
+			distance 433
+			period 32.0525
+	object
+		sprite planet/gas0
+		distance 2070.67
+		period 1162.63
+
+system Chisya
+	pos 782.632 -289.831
+	government Uninhabited
+	habitable 425.92
+	belt 1692
+	link Acantha
+	link Arkadian
+	link Karme
+	asteroids "medium rock" 37 3.7632
+	asteroids "large rock" 5 6.1376
+	asteroids "small metal" 9 5.1968
+	asteroids "medium metal" 50 3.4944
+	asteroids "large metal" 2 4.704
+	trade Clothing 346
+	trade Electronics 734
+	trade Equipment 479
+	trade Food 210
+	trade "Heavy Metals" 1087
+	trade Industrial 647
+	trade "Luxury Goods" 1252
+	trade Medical 572
+	trade Metal 407
+	trade Plastic 398
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/dust6
+		distance 137.41
+		period 31.2193
+	object
+		sprite planet/uranus
+		distance 404.66
+		period 157.773
+	object
+		sprite planet/gas6
+		distance 940.3
+		period 558.85
+		object
+			sprite planet/ice0
+			distance 277
+			period 11.7756
+	object
+		sprite planet/neptune
+		distance 1814.54
+		period 1498.12
+		object
+			sprite planet/dust3
+			distance 191
+			period 13.1517
+
+system Ione
+	pos 612.829 -187.414
+	government Akashic
+	habitable 2372.76
+	link Ashksa
+	link Ismene
+	link Ixchel
+	link Izanami
+	asteroids "small rock" 14 1.224
+	asteroids "medium rock" 23 3.36
+	asteroids "large rock" 14 2.712
+	asteroids "small metal" 2 2.976
+	asteroids "medium metal" 85 1.896
+	asteroids "large metal" 23 1.296
+	trade Clothing 237
+	trade Electronics 811
+	trade Equipment 388
+	trade Food 280
+	trade "Heavy Metals" 899
+	trade Industrial 576
+	trade "Luxury Goods" 1454
+	trade Medical 815
+	trade Metal 327
+	trade Plastic 522
+	fleet "Small Akashic Military" 500
+	fleet "Large Akashic Military" 700
+	fleet "Akashic Transport Convoy" 700
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/lava1
+		distance 151.61
+		period 15.3294
+	object
+		sprite planet/rock12
+		distance 488.45
+		period 88.6468
+	object
+		sprite planet/gas3
+		distance 1365.81
+		period 414.494
+		offset 44.57
+		object "Ione Station"
+			sprite planet/ionestation
+			distance 347.302
+			period 16.532
+			offset 117.217
+	object
+		sprite planet/gas15
+		distance 2490.8
+		period 1020.8
+		offset 35.2532
+		object
+			sprite planet/desert4
+			distance 180
+			period 12.7118
+		object
+			sprite planet/oberon
+			distance 301
+			period 27.4882
+		object
+			sprite planet/dust4
+			distance 466
+			period 52.9512
+
+system Ishtar
+	pos 659.104 -221.689
+	government Uninhabited
+	habitable 425.92
+	link Akasha
+	link Areara
+	link Izanami
+	link Izrail
+	asteroids "large metal" 1 5.4496
+	trade Clothing 377
+	trade Electronics 710
+	trade Equipment 573
+	trade Food 267
+	trade "Heavy Metals" 1021
+	trade Industrial 600
+	trade "Luxury Goods" 1276
+	trade Medical 668
+	trade Metal 468
+	trade Plastic 322
+	fleet "Small Akashic Military" 1000
+	fleet "Large Akashic Military" 1600
+	fleet "Akashic Mining" 900
+	fleet "Akashic Transport" 1400
+	fleet "Akashic Transport Convoy" 1500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice8
+		distance 114.76
+		period 23.8277
+	object
+		sprite planet/ice4
+		distance 389.12
+		period 148.772
+	object
+		sprite planet/gas8
+		distance 1085.08
+		period 692.769
+		object
+			sprite planet/dust7
+			distance 188
+			period 13.7219
+	object
+		sprite planet/gas4
+		distance 2542.12
+		period 2484.22
+		object
+			sprite planet/ice0
+			distance 243
+			period 13.36
+		object
+			sprite planet/rock14
+			distance 377
+			period 25.8172
+		object
+			sprite planet/desert4
+			distance 514
+			period 41.1
+
+system Ismene
+	pos 562.957 -120.218
+	government Uninhabited
+	habitable 625
+	link Ione
+	link Ixchel
+	asteroids "small rock" 124 1.5444
+	asteroids "medium rock" 38 1.014
+	asteroids "large rock" 5 0.9204
+	asteroids "small metal" 20 0.9672
+	asteroids "medium metal" 4 1.872
+	asteroids "large metal" 31 1.482
+	trade Clothing 284
+	trade Electronics 804
+	trade Equipment 413
+	trade Food 312
+	trade "Heavy Metals" 947
+	trade Industrial 557
+	trade "Luxury Goods" 1427
+	trade Medical 793
+	trade Metal 344
+	trade Plastic 482
+	fleet "Small Akashic Military" 900
+	fleet "Large Akashic Military" 1400
+	fleet "Akashic Mining" 1300
+	fleet "Akashic Transport" 700
+	fleet "Akashic Transport Convoy" 1400
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/mars
+		distance 147.09
+		period 28.5427
+	object
+		sprite planet/desert8
+		distance 425.9
+		period 140.631
+	object
+		sprite planet/neptune
+		distance 1092.31
+		period 577.616
+		object
+			sprite planet/dust1
+			distance 208
+			period 14.9461
+	object
+		sprite planet/gas2
+		distance 2660.31
+		period 2195.42
+		object
+			sprite planet/ice0
+			distance 207
+			period 18.0456
+
+system Ixchel
+	pos 547.594 -200.836
+	government Quarg
+	habitable 625
+	link Ashksa
+	link Ione
+	link Ismene
+	trade Clothing 273
+	trade Electronics 838
+	trade Equipment 419
+	trade Food 285
+	trade "Heavy Metals" 945
+	trade Industrial 559
+	trade "Luxury Goods" 1448
+	trade Medical 773
+	trade Metal 307
+	trade Plastic 516
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Transport" 800
+	fleet Quarg 800
+	object
+		sprite star/g5
+		period 10
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object Quachir
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+
+system Izanami
+	pos 676.594 -159.836
+	government Akashic
+	habitable 1111.68
+	link Ione
+	link Ishtar
+	link Izrail
+	link Mayaki
+	asteroids "small metal" 1 3.312
+	asteroids "large metal" 4 2.3552
+	trade Clothing 349
+	trade Electronics 753
+	trade Equipment 481
+	trade Food 266
+	trade "Heavy Metals" 1047
+	trade Industrial 576
+	trade "Luxury Goods" 1372
+	trade Medical 770
+	trade Metal 419
+	trade Plastic 376
+	fleet "Small Akashic Military" 500
+	fleet "Large Akashic Military" 750
+	fleet "Akashic Transport" 400
+	fleet "Akashic Transport Convoy" 700
+	object
+		sprite star/g5
+		distance 54.7235
+		period 16.7662
+		offset 180
+	object
+		sprite star/k0
+		distance 70.2765
+		period 16.7662
+	object
+		sprite planet/ice6
+		distance 310.437
+		period 65.619
+	object
+		sprite planet/ice3
+		distance 885.155
+		period 315.936
+		offset 47.5243
+		object "Izanami Station"
+			sprite planet/izanamistation
+			distance 134
+			period 14.8336
+			offset 180.468
+	object
+		sprite planet/gas11
+		distance 1833.51
+		period 941.883
+		offset 56.2352
+		object
+			sprite planet/dust0
+			distance 227
+			period 11.2802
+		object
+			sprite planet/oberon
+			distance 332
+			period 19.9519
+
+system Izrail
+	pos 732.594 -184.836
+	government Uninhabited
+	habitable 973.36
+	link Acantha
+	link Ishtar
+	link Izanami
+	asteroids "medium rock" 140 3.9882
+	asteroids "large rock" 3 3.6703
+	asteroids "small metal" 9 3.3813
+	asteroids "medium metal" 63 4.1038
+	asteroids "large metal" 14 2.4854
+	trade Clothing 339
+	trade Electronics 687
+	trade Equipment 508
+	trade Food 304
+	trade "Heavy Metals" 1050
+	trade Industrial 556
+	trade "Luxury Goods" 1342
+	trade Medical 670
+	trade Metal 404
+	trade Plastic 373
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Transport" 700
+	object
+		sprite star/k0
+		distance 53
+		period 13.9921
+		offset 180
+	object
+		sprite star/k0
+		distance 53
+		period 13.9921
+	object
+		sprite planet/rock10
+		distance 306.81
+		period 68.9013
+	object
+		sprite planet/gas4
+		distance 859.81
+		period 323.241
+		object
+			sprite planet/europa
+			distance 237
+			period 12.8683
+		object
+			sprite planet/io
+			distance 320
+			period 20.1893
+	object
+		sprite planet/gas9
+		distance 2059.06
+		period 1197.92
+		object
+			sprite planet/rhea
+			distance 245
+			period 14.3794
+		object
+			sprite planet/dust3
+			distance 376
+			period 27.3383
+
+system Kamala
+	pos 707.507 -386.989
+	government Uninhabited
+	habitable 425.92
+	link Armas
+	link Arstone
+	link Kapila
+	asteroids "small rock" 70 4.524
+	asteroids "medium rock" 17 3.3696
+	asteroids "large rock" 42 1.7784
+	asteroids "small metal" 14 2.9328
+	asteroids "medium metal" 57 3.3072
+	asteroids "large metal" 67 3.4944
+	trade Clothing 264
+	trade Electronics 705
+	trade Equipment 674
+	trade Food 419
+	trade "Heavy Metals" 1072
+	trade Industrial 766
+	trade "Luxury Goods" 964
+	trade Medical 629
+	trade Metal 445
+	trade Plastic 299
+	fleet "Small Akashic Military" 800
+	fleet "Akashic Mining" 1800
+	fleet "Akashic Transport" 1200
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice2
+		distance 169.09
+		period 42.616
+	object
+		sprite planet/gas5
+		distance 794.09
+		period 433.711
+		object
+			sprite planet/lava0
+			distance 281
+			period 15.6641
+		object
+			sprite planet/dust0
+			distance 408
+			period 27.4055
+	object
+		sprite planet/gas13
+		distance 1905.34
+		period 1611.96
+		object
+			sprite planet/tethys
+			distance 264
+			period 12.1092
+		object
+			sprite planet/ice0
+			distance 378
+			period 20.7467
+
+system Kapila
+	pos 774.487 -392.841
+	government Uninhabited
+	habitable 719.96
+	link Cashira
+	link Kamala
+	asteroids "small rock" 8 6.36
+	asteroids "medium rock" 7 3.24
+	asteroids "large rock" 2 6
+	asteroids "small metal" 42 6.9
+	asteroids "medium metal" 78 8.1
+	asteroids "large metal" 8 5.76
+	trade Clothing 253
+	trade Electronics 815
+	trade Equipment 628
+	trade Food 361
+	trade "Heavy Metals" 1115
+	trade Industrial 854
+	trade "Luxury Goods" 953
+	trade Medical 641
+	trade Metal 495
+	trade Plastic 300
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Mining" 1800
+	fleet "Akashic Transport" 800
+	fleet "Akashic Transport Convoy" 1400
+	object
+		sprite star/k0
+		distance 27.5415
+		period 11.6825
+		offset 180
+	object
+		sprite star/m4
+		distance 57.4585
+		period 11.6825
+	object
+		sprite planet/desert0
+		distance 380.098
+		period 110.471
+		object
+			sprite planet/miranda
+			distance 137
+			period 20.1578
+	object
+		sprite planet/lava6
+		distance 662.348
+		period 254.118
+	object
+		sprite planet/gas2
+		distance 1175.91
+		period 601.127
+		object
+			sprite planet/rock14
+			distance 182
+			period 14.8772
+	object
+		sprite planet/gas1
+		distance 2777.15
+		period 2181.75
+		object
+			sprite planet/lava0
+			distance 264
+			period 17.1444
+
+system Karme
+	pos 826.997 -233.076
+	government Uninhabited
+	habitable 625
+	link Acantha
+	link Chisya
+	link Kassandra
+	asteroids "large rock" 1 8.625
+	asteroids "small metal" 2 3.68
+	asteroids "medium metal" 3 7.3025
+	asteroids "large metal" 2 4.3125
+	trade Clothing 316
+	trade Electronics 761
+	trade Equipment 547
+	trade Food 200
+	trade "Heavy Metals" 1158
+	trade Industrial 681
+	trade "Luxury Goods" 1200
+	trade Medical 684
+	trade Metal 390
+	trade Plastic 465
+	fleet "Small Akashic Military" 900
+	fleet "Akashic Mining" 1800
+	fleet "Akashic Transport" 800
+	fleet "Akashic Transport Convoy" 1400
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock6
+		distance 240.61
+		period 59.716
+		object
+			sprite planet/europa
+			distance 131
+			period 18.8482
+	object
+		sprite planet/forest5
+		distance 536.1
+		period 198.604
+	object
+		sprite planet/forest4
+		distance 893.06
+		period 427.013
+	object
+		sprite planet/dust7
+		distance 1074.87
+		period 563.837
+	object
+		sprite planet/gas0
+		distance 2555.76
+		period 2067.28
+		object
+			sprite planet/rock7
+			distance 283
+			period 13.952
+		object
+			sprite planet/oberon
+			distance 361
+			period 20.101
+
+system Kassandra
+	pos 851.272 -178.009
+	government Akashic
+	habitable 425.92
+	link Karme
+	asteroids "small rock" 1 1.947
+	asteroids "medium rock" 9 4.95
+	asteroids "large rock" 7 2.541
+	asteroids "small metal" 7 4.884
+	asteroids "medium metal" 11 3.366
+	asteroids "large metal" 6 2.706
+	trade Clothing 304
+	trade Electronics 754
+	trade Equipment 604
+	trade Food 199
+	trade "Heavy Metals" 1187
+	trade Industrial 735
+	trade "Luxury Goods" 1133
+	trade Medical 768
+	trade Metal 380
+	trade Plastic 501
+	fleet "Small Akashic Military" 800
+	fleet "Akashic Mining" 1200
+	fleet "Akashic Transport" 700
+	fleet "Akashic Transport Convoy" 1400
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud6
+		distance 240.81
+		period 72.4282
+	object Kassandra
+		sprite planet/ice3
+		distance 479.06
+		period 203.227
+	object
+		sprite planet/gas1
+		distance 877.67
+		period 503.956
+		object
+			sprite planet/dust3
+			distance 256
+			period 16.371
+	object
+		sprite planet/lava3
+		distance 1608.67
+		period 1250.54
+	object
+		sprite planet/gas6
+		distance 2531.88
+		period 2469.22
+		object
+			sprite planet/dust7
+			distance 268
+			period 11.2064
+		object
+			sprite planet/dust4
+			distance 410
+			period 21.2051
+
+system Kayana
+	pos 466.694 -372.06
+	government Akashic
+	habitable 553.28
+	link Arkania
+	link Arkono
+	asteroids "large rock" 4 2.2656
+	asteroids "large metal" 1 4.9536
+	trade Clothing 218
+	trade Electronics 706
+	trade Equipment 682
+	trade Food 499
+	trade "Heavy Metals" 799
+	trade Industrial 793
+	trade "Luxury Goods" 1064
+	trade Medical 505
+	trade Metal 426
+	trade Plastic 322
+	fleet "Small Akashic Military" 500
+	fleet "Akashic Mining" 900
+	fleet "Akashic Transport" 550
+	object
+		sprite star/m0
+		distance 32.8872
+		period 11.7147
+	object
+		sprite star/m4
+		distance 45.1128
+		period 11.7147
+		offset 180
+	object
+		sprite planet/ice3
+		distance 257.873
+		period 70.42
+	object Karieli
+		sprite planet/forest5
+		distance 599.683
+		period 249.73
+		offset 28.0707
+	object
+		sprite planet/gas0
+		distance 1342.97
+		period 836.928
+		offset 7.4736
+		object
+			sprite planet/ice7
+			distance 279
+			period 13.6572
+		object
+			sprite planet/lava0
+			distance 411
+			period 24.4185
+	object
+		sprite planet/gas6
+		distance 2679.41
+		period 2358.56
+		offset 1.32427
+		object
+			sprite planet/desert4
+			distance 307
+			period 13.7395
+		object
+			sprite planet/rhea
+			distance 445
+			period 23.9775
+		object
+			sprite planet/dust5
+			distance 590
+			period 36.6052
+
+system Lemurian
+	pos 1078.49 -276.192
+	government Lemurian
+	habitable 486.68
+	link Ark
+	trade Clothing 282
+	trade Electronics 745
+	trade Equipment 491
+	trade Food 505
+	trade "Heavy Metals" 849
+	trade Industrial 635
+	trade "Luxury Goods" 1159
+	trade Medical 480
+	trade Metal 402
+	trade Plastic 272
+	fleet Lemurian 100
+	object Lemurian
+		sprite star/b5
+		period 10
+
+system Mayaki
+	pos 688.45 -105.463
+	government Uninhabited
+	habitable 973.36
+	belt 1074
+	link Izanami
+	asteroids "small rock" 69 3.0096
+	asteroids "medium rock" 22 4.9104
+	asteroids "large rock" 163 3.9072
+	asteroids "medium metal" 106 7.5504
+	asteroids "large metal" 1 5.544
+	minables aluminum 6 6.72206
+	minables lead 17 6.63438
+	trade Clothing 329
+	trade Electronics 802
+	trade Equipment 455
+	trade Food 225
+	trade "Heavy Metals" 1123
+	trade Industrial 603
+	trade "Luxury Goods" 1368
+	trade Medical 817
+	trade Metal 467
+	trade Plastic 342
+	object
+		sprite star/k0
+		distance 51
+		period 13.2076
+		offset 180
+	object
+		sprite star/k0
+		distance 51
+		period 13.2076
+	object
+		sprite planet/rock4
+		distance 246.16
+		period 49.5164
+	object
+		sprite planet/cloud7
+		distance 721.16
+		period 248.297
+		object
+			sprite planet/dust5
+			distance 164
+			period 29.2801
+	object
+		sprite planet/desert0
+		distance 1363.41
+		period 645.451
+	object
+		sprite planet/gas2
+		distance 2995.41
+		period 2101.88
+		object
+			sprite planet/tethys
+			distance 173
+			period 13.7874
+		object
+			sprite planet/io
+			distance 254
+			period 24.5282
+		object
+			sprite planet/dust4
+			distance 376
+			period 44.177
+
+system Metisya
+	pos 842.64 -78.4766
+	government Sankrit
+	habitable 625
+	belt 1094
+	link Nakarti
+	link Sedna
+	link Sharivar
+	asteroids "medium rock" 1 10.08
+	asteroids "large rock" 2 9.408
+	asteroids "small metal" 6 4.788
+	asteroids "medium metal" 62 9.324
+	asteroids "large metal" 6 7.644
+	minables copper 13 11.4098
+	trade Clothing 339
+	trade Electronics 793
+	trade Equipment 566
+	trade Food 478
+	trade "Heavy Metals" 1012
+	trade Industrial 665
+	trade "Luxury Goods" 1030
+	trade Medical 817
+	trade Metal 331
+	trade Plastic 391
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock17
+		distance 109.76
+		period 18.3987
+	object
+		sprite planet/ice6
+		distance 377.25
+		period 117.237
+	object
+		sprite planet/gas9
+		distance 768.06
+		period 340.575
+		object
+			sprite planet/tethys
+			distance 221
+			period 12.3191
+	object
+		sprite planet/lava7
+		distance 1178.9
+		period 647.643
+	object
+		sprite planet/gas7
+		distance 2658.9
+		period 2193.68
+		object
+			sprite planet/luna
+			distance 243
+			period 13.4753
+
+system Nakarti
+	pos 902.932 -100.003
+	government Sankrit
+	habitable 320
+	belt 1513
+	link Metisya
+	asteroids "small rock" 3 4.72
+	asteroids "medium rock" 23 4.12
+	asteroids "large rock" 5 3.56
+	asteroids "small metal" 7 3.4
+	asteroids "medium metal" 2 2
+	asteroids "large metal" 6 4.36
+	minables aluminum 3 5.08653
+	minables copper 5 6.45735
+	minables silver 3 5.09046
+	trade Clothing 337
+	trade Electronics 831
+	trade Equipment 526
+	trade Food 515
+	trade "Heavy Metals" 984
+	trade Industrial 648
+	trade "Luxury Goods" 1087
+	trade Medical 825
+	trade Metal 279
+	trade Plastic 452
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/neptune
+		distance 310.49
+		period 122.337
+		object
+			sprite planet/desert4
+			distance 207
+			period 14.8384
+	object
+		sprite planet/lava4
+		distance 708.13
+		period 421.361
+	object
+		sprite planet/rock7
+		distance 1240.49
+		period 976.956
+	object
+		sprite planet/gas16
+		distance 1659.74
+		period 1511.98
+		object
+			sprite planet/callisto
+			distance 200
+			period 14.8882
+	object
+		sprite planet/gas2
+		distance 4378.23
+		period 6477.88
+		object
+			sprite planet/rock3
+			distance 198
+			period 16.8816
+		object
+			sprite planet/dust5
+			distance 339
+			period 37.8194
+		object
+			sprite planet/dust0
+			distance 431
+			period 54.2164
+
+system Sanjaya
+	pos 569.011 -4.0759
+	government Sankrit
+	habitable 486.68
+	link Sankrit
+	link Saraswati
+	link Shyama
+	link Tlaloc
+	asteroids "small rock" 17 2.028
+	asteroids "medium rock" 3 3.7752
+	asteroids "large rock" 27 2.2464
+	asteroids "small metal" 9 2.1216
+	asteroids "medium metal" 22 2.5272
+	asteroids "large metal" 66 3.432
+	trade Clothing 292
+	trade Electronics 717
+	trade Equipment 501
+	trade Food 231
+	trade "Heavy Metals" 864
+	trade Industrial 779
+	trade "Luxury Goods" 1218
+	trade Medical 584
+	trade Metal 340
+	trade Plastic 428
+	fleet "Sankrit Small" 1000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice6
+		distance 220.25
+		period 59.2669
+	object
+		sprite planet/gas15
+		distance 815.94
+		period 422.596
+		object
+			sprite planet/oberon
+			distance 203
+			period 15.2244
+		object "Sanjaya Station"
+			sprite planet/sanjayastation
+			distance 305
+			period 28.038
+	object
+		sprite planet/rock18
+		distance 1521.1
+		period 1075.66
+	object
+		sprite planet/gas0
+		distance 2842.11
+		period 2747.26
+		object
+			sprite planet/rhea
+			distance 255
+			period 11.9335
+		object
+			sprite planet/ice7
+			distance 424
+			period 25.5862
+		object
+			sprite planet/europa
+			distance 545
+			period 37.2865
+
+system Sankrit
+	pos 650.691 -25.1921
+	government Sankrit
+	habitable 1080
+	link Sanjaya
+	link Saraswati
+	link Silvius
+	link Svetovid
+	asteroids "medium rock" 47 1.573
+	asteroids "large rock" 27 0.638
+	asteroids "small metal" 2 0.605
+	asteroids "medium metal" 22 0.759
+	asteroids "large metal" 1 0.99
+	trade Clothing 293
+	trade Electronics 635
+	trade Equipment 517
+	trade Food 258
+	trade "Heavy Metals" 835
+	trade Industrial 739
+	trade "Luxury Goods" 1172
+	trade Medical 671
+	trade Metal 442
+	trade Plastic 455
+	fleet "Sankrit Small" 100
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/ice2
+		distance 155.223
+		period 23.5386
+		offset 33.7958
+	object
+		sprite planet/dust2
+		distance 458.913
+		period 119.658
+		offset 2.41514
+	object Sankrit
+		sprite planet/sankrit
+		distance 731.923
+		period 241.016
+		offset 0.749182
+		object "Sankrit Moon"
+			sprite planet/sankritstation
+			distance 319
+			period 13.8465
+	object
+		sprite planet/forest2
+		distance 1177.92
+		period 492.066
+		offset 0.228534
+		object
+			sprite planet/io
+			distance 142
+			period 16.1817
+	object
+		sprite planet/gas4
+		distance 2030.36
+		period 1113.55
+		offset 0.0596287
+
+system Saraswati
+	pos 601.505 -65.2034
+	government Sankrit
+	habitable 1080
+	link Sanjaya
+	link Sankrit
+	link Sarpedon
+	asteroids "small rock" 1 2.4024
+	asteroids "medium rock" 9 2.5168
+	asteroids "large rock" 32 2.0592
+	asteroids "small metal" 48 2.2594
+	asteroids "medium metal" 57 4.29
+	asteroids "large metal" 109 3.3462
+	trade Clothing 332
+	trade Electronics 657
+	trade Equipment 587
+	trade Food 168
+	trade "Heavy Metals" 779
+	trade Industrial 804
+	trade "Luxury Goods" 1279
+	trade Medical 600
+	trade Metal 446
+	trade Plastic 466
+	fleet "Sankrit Small" 700
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert9
+		distance 227
+		period 41.6281
+	object
+		sprite planet/uranus
+		distance 783.96
+		period 267.171
+		object "Saraswati Station"
+			sprite planet/saraswatistation
+			distance 319
+			period 13.8465
+	object
+		sprite planet/jupiter
+		distance 1857.25
+		period 974.212
+		object
+			sprite planet/dust5
+			distance 273
+			period 14.1744
+		object
+			sprite planet/dust3
+			distance 431
+			period 28.1176
+		object
+			sprite planet/tethys
+			distance 569
+			period 42.6511
+		object
+			sprite planet/rock3
+			distance 725
+			period 61.3435
+
+system Sarpedon
+	pos 616.684 -125.305
+	government Sankrit
+	habitable 486.68
+	link Saraswati
+	asteroids "small rock" 20 7.5072
+	asteroids "medium rock" 49 6.4032
+	asteroids "large rock" 5 5.4096
+	asteroids "medium metal" 16 5.6856
+	asteroids "large metal" 1 8.004
+	trade Clothing 352
+	trade Electronics 683
+	trade Equipment 629
+	trade Food 134
+	trade "Heavy Metals" 707
+	trade Industrial 862
+	trade "Luxury Goods" 1351
+	trade Medical 575
+	trade Metal 515
+	trade Plastic 504
+	fleet "Sankrit Small" 1500
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock1
+		distance 242.25
+		period 68.365
+	object
+		sprite planet/neptune
+		distance 562.09
+		period 241.628
+	object
+		sprite planet/europa
+		distance 824.34
+		period 429.139
+	object
+		sprite planet/gas0
+		distance 1881.75
+		period 1480.07
+
+system Sedna
+	pos 766.045 -100.156
+	government Sankrit
+	habitable 1566.68
+	link Metisya
+	link Sharivar
+	link Silvanus
+	asteroids "small rock" 4 3.7296
+	asteroids "medium rock" 23 6.3
+	asteroids "large rock" 11 6.1488
+	asteroids "small metal" 6 2.7216
+	asteroids "medium metal" 3 4.536
+	asteroids "large metal" 2 2.772
+	trade Clothing 292
+	trade Electronics 750
+	trade Equipment 560
+	trade Food 427
+	trade "Heavy Metals" 977
+	trade Industrial 685
+	trade "Luxury Goods" 982
+	trade Medical 787
+	trade Metal 404
+	trade Plastic 337
+	fleet "Sankrit Small" 1000
+	object
+		sprite star/g0
+		distance 34.1709
+		period 11.6589
+		offset 180
+	object
+		sprite star/k0
+		distance 75.8291
+		period 11.6589
+	object
+		sprite planet/gas0
+		distance 458.829
+		period 99.3222
+		object
+			sprite planet/europa
+			distance 243
+			period 11.1011
+	object
+		sprite planet/lava7
+		distance 854.389
+		period 252.379
+	object
+		sprite planet/gas10
+		distance 1487.48
+		period 579.757
+		object
+			sprite planet/miranda
+			distance 212
+			period 16.248
+		object
+			sprite planet/ice8
+			distance 350
+			period 34.4667
+		object
+			sprite planet/dust0
+			distance 473
+			period 54.1488
+	object
+		sprite planet/gas8
+		distance 2309.73
+		period 1121.79
+		object
+			sprite planet/dust3
+			distance 222
+			period 17.6079
+
+system Sharivar
+	pos 792.046 -154.243
+	government Sankrit
+	habitable 233.28
+	link Metisya
+	link Sedna
+	asteroids "large rock" 5 2.5564
+	asteroids "small metal" 6 3.2032
+	asteroids "medium metal" 13 4.466
+	asteroids "large metal" 13 2.618
+	trade Clothing 312
+	trade Electronics 779
+	trade Equipment 625
+	trade Food 474
+	trade "Heavy Metals" 1042
+	trade Industrial 639
+	trade "Luxury Goods" 973
+	trade Medical 813
+	trade Metal 343
+	trade Plastic 323
+	fleet "Sankrit Small" 1500
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert0
+		distance 325
+		period 153.443
+		object Sharivar
+			sprite planet/rock14
+			distance 147
+			period 22.4047
+	object
+		sprite planet/ice0
+		distance 628.04
+		period 412.195
+	object
+		sprite planet/uranus
+		distance 1503.33
+		period 1526.52
+		object
+			sprite planet/miranda
+			distance 236
+			period 15.4896
+		object
+			sprite planet/ice7
+			distance 333
+			period 25.9621
+		object
+			sprite planet/desert4
+			distance 456
+			period 41.6026
+	object
+		sprite planet/gas5
+		distance 2879.58
+		period 4046.83
+		object
+			sprite planet/luna
+			distance 278
+			period 15.414
+		object
+			sprite planet/dust3
+			distance 390
+			period 25.612
+		object
+			sprite planet/oberon
+			distance 469
+			period 33.7759
+		object
+			sprite planet/dust5
+			distance 580
+			period 46.4504
+
+system Shyama
+	pos 605.575 47.2026
+	government Sankrit
+	habitable 1400
+	link Sanjaya
+	asteroids "small rock" 12 2.756
+	asteroids "medium rock" 9 2.132
+	asteroids "large rock" 1 2.808
+	asteroids "small metal" 2 2.652
+	asteroids "medium metal" 30 2.73
+	asteroids "large metal" 4 2.47
+	trade Clothing 294
+	trade Electronics 773
+	trade Equipment 471
+	trade Food 225
+	trade "Heavy Metals" 840
+	trade Industrial 785
+	trade "Luxury Goods" 1171
+	trade Medical 531
+	trade Metal 287
+	trade Plastic 433
+	fleet "Sankrit Small" 500
+	object
+		sprite star/g0
+		distance 22.8571
+		period 10.6904
+		offset 180
+	object
+		sprite star/m0
+		distance 77.1429
+		period 10.6904
+	object
+		sprite planet/io
+		distance 205.233
+		period 31.4316
+	object Shyama
+		sprite planet/silvanus
+		distance 611.723
+		period 161.744
+	object
+		sprite planet/rock14
+		distance 829.973
+		period 255.618
+	object
+		sprite planet/gas16
+		distance 1775.58
+		period 799.848
+		object
+			sprite planet/ice7
+			distance 208
+			period 15.7904
+		object
+			sprite planet/miranda
+			distance 337
+			period 32.5643
+
+system Silvanus
+	pos 776.034 -27.9043
+	government Sankrit
+	habitable 2160
+	link Sedna
+	link Stirbog
+	link Svetovid
+	asteroids "small rock" 3 2.596
+	asteroids "medium rock" 38 2.574
+	asteroids "large rock" 20 1.606
+	asteroids "small metal" 10 2.992
+	asteroids "medium metal" 10 1.804
+	asteroids "large metal" 34 1.408
+	trade Clothing 219
+	trade Electronics 684
+	trade Equipment 485
+	trade Food 341
+	trade "Heavy Metals" 861
+	trade Industrial 753
+	trade "Luxury Goods" 1079
+	trade Medical 762
+	trade Metal 521
+	trade Plastic 354
+	fleet "Sankrit Small" 500
+	object
+		sprite star/g0
+		distance 68
+		period 13.6503
+		offset 180
+	object
+		sprite star/g0
+		distance 68
+		period 13.6503
+	object Silvanus
+		sprite planet/silvanus
+		distance 304.21
+		period 45.666
+	object
+		sprite planet/io
+		distance 539.46
+		period 107.838
+	object
+		sprite planet/desert4
+		distance 748.71
+		period 176.321
+	object
+		sprite planet/rock0
+		distance 908.4
+		period 235.64
+	object
+		sprite planet/forest6
+		distance 1223.16
+		period 368.178
+	object
+		sprite planet/uranus
+		distance 2055.65
+		period 802.152
+		object
+			sprite planet/ice0
+			distance 248
+			period 16.6859
+
+system Silvius
+	pos 697.9 30.7107
+	government Sankrit
+	habitable 719.96
+	link Sankrit
+	link Stirbog
+	asteroids "large metal" 1 1.9602
+	trade Clothing 302
+	trade Electronics 642
+	trade Equipment 410
+	trade Food 298
+	trade "Heavy Metals" 802
+	trade Industrial 688
+	trade "Luxury Goods" 1154
+	trade Medical 725
+	trade Metal 515
+	trade Plastic 479
+	fleet "Sankrit Small" 500
+	object
+		sprite star/k0
+		distance 38.2341
+		period 19.1086
+		offset 180
+	object
+		sprite star/m4
+		distance 79.7659
+		period 19.1086
+	object
+		sprite planet/titan
+		distance 265.766
+		period 64.5884
+	object
+		sprite planet/ice8
+		distance 628.776
+		period 235.044
+	object
+		sprite planet/cloud5
+		distance 831.816
+		period 357.64
+	object
+		sprite planet/cloud1
+		distance 1586.23
+		period 941.788
+	object
+		sprite planet/gas2
+		distance 2393.44
+		period 1745.57
+		object
+			sprite planet/desert4
+			distance 172
+			period 13.6681
+		object
+			sprite planet/dust3
+			distance 292
+			period 30.2335
+		object
+			sprite planet/oberon
+			distance 436
+			period 55.1626
+
+system Soraka
+	pos 232.174 103.682
+	government Sankrit
+	habitable 425.92
+	asteroids "small rock" 2 7.614
+	asteroids "medium rock" 2 9.396
+	asteroids "large rock" 1 8.586
+	asteroids "small metal" 1 9.396
+	trade Clothing 202
+	trade Electronics 833
+	trade Equipment 562
+	trade Food 409
+	trade "Heavy Metals" 918
+	trade Industrial 773
+	trade "Luxury Goods" 1231
+	trade Medical 684
+	trade Metal 416
+	trade Plastic 461
+	object
+		sprite star/k5
+		period 10
+
+system Stirbog
+	pos 763.976 49.2532
+	government Sankrit
+	habitable 320
+	link Silvanus
+	link Silvius
+	asteroids "small rock" 15 3.219
+	asteroids "medium rock" 52 1.537
+	asteroids "large rock" 9 2.378
+	asteroids "small metal" 48 2.668
+	asteroids "medium metal" 84 3.393
+	asteroids "large metal" 9 2.001
+	trade Clothing 267
+	trade Electronics 665
+	trade Equipment 391
+	trade Food 287
+	trade "Heavy Metals" 788
+	trade Industrial 706
+	trade "Luxury Goods" 1127
+	trade Medical 740
+	trade Metal 542
+	trade Plastic 416
+	fleet "Sankrit Small" 600
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/dust2
+		distance 152.36
+		period 42.0525
+	object Stirbog
+		sprite planet/earth
+		distance 555.45
+		period 292.72
+	object
+		sprite planet/gas6
+		distance 1039.01
+		period 748.884
+		object
+			sprite planet/rock17
+			distance 276
+			period 11.7119
+	object
+		sprite planet/gas17
+		distance 1869.05
+		period 1806.83
+		object
+			sprite planet/oberon
+			distance 197
+			period 11.8133
+		object
+			sprite planet/io
+			distance 299
+			period 22.0892
+		object
+			sprite planet/miranda
+			distance 443
+			period 39.8363
+
+system Svetovid
+	pos 708.672 -52.313
+	government Sankrit
+	habitable 8775
+	link Sankrit
+	link Silvanus
+	asteroids "medium rock" 11 5.292
+	asteroids "large rock" 8 5.256
+	asteroids "small metal" 123 3.816
+	asteroids "medium metal" 118 1.836
+	asteroids "large metal" 41 2.88
+	trade Clothing 226
+	trade Electronics 662
+	trade Equipment 526
+	trade Food 315
+	trade "Heavy Metals" 879
+	trade Industrial 778
+	trade "Luxury Goods" 1131
+	trade Medical 730
+	trade Metal 498
+	trade Plastic 405
+	fleet "Sankrit Small" 1000
+	object
+		sprite star/b5
+		distance 2.2
+		period 7.30198
+		offset 180
+	object
+		sprite star/m8
+		distance 140.8
+		period 7.30198
+	object
+		sprite planet/gas11
+		distance 719.36
+		period 82.3865
+		object
+			sprite planet/dust1
+			distance 269
+			period 14.5514
+		object
+			sprite planet/rhea
+			distance 373
+			period 23.7597
+		object
+			sprite planet/ice8
+			distance 474
+			period 34.0365
+	object
+		sprite planet/gas16
+		distance 1913.05
+		period 357.294
+		object
+			sprite planet/rock7
+			distance 177
+			period 12.3953
+		object
+			sprite planet/ice0
+			distance 303
+			period 27.7627
+		object
+			sprite planet/luna
+			distance 467
+			period 53.1218
+
+system Tlaloc
+	pos 468.545 18.7774
+	government Uninhabited
+	habitable 851.84
+	link Sanjaya
+	asteroids "medium rock" 3 1.4168
+	asteroids "large rock" 1 1.463
+	asteroids "small metal" 1 1.694
+	asteroids "medium metal" 1 1.4784
+	asteroids "large metal" 11 1.4322
+	trade Clothing 258
+	trade Electronics 773
+	trade Equipment 450
+	trade Food 239
+	trade "Heavy Metals" 932
+	trade Industrial 802
+	trade "Luxury Goods" 1259
+	trade Medical 576
+	trade Metal 326
+	trade Plastic 432
+	fleet "Sankrit Jump" 1500
+	object
+		sprite star/k5
+		distance 53
+		period 14.9568
+		offset 180
+	object
+		sprite star/k5
+		distance 53
+		period 14.9568
+	object
+		sprite planet/desert10
+		distance 212.69
+		period 42.511
+	object
+		sprite planet/cloud2
+		distance 464.9
+		period 137.379
+	object
+		sprite planet/rock6
+		distance 745.66
+		period 279.057
+	object
+		sprite planet/ice0
+		distance 1135.67
+		period 524.517
+	object
+		sprite planet/gas1
+		distance 3937.23
+		period 3385.85
+		object
+			sprite planet/rock3
+			distance 210
+			period 12.1631
+		object
+			sprite planet/callisto
+			distance 325
+			period 23.4175
+
+system Tzor
+	pos 383.814 49.2673
+	government Uninhabited
+	habitable 486.68
+	asteroids "small rock" 10 1.24
+	asteroids "medium rock" 39 2.26
+	asteroids "large rock" 17 2.86
+	asteroids "medium metal" 10 1.98
+	asteroids "large metal" 5 2.9
+	trade Clothing 282
+	trade Electronics 745
+	trade Equipment 491
+	trade Food 505
+	trade "Heavy Metals" 849
+	trade Industrial 635
+	trade "Luxury Goods" 1159
+	trade Medical 480
+	trade Metal 402
+	trade Plastic 272
+	object
+		sprite star/k0
+		period 10
+
+planet Acantha
+	attributes akashic
+	landscape land/acantha
+	description `One of the paradise planets of the Akashic, many tourists are around enjoying their time off. This would be a perfect location for humans as well, the atmosphere is just perfect with nice temperatures, and lower gravity than earth. The mountainous regions have beautiful forests, and near the equator there are many beach resorts.`
+	spaceport `Many bars and restaurants are lined up near the spaceport and the vast ammount of resorts. It seems that here the Akashic do drink and eat a lot.`
+	security 0
+
+planet Akasha
+	attributes akashic
+	landscape land/Akasha
+	description `The Akasha Homeworld has massive structures all containing Quartic Metal which seem to have valuable energy properties. From the Spaceport you can see vast ammounts of their high technological spaceships. The Akashic council seems to reside on this planet as well, the real core of all what Akashic controls, there also seem to be different races around.`
+	spaceport `Akasha's spaceport has several bars, and you are surprised to find some other species here like the Quargs.`
+	security 0
+
+planet Areara
+	attributes akashic factory urban rich
+	landscape land/areara
+	description `Areara is the largest manufacturing site for the Akashic, here togather with the Akasha homeworld all outfits and ships are being made. Some of the cities are similar to the cities back on earth in human space, it seems that this planet is full of culture and has been around for a long time, unlike Akasha which seems to only have the latest technological standards.`
+	spaceport `A big spaceport with several warships parked, there are small bars in the area as well`
+	security 0
+
+planet Arkania
+	attributes akashic
+	landscape land/Arkania
+	description `The moon world Arkania's main purpose seems to be the mining of the valuable Quartic Metal which is used all over Akashic space. Countless workers and also drones seem to come and go into the vast ammount of Mines on this moon. There is not much wildlife around, but the moon has an atmosphere in which humans could survive.`
+	spaceport `The first spaceport with a lively bar in Akashic space, the workers seem hyped after their work in the mines, all the workers here are mainly drone operators, as the Akashic don't do any of the heavy lifting by themselves, they do enjoy their local food and drinks.`
+
+planet "Arkono Outpost"
+	attributes akashic
+	landscape land/Arkono0
+	description `A scenary unheard of in human space. Waterfalls reaching deep as if they fall to the planets core. The Akashic call it their research outpost and the access point to the rest of the Galaxy using their "Space Time Drives", all research in regard to the rest of the Galaxy seems to be conducted here.`
+	spaceport `Arkono's spaceport bar seems to be limited the Akashic do not seem to eat or drink that much in General it seems, it is as if they take the energy right out of the air to survive.`
+	security 0
+
+planet Arstone
+	attributes akashic
+	landscape land/arstone
+	description `Arstone is an other beautiful planet of the Akashic. You can see that the cultural trades of the Akashic really is to be in harmony with nature. A big variety of wild life can be observed in this region.`
+	spaceport `The spaceport is rather small. you can access several towns on this mountainous planet which are all smill sized but have a high standard of technology.`
+	security 0
+
+planet "Ayacan Waters"
+	attributes akashic
+	landscape land/Ayacan
+	description `Ayacan Waters is a warm ocean world. There are no lands to settle but the Akashic were capable to build these enourmous structures floating on the seas. The main reason they settled here is that the oceans are sweet waters and have a vast ammount of resources.`
+	spaceport `Ayacan Waters is known among the Akashic for its tasty sea food, it seems however that the Akashic overall don't eat too much. For humans it would be absolute paradise here.`
+
+planet Chira
+	attributes uninhabited
+	landscape land/hills4
+	description `Chira is an small moon, far enough from the system's star that the methan on its surface condensates forming large lakes. Only a few plants live in this harsh enviroment, and a Human can't survive for more than a few seconds without wearing a respirator.`
+	security 0
+
+planet "Ione Station"
+	attributes akashic
+	landscape land/ionestation
+	description `Ione Station is one of the connecting points to Sankrit Space, it is much more massive than any human space station you have seen and is better compared to the Quarg Ring Worlds. 24/7 survailance is being conducted to keep Akashic space save from any possible raids. Even though there is no Hyperspace Link, the necessary pre-cautions are met in case the Sankrit ever obtain a Jump Drive.`
+	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
+	security 0
+
+planet "Ixchel Defence"
+	attributes akashic
+	landscape land/izanamistation
+	description `The Akashic placed this new space station here to monitor Sedna, it is very similar to Izanami station. Many warships come and go.`
+	spaceport `Next to all heavy warships there is a nice small bar with some drinks at the spaceport.`
+
+planet "Ixchel Outpost"
+	attributes sankrit
+	landscape land/sanjayastation
+	description `A small battle outpost which the Sankrit build right under the nose of the Akashic without them noticing.`
+	spaceport `A small battle outpost which the Sankrit build right under the nose of the Akashic without them noticing.`
+	bribe 0
+
+planet "Izanami Station"
+	attributes akashic
+	landscape land/izanamistation
+	description `Izanami Station is one of the connecting points to Sankrit Space, it is fairly small compared to the other Akashic Space stations, however, its weapons and outfits are highly sophisticated and there is enough space for several Heavy Warships. It seems that there is a full time operation here on-going to protect Akashic Space.`
+	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
+	security 0
+
+planet Karieli
+	attributes akashic
+	landscape land/water11-harro
+	description `Although it doesn't have a high population, the Akashic have recently begun building on Karieli many new cities and housing facilities, most of which are still uninhabited. In the case the Sankrit begins raiding their worlds, the Akashic will move the civilian population who lives the southernmost planets to Karieli, where they will be safer and further from the conflict.`
+	description `	Most of the shipyard facilities are still in construction, but when they are completed they might become some of the most advanced in Akashic space.`
+	spaceport `While the flats and skyscrapers reach impressive heights, you can't help but feel weird knowing that more than half of the buildings you see are completely empty, and might continue being like that still for years, or more.`
+	spaceport `	The largest construction area is near the existing ship building facilities, expanding the already existing production lines or creating new and larger ones.`
+
+planet Kassandra
+	attributes akashic
+	landscape land/kassandra
+	description `Kassandra is a cold world always below freezing. There is very little wildlife here which can survive. It does however have a precious material which is used to enhance Quartic Metal. It is said that the enhanced metal is used in Akashic Heavy Warships.`
+	spaceport `The spaceport is surrounded by mines which reach the core of the planet similar to Arkania a lot of workers and androids are here.`
+	bribe 0
+	security 0
+
+planet Lemurian
+	attributes lemurian
+	landscape land/lemurian
+	description `The Lemurian Homeworld is a Star, all the creatures here can form into living spaceships at will and constantly are fed by the gigantic star.`
+	spaceport `The Lemurian Homeworld is a Star, all the creatures here can form into living spaceships at will and constantly are fed by the gigantic star.`
+	bribe 0
+	security 0
+
+planet Quachir
+	attributes quarg
+	landscape land/station2
+	description `This Quarg ringworld was completed eons ago, long before the Akashic discovered how to build Jump Drives. The system is far enough from Sankrit space to be unreachable with Jump Drives, probably so that the Quarg can keep an eye on the Sankrit activities while still staying at a safe distance from them.`
+	spaceport `Billions of Quarg may be living here, but the spaceport is much more quiet than you would expect. Although there is some background noise, most of it is coming from the occasional conversations between the Akashic on the station.`
+	spaceport `	While some Akashic seem to be living on this station, the landing pads on Quachir don't seem to have a high Akashic activity, if compared to stations like Izanami.`
+	bribe 0
+
+planet "Sanjaya Station"
+	attributes sankrit
+	landscape land/sanjayastation
+	description `Sanjaya Station is full of technology which is unseen in human space. Whoever docks here must have his reasons, as no other species dread these realms.`
+	spaceport `Sanjaya Station is full of technology which is unseen in human space. But the environment gives an overall chill to anyone who is not part of the Sankrit system. Whoever docks here must have his reasons, as no other species dread these realms.`
+	bribe 0
+
+planet Sankrit
+	attributes sankrit
+	landscape land/sankrit
+	description `The Sankrit headquarters are based on this planet, apperently the Sankrit are originally not from this area in the Galaxy. Massive machinery dig deep into the planets core to take out all possible resources. The Sankrit seem to use Dark Matter Enhanced Quartic Metal for their ships which give them one of the strongest hulls in the Galaxy.`
+	description `	This planet would not be fit for human life, and it is best to stay away from this area as far as possible.`
+	spaceport `You wouldn't go near to their spaceports`
+	shipyard "Sankrit Advanced"
+	outfitter "Sankrit Basic"
+	bribe 0
+
+planet "Sankrit Moon"
+	attributes sankrit
+	landscape land/sankritstation1
+	description `Sankrit's Moon is the hub for all the military activities which are going on in and around Sankrit Space. Vast ammounts of Heavy Warships are stationed here ready to battle any second. It is very apparent that the history of the Sankrit is violent. This can also be seen in their rank, here it is to eat or be eaten. And the Sankrit seem to want and eat more of the Galaxy.`
+	spaceport `Sankrit Moon is the hub for all the military activities which are going on in the area, vast ammounts of Heavy Warships are stationed here, ready to battle any second.`
+	shipyard "Sankrit Advanced"
+	outfitter "Sankrit Basics"
+	bribe 0
+
+planet "Sankrit Port"
+	attributes sankrit
+	landscape land/sankritstation
+	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
+	spaceport `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
+	bribe 0
+
+planet "Saraswati Station"
+	attributes sankrit
+	landscape land/saraswatistation
+	description `Saraswati Station seems to be a research center for DNA enhancements, it has a vast ammount of incubators with what you can figure out all sorts of species in them. The scenary gives a chill to anyone who is not part of the Sankrit system.`
+	spaceport `Saraswati Station seems to be a research center for DNA enhancements, it has a vast ammount of incubators with what you can figure out all sorts of species in them. The scenary gives a chill to anyone who is not part of the Sankrit system.`
+	bribe 0
+	security 0
+
+planet Sharivar
+	attributes sankrit
+	landscape land/sharivar
+	description `Sharivar is a small moon, without any useful resources, but it seems that the Sankrit are using it for something.`
+	spaceport `Sharivar is a small moon, without any useful resources, but it seems that the Sankrit are using it.`
+	bribe 0
+	security 0
+
+planet "Sharivar Moon"
+	attributes sankrit
+	landscape land/sankritstation1
+	description `Sharivar's Moon is the final Sankrit base. Men made and the outpost to control wormholes.`
+	spaceport `Sharivar's Moon is the final Sankrit base.. Men made and the outpost to control wormholes.`
+	shipyard "Sankrit Advanced"
+	outfitter "Sankrit Basics"
+	bribe 0
+
+planet Shyama
+	attributes sankrit
+	landscape land/shyama
+	description `Shyama is a huge production site of the Sankrit, and they launched an operation here to move towards the Korath, they are making highly technical space ships which can create hyper links.`
+	spaceport `Shyama is a huge production site of the Sankrit, and they launched an operation here to move towards the Korath, they are making highly technical space ships which can create hyper links.`
+	shipyard "Sankrit Basic"
+	outfitter "Sankrit Basics"
+	bribe 0
+
+planet Silvanus
+	attributes sankrit
+	landscape land/silvanus
+	description `Silvanus seems to be the heart of Sankrit space when it comes to production. The whole planet is one big factory, extracting each and every piece of metal out of the core and tranforming it into their weaponry. Most of the work is done by slaves and androids are also involved. A grim world with high polution, only the Sankrit themselves have their protective gear and seem to be overall fine in this kind of environment.`
+	spaceport `Silvanus seems to be the heart of Sankrit space when it comes to production. The whole planet is one big factory, extracting each and every piece of metal out of the core and tranforming it into their weaponry. Most of the work is done by slaves and androids are also involved. A grim world with high polution, only the Sankrit themselves have their protective gear and seem to be overall fine in this kind of environment.`
+	shipyard "Sankrit Basic"
+	outfitter "Sankrit Basics"
+	bribe 0
+	security 0
+
+planet Soraka
+	attributes Sankrit
+	landscape land/sankritstation
+	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
+	spaceport `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
+	bribe 0
+	security 0
+
+planet Stirbog
+	attributes sankrit
+	landscape land/stirbog
+	description `Stirbog if on the edge of Sankrit space. It has only few facilities and is being used for research. Recently they have ramp-up their activities here.`
+	spaceport `Stirbog if on the edge of Sankrit space. It has only few facilities and is being used for research. Recently they have ramp-up their activities here.`
+	bribe 0
+
+planet "The Ark Gate North"
+
+planet "The Ark Gate Sankrit"
+
+planet "The Ark Gate South"
+

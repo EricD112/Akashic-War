@@ -181,17 +181,18 @@ mission "Akasha: Akashic Space"
 		payment 2000000
 		
 	on complete
-		event "Akashic first timer" 14
-		conversation # HASN'T BEEN REWRITTEN YET
-			`After the battles and travel you finally land on Arkono Outpost. Yet again the akashic prove to amaze you with their structures. By now you have realized that the Akashic might be on par with the quarg when it comes to technology.`	
-			`You get out of your ship and walk towards Kachi's Redemption. You notice several smaller ships around as well, and Kachi's Redemption must be one of the biggest classes of ships here. It is equivalent to the biggest navy ship carrying superior technology in addition.`
-			`Kachi greets you with a smile "Great fighting out there <first>, and thank you for accompanying us back here! I will have to go and make my report to the council, it won't be soon before my fellow Akashic realize that I brought a human back into our space, and I'd be better off reporting this right away".`
+#		event "Akashic first timer" 14
+		conversation
+			`You disembark from your ship and approach Kachi, which seems to be relieved to be back in Akashic space. "Welcome in Akashic space, Captain <last>. The Jump Drive did well during the trip, but we are replacing it to avoid risking another breakdown."`
+			`	While Kachi is talking, you can't help but look at the massive buildings near the spaceport, which he says to be housings and apartments, mainly uninhabited. "The reason they have been built for is the same that took me in Korath space: the Sankrit empire."`
 			choice
-				`	"You think you will get into any kind of trouble for bringing me here?"`	
-				`	"Hey, don't worry about me! I will be just fine, I have always been!`	
-			`"I am sure everything will be fine, you are not the first species entering our realm." says Kachi laughing.`
-			`You ask Kachi about the issues he mentioned back on Chira and how you could further support.`	
-			`"Thank you <first>, let's get into more details after I finish my report. Meet me in the spaceport in a couple of hours, oh and by the way I have additionally credited your account with 2.5 Mill! I am sure this will cover your costs".`
+				`	"Who are the Sankrit?"`
+			`	"They are a young species, born in a small cluster rimward of ours. We first encountered them some millennia ago, shortly after we learned how to develop Jump Drives. Even though we had been spacefaring for much longer than them, their ships were very warlike, and were able to destroy some of the scout ships we had sent there before we were able to retreat.`
+			`	"Since then, we kept ourselves away from their systems. Their technology advanced very quickly, and it may not be long until they learn the secrets behind creating Jump Drives. War seems inevitable, and for the last few centuries we have been preparing to defend ourselves from their invasion."`
+			choice
+				`	"Is there anything I can do to help?"`
+				`	"What are you going to do next?"`
+			`	"First of all, I will have to report your presence to the Council, who rules our space. While we had contacts with with some Humans in the past, you are the first to visit this region. I'll contact you again when we reach an agreement on the matter,and perhaps give you access to some of our technology. In the meanwhile, I wish you good luck, <last>."`
 
 event "Akashic first timer"
 

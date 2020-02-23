@@ -9,9 +9,10 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 system Acantha
-	pos 754.526 -240.561
+	pos 750.526 -248.561
 	government Akashic
-	habitable 851.84
+	habitable 912.6
+	belt 1034
 	link Akasha
 	link Arkadian
 	link Chisya
@@ -23,6 +24,7 @@ system Acantha
 	asteroids "small metal" 6 2.856
 	asteroids "medium metal" 30 1.176
 	asteroids "large metal" 6 2.457
+	minables tungsten 2 1.91868
 	trade Clothing 370
 	trade Electronics 725
 	trade Equipment 492
@@ -39,51 +41,48 @@ system Acantha
 	fleet "Akashic Transport" 600
 	fleet "Akashic Transport Convoy" 900
 	object
-		sprite star/k5
-		distance 58
-		period 17.1225
+		sprite star/k0
+		distance 43.4041
+		period 11.8753
 		offset 180
 	object
 		sprite star/k5
-		distance 58
-		period 17.1225
+		distance 49.5959
+		period 11.8753
+	object
+		sprite planet/cloud6
+		distance 311.806
+		period 72.9032
+		object
+			sprite planet/rock17
+			distance 125
+			period 14.3078
 	object Acantha
-		sprite planet/earth
-		distance 274.76
-		period 62.4182
+		sprite planet/forest1
+		distance 786.246
+		period 291.916
 	object
-		sprite planet/cloud8
-		distance 608.4
-		period 205.667
-	object
-		sprite planet/rock16
-		distance 808.65
-		period 315.153
-	object
-		sprite planet/gas2
-		distance 1741.9
-		period 996.359
-		offset 130.902
+		sprite planet/gas1
+		distance 1375.89
+		period 675.761
 		object
-			sprite planet/ice8
-			distance 186.568
-			period 15.4409
-			offset 268.085
-		object
-			sprite planet/station5
-			distance 504.896
-			period 68.7412
-			offset 15.1635
+			sprite planet/desert4
+			distance 224
+			period 13.3995
 	object
-		sprite planet/rock7
-		distance 3629.89
-		period 2997.23
-		offset 84.7167
+		sprite planet/dust3
+		distance 1751.25
+		period 970.377
+	object
+		sprite planet/gas5
+		distance 2116.29
+		period 1289.08
 
 system Akasha
 	pos 677.068 -284.389
 	government Akashic
-	habitable 486.68
+	habitable 625
+	belt 1338
 	link Acantha
 	link "Ar Nebula"
 	link Areara
@@ -94,6 +93,8 @@ system Akasha
 	asteroids "small metal" 8 3.4935
 	asteroids "medium metal" 4 1.9635
 	asteroids "large metal" 4 2.703
+	minables aluminum 1 3.60099
+	minables lead 7 5.61331
 	trade Clothing 351
 	trade Electronics 675
 	trade Equipment 565
@@ -110,40 +111,49 @@ system Akasha
 	fleet "Akashic Transport" 500
 	fleet "Akashic Transport Convoy" 800
 	object
-		sprite star/k0
+		sprite star/g5
 		period 10
 	object
-		sprite planet/rock1
-		distance 246.09
-		period 69.997
+		sprite planet/rock5
+		distance 178.56
+		period 38.1765
+	object
+		sprite planet/rock10
+		distance 396.8
+		period 126.467
 	object Akasha
-		sprite planet/forest3
-		distance 636.53
-		period 291.183
-		offset 325.368
+		sprite planet/desert9
+		distance 714.616
+		period 305.653
+		offset 29.8102
 	object
-		sprite planet/desert10
-		distance 1178.42
-		period 733.48
-		offset 345.173
+		sprite planet/gas5
+		distance 1651.23
+		period 1073.57
+		offset 7.02987
+		object
+			sprite planet/rock17
+			distance 259
+			period 13.8611
 	object
-		sprite planet/uranus
-		distance 1915.86
-		period 1520.49
-		offset 355.561
+		sprite planet/gas14
+		distance 2545.12
+		period 2054.38
+		offset 2.37259
 		object
-			sprite planet/rock7
-			distance 219
-			period 13.8465
+			sprite planet/europa
+			distance 241
+			period 15.2365
 		object
-			sprite planet/rock14
-			distance 365
-			period 29.7929
+			sprite planet/dust5
+			distance 373
+			period 29.3374
 
 system "Ar Nebula"
 	pos 632.491 -346.194
 	government Akashic
 	habitable 659.2
+	belt 1295
 	link Akasha
 	link Arkadian
 	link Arkono
@@ -154,6 +164,7 @@ system "Ar Nebula"
 	asteroids "small metal" 24 3.9474
 	asteroids "medium metal" 45 4.6359
 	asteroids "large metal" 51 6.426
+	minables copper 51 5.17002
 	trade Clothing 322
 	trade Electronics 644
 	trade Equipment 600
@@ -178,12 +189,14 @@ system "Ar Nebula"
 		period 19.9698
 	object
 		sprite planet/ganymede
-		distance 249.532
-		period 61.4101
+		distance 440.589
+		period 144.079
+		offset 214.681
 	object
 		sprite planet/gas14
-		distance 2186.74
-		period 1593.12
+		distance 2377.8
+		period 1806.4
+		offset 35.9114
 		object
 			sprite planet/dust3
 			distance 253
@@ -193,6 +206,7 @@ system Areara
 	pos 607.491 -276.899
 	government Akashic
 	habitable 719.96
+	belt 1584
 	link Akasha
 	link Ashksa
 	link Ayacan
@@ -202,6 +216,8 @@ system Areara
 	asteroids "large rock" 4 1.3068
 	asteroids "medium metal" 2 2.9766
 	asteroids "large metal" 1 2.2748
+	minables iron 16 4.37458
+	minables neodymium 5 5.5261
 	trade Clothing 310
 	trade Electronics 733
 	trade Equipment 574
@@ -302,6 +318,7 @@ system Arkadian
 	pos 715.175 -326.959
 	government Akashic
 	habitable 486.68
+	belt 1016
 	link Acantha
 	link Akasha
 	link "Ar Nebula"
@@ -311,6 +328,7 @@ system Arkadian
 	asteroids "large rock" 1 3.4816
 	asteroids "medium metal" 67 2.8288
 	asteroids "large metal" 9 3.5088
+	minables lead 7 3.27602
 	trade Clothing 343
 	trade Electronics 654
 	trade Equipment 501
@@ -358,14 +376,20 @@ system Arkadian
 system Arkania
 	pos 486.853 -325.692
 	government Akashic
-	habitable 425.92
+	habitable 1080
+	belt 1424
 	link Arkono
 	link Ayacan
 	link Kayana
-	asteroids "medium rock" 20 5.343
-	asteroids "large rock" 1 2.379
-	asteroids "medium metal" 3 5.187
-	asteroids "large metal" 1 5.382
+	asteroids "small rock" 12 6.1248
+	asteroids "medium rock" 61 7.92
+	asteroids "large rock" 11 6.7584
+	asteroids "small metal" 4 7.656
+	asteroids "medium metal" 1 5.2272
+	asteroids "large metal" 2 6.4416
+	minables aluminum 18 10.5838
+	minables copper 4 9.47838
+	minables iron 4 8.95553
 	trade Clothing 247
 	trade Electronics 733
 	trade Equipment 634
@@ -380,54 +404,41 @@ system Arkania
 	fleet "Akashic Mining" 1900
 	fleet "Akashic Transport" 600
 	object
-		sprite star/k5
+		sprite star/g0
 		period 10
 	object
-		sprite planet/rock16
-		distance 228
-		period 66.7265
-		object
-			sprite planet/rock17
-			distance 124
-			period 18.8451
+		sprite planet/cloud7
+		distance 158.41
+		period 24.2673
 	object
-		sprite planet/lava4
-		distance 673
-		period 338.391
+		sprite planet/desert2
+		distance 471.77
+		period 124.722
 	object
-		sprite planet/gas17
-		distance 1564.09
-		period 1198.92
-		object
-			sprite planet/luna
-			distance 205
-			period 12.5402
-		object
-			sprite planet/dust1
-			distance 315
-			period 23.8858
-		object
-			sprite planet/tethys
-			distance 435
-			period 38.7621
-		object Arkania
-			sprite planet/rhea
-			distance 618
-			period 65.6381
+		sprite planet/cloud5
+		distance 759.73
+		period 254.881
+	object
+		sprite planet/luna
+		distance 1994.14
+		period 1083.88
 
 system Arkono
 	pos 560.337 -375.568
 	government Akashic
-	habitable 320
+	habitable 425.92
+	belt 1867
 	link "Ar Nebula"
 	link Arkania
 	link Armas
 	link Ayacan
 	link Kayana
-	asteroids "small rock" 2 7.614
-	asteroids "medium rock" 2 9.396
-	asteroids "large rock" 1 8.586
-	asteroids "small metal" 1 9.396
+	asteroids "large rock" 1 4.125
+	asteroids "small metal" 13 3.3125
+	asteroids "medium metal" 11 4.25
+	asteroids "large metal" 12 7.0625
+	minables lead 5 7.02194
+	minables titanium 9 8.11821
 	trade Clothing 262
 	trade Electronics 727
 	trade Equipment 632
@@ -443,23 +454,34 @@ system Arkono
 	fleet "Akashic Transport" 500
 	fleet "Akashic Transport Convoy" 1200
 	object
-		sprite star/k0
+		sprite star/k5
 		period 10
-	object "Arkono Outpost"
-		sprite planet/oberon
-		distance 1490.3
-		period 1043.16
-		offset 176.446
 	object
-		sprite planet/cloud3
-		distance 1713.17
-		period 1285.7
-		offset 168.403
+		sprite planet/lava3
+		distance 136.04
+		period 30.7536
+	object "Arkono Outpost"
+		sprite planet/rock9
+		distance 447.25
+		period 183.325
+	object
+		sprite planet/cloud1
+		distance 685.69
+		period 348.007
+	object
+		sprite planet/gas1
+		distance 1539.58
+		period 1170.84
+	object
+		sprite planet/rock0
+		distance 3134.47
+		period 3401.28
 
 system Armas
 	pos 631.981 -392.409
 	government Akashic
 	habitable 486.68
+	belt 1485
 	link "Ar Nebula"
 	link Arkono
 	link Arstone
@@ -470,6 +492,8 @@ system Armas
 	asteroids "small metal" 3 4.125
 	asteroids "medium metal" 5 4.8
 	asteroids "large metal" 2 9.45
+	minables silver 1 7.02238
+	minables tungsten 3 10.2008
 	trade Clothing 278
 	trade Electronics 640
 	trade Equipment 686
@@ -510,7 +534,8 @@ system Armas
 system Arstone
 	pos 678.813 -429.262
 	government Akashic
-	habitable 425.92
+	habitable 1080
+	belt 1129
 	link Armas
 	link Kamala
 	asteroids "small rock" 1 5.661
@@ -519,6 +544,9 @@ system Arstone
 	asteroids "small metal" 2 3.672
 	asteroids "medium metal" 3 6.018
 	asteroids "large metal" 2 3.876
+	minables titanium 5 4.32541
+	minables tungsten 4 4.76434
+	minables uranium 15 5.8979
 	trade Clothing 274
 	trade Electronics 632
 	trade Equipment 706
@@ -533,31 +561,57 @@ system Arstone
 	fleet "Akashic Mining" 1200
 	fleet "Akashic Transport" 650
 	object
-		sprite star/k5
+		sprite star/g0
 		period 10
 	object
-		sprite planet/gas7
-		distance 1577.1
-		period 1213.9
-		offset 78.984
-		object Arstone
-			sprite planet/forest6
-			distance 486
-			period 17.206
+		sprite planet/ice3
+		distance 219
+		period 39.447
+	object
+		sprite planet/lava7
+		distance 638.04
+		period 196.164
+	object Arstone
+		sprite planet/ocean5-b
+		distance 1261.85
+		period 545.582
+	object
+		sprite planet/gas15
+		distance 1715.86
+		period 865.109
+		object
+			sprite planet/luna
+			distance 187
+			period 13.4605
+	object
+		sprite planet/gas4
+		distance 3626.9
+		period 2658.59
+		object
+			sprite planet/callisto
+			distance 275
+			period 16.0841
+		object
+			sprite planet/europa
+			distance 366
+			period 24.6956
 
 system Ashksa
 	pos 585.864 -233.536
 	government Akashic
 	habitable 4270
+	belt 1191
 	link Areara
 	link Ione
 	link Ixchel
-	asteroids "small rock" 37 3.3
-	asteroids "medium rock" 44 2.225
-	asteroids "large rock" 33 1.375
-	asteroids "small metal" 4 1.35
-	asteroids "medium metal" 10 3.55
-	asteroids "large metal" 23 1.35
+	asteroids "small rock" 1 4.95
+	asteroids "medium rock" 6 7.92
+	asteroids "large rock" 1 7.15
+	asteroids "medium metal" 5 2.97
+	asteroids "large metal" 1 6.435
+	minables iron 2 11.0666
+	minables lead 1 9.70282
+	minables titanium 3 10.0496
 	trade Clothing 264
 	trade Electronics 823
 	trade Equipment 481
@@ -622,12 +676,16 @@ system Ayacan
 	pos 559.168 -312.497
 	government Akashic
 	habitable 625
+	belt 1703
 	link Areara
 	link Arkania
 	link Arkono
-	asteroids "large rock" 3 3.2292
-	asteroids "small metal" 3 3.2058
-	asteroids "large metal" 2 1.9656
+	asteroids "small rock" 3 2.8224
+	asteroids "medium rock" 1 4.116
+	asteroids "large rock" 2 1.9992
+	asteroids "small metal" 3 5.684
+	asteroids "large metal" 14 4.4296
+	minables aluminum 2 4.24178
 	trade Clothing 244
 	trade Electronics 758
 	trade Equipment 557
@@ -750,10 +808,16 @@ system Cashira
 	pos 816.49 -440.933
 	government Akashic
 	habitable 1050.92
-	belt 1844
+	belt 1341
 	link Kapila
-	asteroids "medium metal" 1 2.3256
-	asteroids "large metal" 1 5.244
+	asteroids "small rock" 9 4.2588
+	asteroids "medium rock" 4 2.7664
+	asteroids "large rock" 13 2.6572
+	asteroids "small metal" 12 3.8948
+	asteroids "medium metal" 34 2.1112
+	asteroids "large metal" 9 5.0596
+	minables aluminum 2 4.31386
+	minables lead 12 5.97021
 	trade Clothing 242
 	trade Electronics 849
 	trade Equipment 626
@@ -803,10 +867,10 @@ system Cashira
 		period 1162.63
 
 system Chisya
-	pos 782.632 -289.831
+	pos 788.632 -298.831
 	government Uninhabited
 	habitable 425.92
-	belt 1692
+	belt 1836
 	link Acantha
 	link Arkadian
 	link Karme
@@ -815,6 +879,7 @@ system Chisya
 	asteroids "small metal" 9 5.1968
 	asteroids "medium metal" 50 3.4944
 	asteroids "large metal" 2 4.704
+	minables aluminum 42 4.5375
 	trade Clothing 346
 	trade Electronics 734
 	trade Equipment 479
@@ -857,16 +922,16 @@ system Ione
 	pos 612.829 -187.414
 	government Akashic
 	habitable 2372.76
+	belt 1417
 	link Ashksa
 	link Ismene
 	link Ixchel
 	link Izanami
-	asteroids "small rock" 14 1.224
-	asteroids "medium rock" 23 3.36
-	asteroids "large rock" 14 2.712
-	asteroids "small metal" 2 2.976
-	asteroids "medium metal" 85 1.896
-	asteroids "large metal" 23 1.296
+	asteroids "large rock" 2 3.289
+	asteroids "medium metal" 2 1.656
+	asteroids "large metal" 1 1.633
+	minables iron 1 3.22414
+	minables lead 1 3.48456
 	trade Clothing 237
 	trade Electronics 811
 	trade Equipment 388
@@ -923,11 +988,18 @@ system Ishtar
 	pos 659.104 -221.689
 	government Uninhabited
 	habitable 425.92
+	belt 1434
 	link Akasha
 	link Areara
 	link Izanami
 	link Izrail
-	asteroids "large metal" 1 5.4496
+	asteroids "small rock" 6 1.768
+	asteroids "medium rock" 1 2.04
+	asteroids "large rock" 17 2.448
+	asteroids "small metal" 8 1.564
+	asteroids "medium metal" 8 0.935
+	asteroids "large metal" 1 2.431
+	minables iron 12 2.17155
 	trade Clothing 377
 	trade Electronics 710
 	trade Equipment 573
@@ -983,6 +1055,7 @@ system Ismene
 	pos 562.957 -120.218
 	government Uninhabited
 	habitable 625
+	belt 1358
 	link Ione
 	link Ixchel
 	asteroids "small rock" 124 1.5444
@@ -991,6 +1064,9 @@ system Ismene
 	asteroids "small metal" 20 0.9672
 	asteroids "medium metal" 4 1.872
 	asteroids "large metal" 31 1.482
+	minables copper 5 2.04389
+	minables silver 49 1.44291
+	minables tungsten 14 2.20729
 	trade Clothing 284
 	trade Electronics 804
 	trade Equipment 413
@@ -1151,12 +1227,18 @@ system Izanami
 	pos 676.594 -159.836
 	government Akashic
 	habitable 1111.68
+	belt 1904
 	link Ione
 	link Ishtar
 	link Izrail
 	link Mayaki
-	asteroids "small metal" 1 3.312
-	asteroids "large metal" 4 2.3552
+	asteroids "medium rock" 8 4.031
+	asteroids "large rock" 1 2.436
+	asteroids "small metal" 4 1.566
+	asteroids "medium metal" 39 2.117
+	asteroids "large metal" 9 3.509
+	minables copper 9 4.36546
+	minables silver 7 4.36037
 	trade Clothing 349
 	trade Electronics 753
 	trade Equipment 481
@@ -1212,6 +1294,7 @@ system Izrail
 	pos 732.594 -184.836
 	government Uninhabited
 	habitable 973.36
+	belt 1470
 	link Acantha
 	link Ishtar
 	link Izanami
@@ -1220,6 +1303,9 @@ system Izrail
 	asteroids "small metal" 9 3.3813
 	asteroids "medium metal" 63 4.1038
 	asteroids "large metal" 14 2.4854
+	minables iron 2 6.29868
+	minables lead 4 5.61226
+	minables tungsten 16 7.35561
 	trade Clothing 339
 	trade Electronics 687
 	trade Equipment 508
@@ -1274,6 +1360,7 @@ system Kamala
 	pos 707.507 -386.989
 	government Uninhabited
 	habitable 425.92
+	belt 1900
 	link Armas
 	link Arstone
 	link Kapila
@@ -1283,6 +1370,8 @@ system Kamala
 	asteroids "small metal" 14 2.9328
 	asteroids "medium metal" 57 3.3072
 	asteroids "large metal" 67 3.4944
+	minables aluminum 17 5.04697
+	minables silver 42 6.12334
 	trade Clothing 264
 	trade Electronics 705
 	trade Equipment 674
@@ -1332,6 +1421,7 @@ system Kapila
 	pos 774.487 -392.841
 	government Uninhabited
 	habitable 719.96
+	belt 1989
 	link Cashira
 	link Kamala
 	asteroids "small rock" 8 6.36
@@ -1340,6 +1430,8 @@ system Kapila
 	asteroids "small metal" 42 6.9
 	asteroids "medium metal" 78 8.1
 	asteroids "large metal" 8 5.76
+	minables aluminum 5 11.3968
+	minables lead 34 12.6316
 	trade Clothing 253
 	trade Electronics 815
 	trade Equipment 628
@@ -1396,6 +1488,7 @@ system Karme
 	pos 826.997 -233.076
 	government Uninhabited
 	habitable 625
+	belt 1079
 	link Acantha
 	link Chisya
 	link Kassandra
@@ -1403,6 +1496,8 @@ system Karme
 	asteroids "small metal" 2 3.68
 	asteroids "medium metal" 3 7.3025
 	asteroids "large metal" 2 4.3125
+	minables titanium 1 10.1757
+	minables tungsten 1 9.79193
 	trade Clothing 316
 	trade Electronics 761
 	trade Equipment 547
@@ -1454,9 +1549,10 @@ system Karme
 			period 20.101
 
 system Kassandra
-	pos 851.272 -178.009
+	pos 856.272 -180.009
 	government Akashic
 	habitable 425.92
+	belt 1900
 	link Karme
 	asteroids "small rock" 1 1.947
 	asteroids "medium rock" 9 4.95
@@ -1464,6 +1560,8 @@ system Kassandra
 	asteroids "small metal" 7 4.884
 	asteroids "medium metal" 11 3.366
 	asteroids "large metal" 6 2.706
+	minables aluminum 3 5.65117
+	minables lead 5 5.89542
 	trade Clothing 304
 	trade Electronics 754
 	trade Equipment 604
@@ -1518,10 +1616,18 @@ system Kayana
 	pos 466.694 -372.06
 	government Akashic
 	habitable 553.28
+	belt 1337
 	link Arkania
 	link Arkono
-	asteroids "large rock" 4 2.2656
-	asteroids "large metal" 1 4.9536
+	asteroids "small rock" 1 2.8458
+	asteroids "medium rock" 66 6.7014
+	asteroids "large rock" 2 6.885
+	asteroids "small metal" 31 5.4162
+	asteroids "medium metal" 12 4.8195
+	asteroids "large metal" 22 5.9211
+	minables copper 2 8.15517
+	minables silicon 7 11.0925
+	minables uranium 2 11.1351
 	trade Clothing 218
 	trade Electronics 706
 	trade Equipment 682
@@ -1608,15 +1714,16 @@ system Mayaki
 	pos 688.45 -105.463
 	government Uninhabited
 	habitable 973.36
-	belt 1074
+	belt 1149
 	link Izanami
-	asteroids "small rock" 69 3.0096
-	asteroids "medium rock" 22 4.9104
-	asteroids "large rock" 163 3.9072
-	asteroids "medium metal" 106 7.5504
-	asteroids "large metal" 1 5.544
-	minables aluminum 6 6.72206
-	minables lead 17 6.63438
+	asteroids "small rock" 12 3.1584
+	asteroids "medium rock" 5 2.3856
+	asteroids "large rock" 2 2.0496
+	asteroids "small metal" 1 2.4864
+	asteroids "medium metal" 16 2.2512
+	asteroids "large metal" 3 4.4352
+	minables iron 9 4.49798
+	minables lead 4 5.17038
 	trade Clothing 329
 	trade Electronics 802
 	trade Equipment 455
@@ -1672,7 +1779,7 @@ system Mayaki
 system Metisya
 	pos 842.64 -78.4766
 	government Sankrit
-	habitable 625
+	habitable 486.68
 	belt 1094
 	link Nakarti
 	link Sedna
@@ -1694,41 +1801,45 @@ system Metisya
 	trade Metal 331
 	trade Plastic 391
 	object
-		sprite star/g5
+		sprite star/k0
 		period 10
 	object
-		sprite planet/rock17
-		distance 109.76
-		period 18.3987
+		sprite planet/rock19
+		distance 145.49
+		period 31.8191
 	object
-		sprite planet/ice6
-		distance 377.25
-		period 117.237
+		sprite planet/forest0
+		distance 574.74
+		period 249.83
 	object
 		sprite planet/gas9
-		distance 768.06
-		period 340.575
+		distance 1488.74
+		period 1041.52
 		object
-			sprite planet/tethys
-			distance 221
-			period 12.3191
-	object
-		sprite planet/lava7
-		distance 1178.9
-		period 647.643
-	object
-		sprite planet/gas7
-		distance 2658.9
-		period 2193.68
+			sprite planet/rock14
+			distance 271
+			period 16.728
 		object
-			sprite planet/luna
-			distance 243
-			period 13.4753
+			sprite planet/desert4
+			distance 373
+			period 27.0118
+	object
+		sprite planet/uranus
+		distance 2344.99
+		period 2058.97
+		object
+			sprite planet/ice0
+			distance 228
+			period 14.7087
+		object
+			sprite planet/rhea
+			distance 327
+			period 25.2636
 
 system Nakarti
 	pos 902.932 -100.003
 	government Sankrit
-	habitable 320
+	habitable 1715
 	belt 1513
 	link Metisya
 	asteroids "small rock" 3 4.72
@@ -1751,63 +1862,55 @@ system Nakarti
 	trade Metal 279
 	trade Plastic 452
 	object
-		sprite star/m0
+		sprite star/f5
 		period 10
 	object
-		sprite planet/neptune
-		distance 310.49
-		period 122.337
-		object
-			sprite planet/desert4
-			distance 207
-			period 14.8384
-	object
-		sprite planet/lava4
-		distance 708.13
-		period 421.361
-	object
-		sprite planet/rock7
-		distance 1240.49
-		period 976.956
-	object
-		sprite planet/gas16
-		distance 1659.74
-		period 1511.98
-		object
-			sprite planet/callisto
-			distance 200
-			period 14.8882
-	object
-		sprite planet/gas2
-		distance 4378.23
-		period 6477.88
+		sprite planet/gas17
+		distance 459.09
+		period 95.0112
 		object
 			sprite planet/rock3
-			distance 198
-			period 16.8816
+			distance 228
+			period 14.7087
 		object
-			sprite planet/dust5
-			distance 339
-			period 37.8194
+			sprite planet/europa
+			distance 321
+			period 24.5715
+	object
+		sprite planet/gas9
+		distance 1079.5
+		period 342.58
+	object
+		sprite planet/gas16
+		distance 1623.71
+		period 631.962
 		object
-			sprite planet/dust0
-			distance 431
-			period 54.2164
+			sprite planet/ice8
+			distance 210
+			period 16.0187
+	object
+		sprite planet/gas13
+		distance 2124.2
+		period 945.63
 
 system Sanjaya
 	pos 569.011 -4.0759
 	government Sankrit
-	habitable 486.68
+	habitable 320
+	belt 1093
 	link Sankrit
 	link Saraswati
 	link Shyama
 	link Tlaloc
-	asteroids "small rock" 17 2.028
-	asteroids "medium rock" 3 3.7752
-	asteroids "large rock" 27 2.2464
-	asteroids "small metal" 9 2.1216
-	asteroids "medium metal" 22 2.5272
-	asteroids "large metal" 66 3.432
+	asteroids "small rock" 35 1.6302
+	asteroids "medium rock" 25 2.6598
+	asteroids "large rock" 46 3.2032
+	asteroids "small metal" 21 3.4606
+	asteroids "medium metal" 174 1.4872
+	asteroids "large metal" 42 2.9744
+	minables aluminum 23 4.02225
+	minables lead 15 2.90484
+	minables neodymium 80 3.16776
 	trade Clothing 292
 	trade Electronics 717
 	trade Equipment 501
@@ -1820,49 +1923,54 @@ system Sanjaya
 	trade Plastic 428
 	fleet "Sankrit Small" 1000
 	object
-		sprite star/k0
+		sprite star/m0
 		period 10
 	object
-		sprite planet/ice6
-		distance 220.25
-		period 59.2669
+		sprite planet/desert8
+		distance 144.36
+		period 38.7842
 	object
-		sprite planet/gas15
-		distance 815.94
-		period 422.596
-		object
-			sprite planet/oberon
-			distance 203
-			period 15.2244
+		sprite planet/ocean4
+		distance 512.65
+		period 259.547
+	object
+		sprite planet/lava7
+		distance 1135.9
+		period 856.042
+	object
+		sprite planet/neptune
+		distance 1611.94
+		period 1447.13
 		object "Sanjaya Station"
 			sprite planet/sanjayastation
-			distance 305
-			period 28.038
-	object
-		sprite planet/rock18
-		distance 1521.1
-		period 1075.66
-	object
-		sprite planet/gas0
-		distance 2842.11
-		period 2747.26
+			distance 221
+			period 16.3689
 		object
-			sprite planet/rhea
-			distance 255
-			period 11.9335
-		object
-			sprite planet/ice7
-			distance 424
-			period 25.5862
+			sprite planet/rock7
+			distance 311
+			period 27.3258
+	object
+		sprite planet/gas14
+		distance 3479.18
+		period 4588.81
 		object
 			sprite planet/europa
-			distance 545
-			period 37.2865
+			distance 217
+			period 13.0181
+		object
+			sprite planet/dust0
+			distance 306
+			period 21.7992
+		object
+			sprite planet/rock3
+			distance 426
+			period 35.8074
 
 system Sankrit
 	pos 650.691 -25.1921
 	government Sankrit
 	habitable 1080
+	belt 1241
 	link Sanjaya
 	link Saraswati
 	link Silvius
@@ -1872,6 +1980,9 @@ system Sankrit
 	asteroids "small metal" 2 0.605
 	asteroids "medium metal" 22 0.759
 	asteroids "large metal" 1 0.99
+	minables iron 1 1.64193
+	minables lead 20 1.344
+	minables silver 3 1.45739
 	trade Clothing 293
 	trade Electronics 635
 	trade Equipment 517
@@ -1887,52 +1998,50 @@ system Sankrit
 		sprite star/g0
 		period 10
 	object
-		sprite planet/ice2
-		distance 155.223
-		period 23.5386
-		offset 33.7958
-	object
-		sprite planet/dust2
-		distance 458.913
-		period 119.658
-		offset 2.41514
-	object Sankrit
-		sprite planet/sankrit
-		distance 731.923
-		period 241.016
-		offset 0.749182
-		object "Sankrit Moon"
-			sprite planet/sankritstation
-			distance 319
-			period 13.8465
-	object
-		sprite planet/forest2
-		distance 1177.92
-		period 492.066
-		offset 0.228534
+		sprite planet/rock2
+		distance 263.24
+		period 51.9847
 		object
-			sprite planet/io
-			distance 142
-			period 16.1817
+			sprite planet/oberon
+			distance 145
+			period 18.8534
+	object Sankrit
+		sprite planet/ice4
+		distance 694.68
+		period 222.857
+		object "Sankrit Moon"
+			sprite planet/rock0
+			distance 157
+			period 24.7293
 	object
-		sprite planet/gas4
-		distance 2030.36
-		period 1113.55
-		offset 0.0596287
+		sprite planet/gas1
+		distance 1647.93
+		period 814.247
+		object
+			sprite planet/rock3
+			distance 217
+			period 12.7763
+		object
+			sprite planet/dust1
+			distance 361
+			period 27.4142
 
 system Saraswati
 	pos 601.505 -65.2034
 	government Sankrit
-	habitable 1080
+	habitable 233.28
+	belt 1737
 	link Sanjaya
 	link Sankrit
 	link Sarpedon
-	asteroids "small rock" 1 2.4024
-	asteroids "medium rock" 9 2.5168
-	asteroids "large rock" 32 2.0592
-	asteroids "small metal" 48 2.2594
-	asteroids "medium metal" 57 4.29
-	asteroids "large metal" 109 3.3462
+	asteroids "small rock" 75 7.1852
+	asteroids "medium rock" 25 2.5806
+	asteroids "large rock" 16 5.6672
+	asteroids "medium metal" 24 3.9974
+	asteroids "large metal" 11 7.337
+	minables copper 12 7.68083
+	minables tungsten 1 7.6347
+	minables uranium 11 10.3622
 	trade Clothing 332
 	trade Electronics 657
 	trade Equipment 587
@@ -1945,51 +2054,51 @@ system Saraswati
 	trade Plastic 466
 	fleet "Sankrit Small" 700
 	object
-		sprite star/g0
+		sprite star/m4
 		period 10
 	object
-		sprite planet/desert9
-		distance 227
-		period 41.6281
+		sprite planet/cloud4
+		distance 166.84
+		period 56.438
 	object
-		sprite planet/uranus
-		distance 783.96
-		period 267.171
+		sprite planet/lava7
+		distance 440.09
+		period 241.787
+	object
+		sprite planet/rock16
+		distance 762.7
+		period 551.635
+	object
+		sprite planet/ice7
+		distance 1299.34
+		period 1226.61
+	object
+		sprite planet/gas12
+		distance 4258.55
+		period 7278.03
 		object "Saraswati Station"
 			sprite planet/saraswatistation
-			distance 319
-			period 13.8465
-	object
-		sprite planet/jupiter
-		distance 1857.25
-		period 974.212
+			distance 301
+			period 13.7162
 		object
-			sprite planet/dust5
-			distance 273
-			period 14.1744
-		object
-			sprite planet/dust3
-			distance 431
-			period 28.1176
-		object
-			sprite planet/tethys
-			distance 569
-			period 42.6511
-		object
-			sprite planet/rock3
-			distance 725
-			period 61.3435
+			sprite planet/rock7
+			distance 439
+			period 24.1592
 
 system Sarpedon
 	pos 616.684 -125.305
 	government Sankrit
-	habitable 486.68
+	habitable 320
+	belt 1168
 	link Saraswati
-	asteroids "small rock" 20 7.5072
-	asteroids "medium rock" 49 6.4032
-	asteroids "large rock" 5 5.4096
-	asteroids "medium metal" 16 5.6856
-	asteroids "large metal" 1 8.004
+	asteroids "small rock" 14 4.41
+	asteroids "medium rock" 17 3.7926
+	asteroids "large rock" 50 2.8665
+	asteroids "small metal" 9 5.5125
+	asteroids "medium metal" 6 4.4982
+	asteroids "large metal" 1 5.2038
+	minables aluminum 6 6.3568
+	minables lead 5 6.86028
 	trade Clothing 352
 	trade Electronics 683
 	trade Equipment 629
@@ -2002,29 +2111,50 @@ system Sarpedon
 	trade Plastic 504
 	fleet "Sankrit Small" 1500
 	object
-		sprite star/k0
+		sprite star/m0
 		period 10
 	object
-		sprite planet/rock1
-		distance 242.25
-		period 68.365
+		sprite planet/rock6
+		distance 185.96
+		period 56.7041
 	object
-		sprite planet/neptune
-		distance 562.09
-		period 241.628
-	object
-		sprite planet/europa
-		distance 824.34
-		period 429.139
+		sprite planet/desert5
+		distance 535.6
+		period 277.17
+		object
+			sprite planet/rock14
+			distance 178
+			period 26.1134
 	object
 		sprite planet/gas0
-		distance 1881.75
-		period 1480.07
+		distance 1250.84
+		period 989.208
+		object
+			sprite planet/rock7
+			distance 260
+			period 12.2862
+		object
+			sprite planet/dust4
+			distance 389
+			period 22.4844
+	object
+		sprite planet/gas4
+		distance 2552.93
+		period 2884.32
+		object
+			sprite planet/tethys
+			distance 231
+			period 12.3827
+		object
+			sprite planet/dust5
+			distance 362
+			period 24.2918
 
 system Sedna
 	pos 766.045 -100.156
 	government Sankrit
 	habitable 1566.68
+	belt 1605
 	link Metisya
 	link Sharivar
 	link Silvanus
@@ -2034,6 +2164,8 @@ system Sedna
 	asteroids "small metal" 6 2.7216
 	asteroids "medium metal" 3 4.536
 	asteroids "large metal" 2 2.772
+	minables iron 1 7.0671
+	minables lead 6 6.06364
 	trade Clothing 292
 	trade Electronics 750
 	trade Equipment 560
@@ -2094,13 +2226,15 @@ system Sedna
 system Sharivar
 	pos 792.046 -154.243
 	government Sankrit
-	habitable 233.28
+	habitable 320
+	belt 1920
 	link Metisya
 	link Sedna
 	asteroids "large rock" 5 2.5564
 	asteroids "small metal" 6 3.2032
 	asteroids "medium metal" 13 4.466
 	asteroids "large metal" 13 2.618
+	minables tungsten 1 5.64456
 	trade Clothing 312
 	trade Electronics 779
 	trade Equipment 625
@@ -2113,61 +2247,42 @@ system Sharivar
 	trade Plastic 323
 	fleet "Sankrit Small" 1500
 	object
-		sprite star/m4
+		sprite star/m0
 		period 10
 	object
-		sprite planet/desert0
-		distance 325
-		period 153.443
-		object Sharivar
-			sprite planet/rock14
-			distance 147
-			period 22.4047
+		sprite planet/dust2
+		distance 121.49
+		period 29.943
 	object
-		sprite planet/ice0
-		distance 628.04
-		period 412.195
+		sprite planet/rock2
+		distance 428.74
+		period 198.507
+		object
+			sprite planet/dust7
+			distance 169
+			period 23.7229
 	object
-		sprite planet/uranus
-		distance 1503.33
-		period 1526.52
-		object
-			sprite planet/miranda
-			distance 236
-			period 15.4896
-		object
-			sprite planet/ice7
-			distance 333
-			period 25.9621
-		object
-			sprite planet/desert4
-			distance 456
-			period 41.6026
+		sprite planet/gas1
+		distance 1047.38
+		period 757.952
 	object
-		sprite planet/gas5
-		distance 2879.58
-		period 4046.83
+		sprite planet/venus
+		distance 1590.22
+		period 1417.98
 		object
-			sprite planet/luna
-			distance 278
-			period 15.414
-		object
-			sprite planet/dust3
-			distance 390
-			period 25.612
-		object
-			sprite planet/oberon
-			distance 469
-			period 33.7759
-		object
-			sprite planet/dust5
-			distance 580
-			period 46.4504
+			sprite planet/rock0
+			distance 131
+			period 17.1091
+	object
+		sprite planet/dust0
+		distance 3693.83
+		period 5019.96
 
 system Shyama
 	pos 605.575 47.2026
 	government Sankrit
-	habitable 1400
+	habitable 625
+	belt 1992
 	link Sanjaya
 	asteroids "small rock" 12 2.756
 	asteroids "medium rock" 9 2.132
@@ -2175,6 +2290,7 @@ system Shyama
 	asteroids "small metal" 2 2.652
 	asteroids "medium metal" 30 2.73
 	asteroids "large metal" 4 2.47
+	minables copper 1 4.16319
 	trade Clothing 294
 	trade Electronics 773
 	trade Equipment 471
@@ -2187,52 +2303,50 @@ system Shyama
 	trade Plastic 433
 	fleet "Sankrit Small" 500
 	object
-		sprite star/g0
-		distance 22.8571
-		period 10.6904
-		offset 180
+		sprite star/g5
+		period 10
 	object
-		sprite star/m0
-		distance 77.1429
-		period 10.6904
-	object
-		sprite planet/io
-		distance 205.233
-		period 31.4316
-	object Shyama
-		sprite planet/silvanus
-		distance 611.723
-		period 161.744
-	object
-		sprite planet/rock14
-		distance 829.973
-		period 255.618
-	object
-		sprite planet/gas16
-		distance 1775.58
-		period 799.848
+		sprite planet/mars
+		distance 305.44
+		period 85.41
 		object
 			sprite planet/ice7
-			distance 208
-			period 15.7904
+			distance 145
+			period 23.335
+	object Shyama
+		sprite planet/forest4
+		distance 771.4
+		period 342.799
+	object
+		sprite planet/lava4
+		distance 1005.4
+		period 510.068
+	object
+		sprite planet/rock15
+		distance 1401.49
+		period 839.47
+	object
+		sprite planet/gas8
+		distance 1776.58
+		period 1198.11
 		object
-			sprite planet/miranda
-			distance 337
-			period 32.5643
+			sprite planet/callisto
+			distance 222
+			period 17.6079
 
 system Silvanus
 	pos 776.034 -27.9043
 	government Sankrit
-	habitable 2160
+	habitable 425.92
+	belt 1906
 	link Sedna
 	link Stirbog
 	link Svetovid
-	asteroids "small rock" 3 2.596
-	asteroids "medium rock" 38 2.574
-	asteroids "large rock" 20 1.606
-	asteroids "small metal" 10 2.992
-	asteroids "medium metal" 10 1.804
-	asteroids "large metal" 34 1.408
+	asteroids "small rock" 45 2.8
+	asteroids "medium rock" 13 1.456
+	asteroids "large rock" 12 1.7472
+	asteroids "large metal" 1 3.2704
+	minables tungsten 19 3.98371
 	trade Clothing 219
 	trade Electronics 684
 	trade Equipment 485
@@ -2245,50 +2359,50 @@ system Silvanus
 	trade Plastic 354
 	fleet "Sankrit Small" 500
 	object
-		sprite star/g0
-		distance 68
-		period 13.6503
-		offset 180
+		sprite star/k5
+		period 10
 	object
-		sprite star/g0
-		distance 68
-		period 13.6503
+		sprite planet/rock10
+		distance 179.61
+		period 46.6543
 	object Silvanus
-		sprite planet/silvanus
-		distance 304.21
-		period 45.666
+		sprite planet/rock12
+		distance 481.5
+		period 204.781
 	object
-		sprite planet/io
-		distance 539.46
-		period 107.838
+		sprite planet/lava1
+		distance 1166.79
+		period 772.476
 	object
-		sprite planet/desert4
-		distance 748.71
-		period 176.321
-	object
-		sprite planet/rock0
-		distance 908.4
-		period 235.64
-	object
-		sprite planet/forest6
-		distance 1223.16
-		period 368.178
-	object
-		sprite planet/uranus
-		distance 2055.65
-		period 802.152
+		sprite planet/gas9
+		distance 2571
+		period 2526.67
 		object
-			sprite planet/ice0
-			distance 248
-			period 16.6859
+			sprite planet/dust0
+			distance 220
+			period 12.2356
+		object
+			sprite planet/rock7
+			distance 307
+			period 20.1696
+		object
+			sprite planet/rock17
+			distance 438
+			period 34.3717
 
 system Silvius
 	pos 697.9 30.7107
 	government Sankrit
 	habitable 719.96
+	belt 1360
 	link Sankrit
 	link Stirbog
-	asteroids "large metal" 1 1.9602
+	asteroids "large rock" 1 3.0704
+	asteroids "small metal" 7 4.1648
+	asteroids "medium metal" 7 2.0976
+	asteroids "large metal" 2 3.7392
+	minables neodymium 1 6.22555
+	minables titanium 1 5.2914
 	trade Clothing 302
 	trade Electronics 642
 	trade Equipment 410
@@ -2346,10 +2460,6 @@ system Soraka
 	pos 232.174 103.682
 	government Sankrit
 	habitable 425.92
-	asteroids "small rock" 2 7.614
-	asteroids "medium rock" 2 9.396
-	asteroids "large rock" 1 8.586
-	asteroids "small metal" 1 9.396
 	trade Clothing 202
 	trade Electronics 833
 	trade Equipment 562
@@ -2360,14 +2470,15 @@ system Soraka
 	trade Medical 684
 	trade Metal 416
 	trade Plastic 461
-	object
-		sprite star/k5
+	object "Soraka Gateway"
+		sprite planet/station0w
 		period 10
 
 system Stirbog
 	pos 763.976 49.2532
 	government Sankrit
-	habitable 320
+	habitable 621.68
+	belt 1240
 	link Silvanus
 	link Silvius
 	asteroids "small rock" 15 3.219
@@ -2376,6 +2487,8 @@ system Stirbog
 	asteroids "small metal" 48 2.668
 	asteroids "medium metal" 84 3.393
 	asteroids "large metal" 9 2.001
+	minables aluminum 52 4.67233
+	minables titanium 10 3.04531
 	trade Clothing 267
 	trade Electronics 665
 	trade Equipment 391
@@ -2388,45 +2501,52 @@ system Stirbog
 	trade Plastic 416
 	fleet "Sankrit Small" 600
 	object
-		sprite star/m0
-		period 10
+		sprite star/k0
+		distance 24.104
+		period 18.7612
+		offset 180
 	object
-		sprite planet/dust2
-		distance 152.36
-		period 42.0525
+		sprite star/m8
+		distance 86.896
+		period 18.7612
+	object
+		sprite planet/rock10
+		distance 323.856
+		period 93.4984
 	object Stirbog
-		sprite planet/earth
-		distance 555.45
-		period 292.72
+		sprite planet/desert10-b
+		distance 564.106
+		period 214.94
 	object
-		sprite planet/gas6
-		distance 1039.01
-		period 748.884
-		object
-			sprite planet/rock17
-			distance 276
-			period 11.7119
+		sprite planet/lava5
+		distance 850.746
+		period 398.086
+	object
+		sprite planet/lava4
+		distance 1057.56
+		period 551.736
 	object
 		sprite planet/gas17
-		distance 1869.05
-		period 1806.83
+		distance 2129.2
+		period 1576.16
 		object
-			sprite planet/oberon
-			distance 197
-			period 11.8133
+			sprite planet/luna
+			distance 215
+			period 13.4689
 		object
-			sprite planet/io
-			distance 299
-			period 22.0892
+			sprite planet/europa
+			distance 321
+			period 24.5715
 		object
-			sprite planet/miranda
-			distance 443
-			period 39.8363
+			sprite planet/rock7
+			distance 483
+			period 45.3517
 
 system Svetovid
 	pos 708.672 -52.313
 	government Sankrit
 	habitable 8775
+	belt 1010
 	link Sankrit
 	link Silvanus
 	asteroids "medium rock" 11 5.292
@@ -2434,6 +2554,8 @@ system Svetovid
 	asteroids "small metal" 123 3.816
 	asteroids "medium metal" 118 1.836
 	asteroids "large metal" 41 2.88
+	minables silver 4 4.12519
+	minables uranium 5 4.06209
 	trade Clothing 226
 	trade Electronics 662
 	trade Equipment 526
@@ -2491,12 +2613,16 @@ system Tlaloc
 	pos 468.545 18.7774
 	government Uninhabited
 	habitable 851.84
+	belt 1899
 	link Sanjaya
-	asteroids "medium rock" 3 1.4168
-	asteroids "large rock" 1 1.463
-	asteroids "small metal" 1 1.694
-	asteroids "medium metal" 1 1.4784
-	asteroids "large metal" 11 1.4322
+	asteroids "small rock" 3 0.66
+	asteroids "medium rock" 102 0.55
+	asteroids "large rock" 9 1.41
+	asteroids "small metal" 21 1.27
+	asteroids "large metal" 10 0.64
+	minables copper 8 0.755526
+	minables lead 12 1.24823
+	minables neodymium 33 1.20168
 	trade Clothing 258
 	trade Electronics 773
 	trade Equipment 450
@@ -2548,13 +2674,8 @@ system Tlaloc
 
 system Tzor
 	pos 383.814 49.2673
-	government Uninhabited
+	government Sankrit
 	habitable 486.68
-	asteroids "small rock" 10 1.24
-	asteroids "medium rock" 39 2.26
-	asteroids "large rock" 17 2.86
-	asteroids "medium metal" 10 1.98
-	asteroids "large metal" 5 2.9
 	trade Clothing 282
 	trade Electronics 745
 	trade Equipment 491
@@ -2566,7 +2687,7 @@ system Tzor
 	trade Metal 402
 	trade Plastic 272
 	object
-		sprite star/k0
+		sprite planet/station1w
 		period 10
 
 planet Acantha
@@ -2758,7 +2879,7 @@ planet Silvanus
 	bribe 0
 	security 0
 
-planet Soraka
+planet "Soraka Gateway"
 	attributes Sankrit
 	landscape land/sankritstation
 	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`

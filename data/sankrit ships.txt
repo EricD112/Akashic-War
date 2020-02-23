@@ -12,19 +12,19 @@ ship "Rumpus"
 	sprite "ship/rumpus"
 	"never disabled"
 	attributes
-		category "Interceptor"
+		category "Medium Warship"
 		"cost" 10000000
-		"hull" 13400
+		"hull" 40000
 		"required crew" 10
 		"bunks" 25
-		"mass" 230
+		"mass" 500
 		"drag" 3
 		"heat dissipation" .5
 		"fuel capacity" 400
 		"cargo space" 60
-		"outfit space" 319
-		"weapon capacity" 97
-		"engine capacity" 82
+		"outfit space" 650
+		"weapon capacity" 250
+		"engine capacity" 200
 		weapon
 			"blast radius" 60
 			"shield damage" 800
@@ -34,22 +34,21 @@ ship "Rumpus"
 		"Sankrit Artillery" 4
 		
 		"Sankrit Core"
-		"Sankrit Energizer S"
+		"Sankrit Energizer"
 		"Sankrit Hull Drone"
 		"Sankrit Cooling"
 		
-		`"Biroo" Atomic Thruster`
-		`"Biroo" Atomic Steering`
+		"Type 3 Radiant Thruster"
+		"X5200 Ion Steering"
 		"Hyperdrive"
 	
-	turret -22.5 -15.5 
-	turret 19.5 -18.5 
-	gun -45 -41 "Sankrit Artillery"
-	gun -18 -39.5 "Sankrit Artillery"
-	gun 15 -38 "Sankrit Artillery"
-	gun 42 -42.5 "Sankrit Artillery"
-	engine -30 43
-	engine 30 41.5
+	engine -17 45.5
+	engine 17 45.5
+	turret -18.5 26
+	turret 18.5 26
+	gun -10 -45.5
+	gun 10 -45.5
+	gun 0 -43
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
@@ -70,7 +69,7 @@ ship "Furor"
 	sprite "ship/furor"
 	"never disabled"
 	attributes
-		category "Light Warship"
+		category "Medium Warship"
 		"cost" 20000000
 		"hull" 70000
 		"required crew" 32
@@ -103,18 +102,15 @@ ship "Furor"
 		"Sankrit Steering"
 		"Hyperdrive"
 	
-	engine -91 47
-	engine 89 47
-	engine -41.5 77
-	engine 0.5 75.5
-	engine 36.5 75.5
-	turret -56.5 -44.5 "Sankrit Artillery Turret"
-	turret -34 -46 "Sankrit Artillery Turret"
-	gun 26 -47.5 "Sankrit D-Matter Launcher"
-	gun 48.5 -47.5
-	gun 89 -46 "Sankrit Artillery"
-	gun -100 -47.5 "Sankrit Artillery"
-
+	engine -35.5 75
+	engine 35.5 75
+	turret -10.5 49
+	turret 10.5 49
+	turret 0 26
+	gun -33.5 -15
+	gun 33.5 -15
+	gun -15.5 -34
+	gun 15.5 -34
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -141,7 +137,7 @@ ship "Calamity"
 	sprite "ship/calamity"
 	"never disabled"
 	attributes
-		category "Medium Warship"
+		category "Heavy Warship"
 		"cost" 120000000
 		"hull" 130000
 		"required crew" 120
@@ -174,23 +170,20 @@ ship "Calamity"
 		"Sankrit Steering"
 		"Hyperdrive"
 	
-	engine -140.5 108.5 1.5
-	engine -59.5 165.5 1.5
-	engine -2.5 165.5 1.5
-	engine 56 168.5 1.5
-	engine 143 111.5
-	turret -83.5 -94 "Sankrit Artillery Turret"
-	turret -67 -95.5 "Sankrit Artillery Turret"
-	turret -49 -94 "Sankrit Laser"
-	turret 45.5 -95.5 "Sankrit Laser"
-	turret 62 -97
-	turret 80 -101.5 
-	gun -160 -104.5 "Sankrit D-Matter Launcher"
-	gun -151 -94 "Sankrit D-Matter Launcher"
-	gun -14.5 -142
-	gun 8 -143.5
-	gun 134 -73
-	gun 149 -98.5
+	engine -26 113 0.8
+	engine 26 113 0.8
+	engine -50 107 0.6
+	engine 50 107 0.6
+	gun -7.5 -113
+	gun 7.5 -113
+	gun -41.5 -94.5
+	gun 41.5 -94.5
+	turret -27.5 2.5
+	turret 27.5 2.5
+	turret -27.5 13.5
+	turret 27.5 13.5
+	turret 0 17
+	turret 0 1
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -283,7 +276,7 @@ ship "Annihilation"
 	sprite "ship/annihilation"
 	"never disabled"
 	attributes
-		category "Medium Warship"
+		category "Heavy Warship"
 		"cost" 500000000
 		"shields" 130000 
 		"hull" 130000

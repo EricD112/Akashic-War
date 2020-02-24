@@ -8,6 +8,32 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+mission "Akashic Label"
+	landing
+	invisible
+	source
+		government "Akashic"
+	on offer
+		event "akashic label"
+		fail
+
+event "akashic label"
+	galaxy "label akashic"
+		sprite label/akashic
+
+mission "Sankrit Label"
+	landing
+	invisible
+	source
+		attributes "akashic border"
+	on offer
+		event "sankrit label"
+		fail
+
+event "sankrit label"
+	galaxy "label sankrit"
+		sprite label/sankrit
+
 mission "Akasha: Korath Efret"
 	name "Investigate <system>"
 	description "Travel to a system located beyond Host, where you previously discovered an Alpha base."

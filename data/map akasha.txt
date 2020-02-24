@@ -8,6 +8,12 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+galaxy "label akashic"
+	pos 607.491 -236.899
+
+galaxy "label sankrit"
+	pos 695.691 -35.1921
+
 system Acantha
 	pos 750.526 -248.561
 	government Akashic
@@ -2736,7 +2742,7 @@ planet Chira
 	security 0
 
 planet "Ione Station"
-	attributes akashic
+	attributes akashic "akashic border"
 	landscape land/sivael6
 	description `Ione Station is one of the connecting points to Sankrit Space, it is much more massive than any human space station you have seen and is better compared to the Quarg Ring Worlds. 24/7 survailance is being conducted to keep Akashic space save from any possible raids. Even though there is no Hyperspace Link, the necessary pre-cautions are met in case the Sankrit ever obtain a Jump Drive.`
 	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
@@ -2756,7 +2762,7 @@ planet "Ixchel Outpost"
 	bribe 0
 
 planet "Izanami Station"
-	attributes akashic
+	attributes akashic "akashic border"
 	landscape land/sivael8
 	description `Izanami Station is one of the connecting points to Sankrit Space, it is fairly small compared to the other Akashic Space stations, however, its weapons and outfits are highly sophisticated and there is enough space for several Heavy Warships. It seems that there is a full time operation here on-going to protect Akashic Space.`
 	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
@@ -2771,7 +2777,7 @@ planet Karieli
 	spaceport `	The largest construction area is near the existing ship building facilities, expanding the already existing production lines or creating new and larger ones.`
 
 planet Kassandra
-	attributes akashic
+	attributes akashic "akashic border"
 	landscape land/canyon2
 	description `Kassandra is a cold world always below freezing. There is very little wildlife here which can survive. It does however have a precious material which is used to enhance Quartic Metal. It is said that the enhanced metal is used in Akashic Heavy Warships.`
 	spaceport `The spaceport is surrounded by mines which reach the core of the planet similar to Arkania a lot of workers and androids are here.`
@@ -2787,7 +2793,7 @@ planet Lemurian
 	security 0
 
 planet Quachir
-	attributes quarg
+	attributes quarg "akashic border"
 	landscape land/station2
 	description `This Quarg ringworld was completed eons ago, long before the Akashic discovered how to build Jump Drives. The system is far enough from Sankrit space to be unreachable with Jump Drives, probably so that the Quarg can keep an eye on the Sankrit activities while still staying at a safe distance from them.`
 	spaceport `Billions of Quarg may be living here, but the spaceport is much more quiet than you would expect. Although there is some background noise, most of it is coming from the occasional conversations between the Akashic on the station.`

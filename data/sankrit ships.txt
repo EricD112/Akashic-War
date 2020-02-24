@@ -52,7 +52,7 @@ ship "Rumpus"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description "The Rumpus is the smallest of all Sankrit Ships, but due to its high speed and fire power a very effective weapon."
+	description "Of all the Sankrit ships, the Rumpus is the smallest and fastest ship. While it was initially designed to act as an interceptor, it ended up with a lot more firepower than expected, making it more of a light warship, resulting in an interceptor in purpose only. Apart from that, it has space for a small crew, as well as a decent amount of cargo intended for use during the raiding of enemy planets and ships. Currently the Rumpus is mainly being used as a raid vessel and a fleet support craft aiming to destroy or disarm fast-moving enemies."
 
 ship "Rumpus" "Rumpus Jump"
 	outfits

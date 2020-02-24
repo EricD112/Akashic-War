@@ -36,7 +36,6 @@ system Acantha
 	trade Metal 422
 	trade Plastic 393
 	fleet "Small Akashic Military" 800
-	fleet "Large Akashic Military" 1200
 	fleet "Akashic Mining" 1300
 	fleet "Akashic Transport" 600
 	fleet "Akashic Transport Convoy" 900
@@ -106,9 +105,8 @@ system Akasha
 	trade Metal 514
 	trade Plastic 294
 	fleet "Small Akashic Military" 700
-	fleet "Large Akashic Military" 1600
 	fleet "Akashic Mining" 1200
-	fleet "Akashic Transport" 500
+	fleet "Akashic Transport" 800
 	fleet "Akashic Transport Convoy" 800
 	object
 		sprite star/g5
@@ -229,7 +227,6 @@ system Areara
 	trade Metal 461
 	trade Plastic 398
 	fleet "Small Akashic Military" 600
-	fleet "Large Akashic Military" 1300
 	fleet "Akashic Mining" 900
 	fleet "Akashic Transport" 500
 	fleet "Akashic Transport Convoy" 800
@@ -623,7 +620,6 @@ system Ashksa
 	trade Metal 361
 	trade Plastic 474
 	fleet "Small Akashic Military" 700
-	fleet "Large Akashic Military" 1100
 	fleet "Akashic Transport" 1200
 	fleet "Akashic Transport Convoy" 1200
 	object
@@ -943,7 +939,6 @@ system Ione
 	trade Metal 327
 	trade Plastic 522
 	fleet "Small Akashic Military" 500
-	fleet "Large Akashic Military" 700
 	fleet "Akashic Transport Convoy" 700
 	object
 		sprite star/f0
@@ -1011,7 +1006,6 @@ system Ishtar
 	trade Metal 468
 	trade Plastic 322
 	fleet "Small Akashic Military" 1000
-	fleet "Large Akashic Military" 1600
 	fleet "Akashic Mining" 900
 	fleet "Akashic Transport" 1400
 	fleet "Akashic Transport Convoy" 1500
@@ -1078,7 +1072,6 @@ system Ismene
 	trade Metal 344
 	trade Plastic 482
 	fleet "Small Akashic Military" 900
-	fleet "Large Akashic Military" 1400
 	fleet "Akashic Mining" 1300
 	fleet "Akashic Transport" 700
 	fleet "Akashic Transport Convoy" 1400
@@ -1250,7 +1243,6 @@ system Izanami
 	trade Metal 419
 	trade Plastic 376
 	fleet "Small Akashic Military" 500
-	fleet "Large Akashic Military" 750
 	fleet "Akashic Transport" 400
 	fleet "Akashic Transport Convoy" 700
 	object

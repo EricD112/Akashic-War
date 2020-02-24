@@ -372,7 +372,7 @@ ship "Conveyor"
 		"heat dissipation" .75
 		"fuel capacity" 700
 		"cargo space" 93
-		"outfit space" 779
+		"outfit space" 785
 		"weapon capacity" 289
 		"engine capacity" 186
 		weapon
@@ -382,15 +382,19 @@ ship "Conveyor"
 			"hit force" 900
 	outfits
 		Hyperdrive
-		"Thermal Core (Huge)"
+		"Jump Drive"
+		"Thermal Core (Large)"
+		"Thermal Core (Medium)"
 		Sentinel 2
+		"Outfit Expansion"
 		"Demolisher Turret" 2
 		"Devastator Beam" 4
 		"Storage Cell"
+		"Outfit Expansion"
 		"Lateral Motivator (Large)"
-		"Angular Motivator (Huge)"
+		"Angular Motivator (Large)"
 		"Thermal Control Unit (Large)"
-		"Burst Unit"
+		"Thermal Control Unit (Small)"
 		"Defensive Matrix (Large)"
 	fighter -40 100.5
 	fighter 40 100.5

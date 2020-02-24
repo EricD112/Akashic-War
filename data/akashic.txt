@@ -122,7 +122,6 @@ outfitter "Akashic Advanced"
 	"Thermal Core (Small)"
 	"Thermal Core (Medium)"
 	"Thermal Core (Large)"
-	"Thermal Core (Huge)"
 	"Support Cell"
 	"Depot Cell"
 	"Storage Cell"
@@ -137,12 +136,10 @@ outfitter "Akashic Advanced"
 	"Lateral Motivator (Small)"
 	"Lateral Motivator (Medium)"
 	"Lateral Motivator (Large)"
-	"Lateral Motivator (Huge)"
 	"Angular Motivator (Tiny)"
 	"Angular Motivator (Small)"
 	"Angular Motivator (Medium)"
 	"Angular Motivator (Large)"
-	"Angular Motivator (Huge)"
 	"Burst Unit"
 
 shipyard "Akashic Basic"
@@ -164,7 +161,6 @@ shipyard "Akashic Combat"
 	"Inductor"
 	"Conveyor"
 	"Persuader"
-	"Redeemer"
 
 event "Azar Appears"
 	system Azar
@@ -309,6 +305,31 @@ event "Akashic Space Reachable"
 				sprite planet/dust5
 				distance 590
 				period 36.6052
+
+event "Redeemer mass production"
+	system Ione
+		add fleet "Large Akashic Military" 700
+	system Ishtar
+		add fleet "Large Akashic Military" 1600
+	system Ismene
+		add fleet "Large Akashic Military" 1400
+	system Izanami
+		add fleet "Large Akashic Military" 750
+	system Acantha
+		add fleet "Large Akashic Military" 1200
+	system Akasha
+		add fleet "Large Akashic Military" 1600
+	system Areara
+		add fleet "Large Akashic Military" 1300
+	system Ashksa
+		add fleet "Large Akashic Military" 1100
+	outfitter "Akashic Advanced"
+		"Lateral Motivator (Huge)"
+		"Angular Motivator (Huge)"
+		"Thermal Core (Huge)"
+	shipyard "Akashic Combat"
+		"Redeemer"
+
 
 event "Akasha Basic Outfits Ships"
 	planet Akasha

@@ -89,11 +89,6 @@ fleet "Akashic Mining"
 		"Seeker (Close)"
 	variant 2
 		"Inductor (Close)"
-	variant 3
-		"Persuader"
-		"Inductor"
-	variant
-		"Redeemer"
 
 fleet "Small Akashic Military"
 	government "Akashic"
@@ -129,7 +124,7 @@ fleet "Small Akashic Military"
 	variant 2
 		"Persuader (Close)"
 		"Inductor (Close)"
-	variant
+	variant 2
 		"Conveyor"
 		"Supporter" 12
 

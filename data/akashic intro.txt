@@ -35,6 +35,8 @@ mission "Akasha: Korath Efret"
 				accept
 			label run
 			`	Hoping that you aren't being followed, you retreat to your ship as fast as you can and close the hatch, departing from the planet soon later. Your sensors can't detect any ship chasing you, and as you exit the atmosphere you start feeling a bit safer...`
+	on accept
+		log `Met a Korath Efret dressed in a bizarre way. He showed me some drawings of parts of space I had never seen before, and the location of a system located beyond Host.`
 	on enter Chira
 		dialog
 			`Upon entering the system, your ship detects a signal incoming from the surface of a small moon, Chira [name will be changed to be different from the system].`
@@ -51,7 +53,7 @@ mission "Akasha: Broken Jump Drive 1"
 	destination "Karek Fornati"
 	on offer
 		conversation
-			scene thumbnail/inductor
+			scene "thumbnail/inductor"
 			`The signal comes from the shore of a large, old methane lake, which seem to be very common on Chira. As you come closer, you notice a ship of unknown design, consisting of a white hull with gray and yellow details all over it.`
 			`	Around it, some humanoid figures seem to be working on some sort of machinery, probably unmounted from the ship itself.`
 			choice
@@ -71,9 +73,9 @@ mission "Akasha: Broken Jump Drive 1"
 				`	"Can't I just bring you a new Jump Drive?"`
 				`	"Where can I get these materials?"`
 					goto material
-			`	Unfortunately, we don't have the right tools to mount it either. As you may have imagined, this was supposed to be a quite routine flight, and we did not expect we would have needed to do such a maintainance in an unsettled planet.`
+			`	"Unfortunately, we don't have the right tools to mount it either. As you may have imagined, this was supposed to be a quite routine flight, and we did not expect we would have needed to do such a maintainance in an unsettled planet.`
 			label material
-			`	"Across the galaxy, we have "friends", if we can call them this way. Trusted individuals who helped us in the past, and may come in help again in the future. One of them, a Korath, has access to a large amount of a special alloy, very rare and almost impossible to produce artificially. We believe we need at least 7 tons of it in order to get the Jump Drive working again, so you would need to visit him at <destination>.`
+			`	"Across the galaxy, we have "friends", if we can call them this way. Trusted individuals who helped us in the past, and may come in help again in the future. One of them, a Korath, has access to a large amount of a special alloy, very rare and almost impossible to produce artificially. We believe we need at least 7 tons of it in order to get the Jump Drive working again, so you would need to visit him at <destination>."`
 			choice
 				`	"Okay, I will bring you those alloys."`
 				`	"Sorry, but I will not help you on this."`
@@ -81,8 +83,11 @@ mission "Akasha: Broken Jump Drive 1"
 			`	"Thank you, I assure you will receive a good payment for your trip. You can call me Kachi," he says. After introducing yourself as <first> <last>, Kachi hands you a small, light blue device, composed of a cylinder with a button on one side. "I recorded a message on it," Kachi says. "When you reach our contact at the coordinates I marked, press the button and it should tell the Korath everything he needs to know."`
 				accept
 			label shoot
-			`	"The ship apparently didn't have its shields raised, as it takes you only a few shots to blow it up. The explosion must have killed all the landed crew, since your sensors can't pick up signs of movement anymore from the ground."`
+			`	The ship apparently didn't have its shields raised, as it takes you only a few shots to blow it up. The explosion must have killed all the landed crew, since your sensors can't pick up signs of movement anymore from the ground.`
 				flee
+	on accept
+		log "People" "Kachi" `Kachi is an Akashic, who was stuck on an uninhabited planet after his Jump Drive broke. Promised to help him by taking a special alloy from a Korath world.`
+		log "Factions" "Akashic" `The Akashic are an old species, who lives in the East and learned how to manufacture Jump Drives. Across the galaxy they have trusted people, belonging to different species, who they know they can ask help to if needed.`
 
 mission "Akasha: Broken Jump Drive 2"
 	name "Bring the supplies to Kachi"
@@ -121,6 +126,7 @@ mission "Akasha: Broken Jump Drive 3"
 	to offer
 		has "Akasha: Broken Jump Drive 2: done"
 	on offer 
+		log `Kachi is an Akashic, who was stuck on an uninhabited planet after his Jump Drive broke. Promised to help him by taking a special alloy from a Korath world.`
 		conversation
 			`You unload your cargo near Kachi's ship, which seems happy to see that you made it back in one piece. "Thank you for your help, Captain <last>," he says, as he hands you a credit chip.`
 			`	"It's worth 1,200,000 credits, which should be enough to repay you for your effort." In the meanwhile, you see that his crew has already started bringing the first rods inside the Akashic ship.`
@@ -182,6 +188,8 @@ mission "Akasha: Akashic Space"
 		payment 2000000
 		
 	on complete
+		log "Factions" "Sankrit" `The Sankrit are a young species, very warlike and capable of advancing in technology more quickly than most species. They were born near the Akashic, in an ancient but small region of space.`
+		log `Was given access to the region the Akashic inhabit, but not to the technology they possess. Was warned by Kachi of the Sankrit threat.`
 #		event "Akashic first timer" 14
 		conversation
 			`You disembark from your ship and approach Kachi, which seems to be relieved to be back in Akashic space. "Welcome in Akashic space, Captain <last>. The Jump Drive did well during the trip, but we are replacing it to avoid risking another breakdown."`

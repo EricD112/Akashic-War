@@ -741,7 +741,7 @@ system Ayacan
 			period 12.6745
 
 system Azar
-	pos 431.129 -461.412
+	pos 5431.129 -461.412
 	government Uninhabited
 	habitable 425.92
 	asteroids "small rock" 6 1.8876

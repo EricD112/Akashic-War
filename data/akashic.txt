@@ -165,7 +165,72 @@ shipyard "Akashic Combat"
 	"Conveyor"
 	"Persuader"
 	"Redeemer"
-	
+
+event "Azar Appears"
+	system Azar
+		pos 431.129 -461.412
+		government Uninhabited
+		habitable 425.92
+		asteroids "small rock" 6 1.8876
+		asteroids "medium rock" 34 0.9768
+		asteroids "large rock" 5 1.7556
+		asteroids "small metal" 94 1.4652
+		asteroids "medium metal" 17 0.9108
+		asteroids "large metal" 15 1.9536
+		trade Clothing 230
+		trade Electronics 605
+		trade Equipment 469
+		trade Food 571
+		trade "Heavy Metals" 751
+		trade Industrial 756
+		trade "Luxury Goods" 927
+		trade Medical 704
+		trade Metal 541
+		trade Plastic 437
+		object
+			sprite star/k5
+			period 10
+		object
+			sprite planet/rock13
+			distance 275.21
+			period 88.4896
+			offset 77.6119
+			object
+				sprite planet/oberon
+				distance 141.798
+				period 21.2261
+				offset 120.053
+		object
+			sprite planet/desert10
+			distance 665.648
+			period 332.861
+			offset 237.311
+		object
+			sprite planet/rock3
+			distance 877.088
+			period 503.455
+			offset 296.528
+		object
+			sprite planet/gas5
+			distance 1499.53
+			period 1125.45
+			offset 342.698
+		object
+			sprite planet/gas6
+			distance 2302.37
+			period 2141.2
+			offset 353.954
+			object
+				sprite planet/ice8
+				distance 300.048
+				period 13.2755
+				offset 119
+			object Chira
+				sprite planet/europa
+				distance 403.048
+				period 20.668
+				offset 144.486
+
 event "Akashic Space Reachable"
 	system Kayana
 		pos 466.694 -372.06

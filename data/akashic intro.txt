@@ -18,6 +18,7 @@ mission "Akasha: Korath Efret"
 		random < 80
 	destination Chira
 	on offer
+		event "Azar Appears"
 		conversation
 			`As you walk over the spaceport in search of a bar, you notice two Korath in a rather weird blue attire, with occasional golden highlights near the cuffs. They appear to be reading some papers, bounded together in a way that resembles the one of a Human book.`
 			`	You stare at them for a few minutes, when, all of a sudden, one of them starts walking towards you, speaking in what you presume to be Korath language.`

@@ -2684,48 +2684,48 @@ system Tzor
 
 planet Acantha
 	attributes akashic
-	landscape land/acantha
+	landscape land/water8
 	description `One of the paradise planets of the Akashic, many tourists are around enjoying their time off. This would be a perfect location for humans as well, the atmosphere is just perfect with nice temperatures, and lower gravity than earth. The mountainous regions have beautiful forests, and near the equator there are many beach resorts.`
 	spaceport `Many bars and restaurants are lined up near the spaceport and the vast ammount of resorts. It seems that here the Akashic do drink and eat a lot.`
 	security 0
 
 planet Akasha
 	attributes akashic
-	landscape land/Akasha
+	landscape land/mountain1
 	description `The Akasha Homeworld has massive structures all containing Quartic Metal which seem to have valuable energy properties. From the Spaceport you can see vast ammounts of their high technological spaceships. The Akashic council seems to reside on this planet as well, the real core of all what Akashic controls, there also seem to be different races around.`
 	spaceport `Akasha's spaceport has several bars, and you are surprised to find some other species here like the Quargs.`
 	security 0
 
 planet Areara
 	attributes akashic factory urban rich
-	landscape land/areara
+	landscape land/fog1
 	description `Areara is the largest manufacturing site for the Akashic, here togather with the Akasha homeworld all outfits and ships are being made. Some of the cities are similar to the cities back on earth in human space, it seems that this planet is full of culture and has been around for a long time, unlike Akasha which seems to only have the latest technological standards.`
 	spaceport `A big spaceport with several warships parked, there are small bars in the area as well`
 	security 0
 
 planet Arkania
 	attributes akashic
-	landscape land/Arkania
+	landscape land/canyon01
 	description `The moon world Arkania's main purpose seems to be the mining of the valuable Quartic Metal which is used all over Akashic space. Countless workers and also drones seem to come and go into the vast ammount of Mines on this moon. There is not much wildlife around, but the moon has an atmosphere in which humans could survive.`
 	spaceport `The first spaceport with a lively bar in Akashic space, the workers seem hyped after their work in the mines, all the workers here are mainly drone operators, as the Akashic don't do any of the heavy lifting by themselves, they do enjoy their local food and drinks.`
 
 planet "Arkono Outpost"
 	attributes akashic
-	landscape land/Arkono0
+	landscape land/sea3
 	description `A scenary unheard of in human space. Waterfalls reaching deep as if they fall to the planets core. The Akashic call it their research outpost and the access point to the rest of the Galaxy using their "Space Time Drives", all research in regard to the rest of the Galaxy seems to be conducted here.`
 	spaceport `Arkono's spaceport bar seems to be limited the Akashic do not seem to eat or drink that much in General it seems, it is as if they take the energy right out of the air to survive.`
 	security 0
 
 planet Arstone
 	attributes akashic
-	landscape land/arstone
+	landscape land/hills7-harro
 	description `Arstone is an other beautiful planet of the Akashic. You can see that the cultural trades of the Akashic really is to be in harmony with nature. A big variety of wild life can be observed in this region.`
 	spaceport `The spaceport is rather small. you can access several towns on this mountainous planet which are all smill sized but have a high standard of technology.`
 	security 0
 
 planet "Ayacan Waters"
 	attributes akashic
-	landscape land/Ayacan
+	landscape land/fog3
 	description `Ayacan Waters is a warm ocean world. There are no lands to settle but the Akashic were capable to build these enourmous structures floating on the seas. The main reason they settled here is that the oceans are sweet waters and have a vast ammount of resources.`
 	spaceport `Ayacan Waters is known among the Akashic for its tasty sea food, it seems however that the Akashic overall don't eat too much. For humans it would be absolute paradise here.`
 
@@ -2737,27 +2737,27 @@ planet Chira
 
 planet "Ione Station"
 	attributes akashic
-	landscape land/ionestation
+	landscape land/sivael6
 	description `Ione Station is one of the connecting points to Sankrit Space, it is much more massive than any human space station you have seen and is better compared to the Quarg Ring Worlds. 24/7 survailance is being conducted to keep Akashic space save from any possible raids. Even though there is no Hyperspace Link, the necessary pre-cautions are met in case the Sankrit ever obtain a Jump Drive.`
 	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
 	security 0
 
 planet "Ixchel Defence"
 	attributes akashic
-	landscape land/izanamistation
+	landscape land/sivael2
 	description `The Akashic placed this new space station here to monitor Sedna, it is very similar to Izanami station. Many warships come and go.`
 	spaceport `Next to all heavy warships there is a nice small bar with some drinks at the spaceport.`
 
 planet "Ixchel Outpost"
 	attributes sankrit
-	landscape land/sanjayastation
+	landscape land/sivael4
 	description `A small battle outpost which the Sankrit build right under the nose of the Akashic without them noticing.`
 	spaceport `A small battle outpost which the Sankrit build right under the nose of the Akashic without them noticing.`
 	bribe 0
 
 planet "Izanami Station"
 	attributes akashic
-	landscape land/izanamistation
+	landscape land/sivael8
 	description `Izanami Station is one of the connecting points to Sankrit Space, it is fairly small compared to the other Akashic Space stations, however, its weapons and outfits are highly sophisticated and there is enough space for several Heavy Warships. It seems that there is a full time operation here on-going to protect Akashic Space.`
 	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
 	security 0
@@ -2772,7 +2772,7 @@ planet Karieli
 
 planet Kassandra
 	attributes akashic
-	landscape land/kassandra
+	landscape land/canyon2
 	description `Kassandra is a cold world always below freezing. There is very little wildlife here which can survive. It does however have a precious material which is used to enhance Quartic Metal. It is said that the enhanced metal is used in Akashic Heavy Warships.`
 	spaceport `The spaceport is surrounded by mines which reach the core of the planet similar to Arkania a lot of workers and androids are here.`
 	bribe 0
@@ -2796,14 +2796,14 @@ planet Quachir
 
 planet "Sanjaya Station"
 	attributes sankrit
-	landscape land/sanjayastation
+	landscape land/loc2
 	description `Sanjaya Station is full of technology which is unseen in human space. Whoever docks here must have his reasons, as no other species dread these realms.`
 	spaceport `Sanjaya Station is full of technology which is unseen in human space. But the environment gives an overall chill to anyone who is not part of the Sankrit system. Whoever docks here must have his reasons, as no other species dread these realms.`
 	bribe 0
 
 planet Sankrit
 	attributes sankrit
-	landscape land/sankrit
+	landscape land/dmottl1
 	description `The Sankrit headquarters are based on this planet, apperently the Sankrit are originally not from this area in the Galaxy. Massive machinery dig deep into the planets core to take out all possible resources. The Sankrit seem to use Dark Matter Enhanced Quartic Metal for their ships which give them one of the strongest hulls in the Galaxy.`
 	description `	This planet would not be fit for human life, and it is best to stay away from this area as far as possible.`
 	spaceport `You wouldn't go near to their spaceports`
@@ -2813,7 +2813,7 @@ planet Sankrit
 
 planet "Sankrit Moon"
 	attributes sankrit
-	landscape land/sankritstation1
+	landscape land/space2
 	description `Sankrit's Moon is the hub for all the military activities which are going on in and around Sankrit Space. Vast ammounts of Heavy Warships are stationed here ready to battle any second. It is very apparent that the history of the Sankrit is violent. This can also be seen in their rank, here it is to eat or be eaten. And the Sankrit seem to want and eat more of the Galaxy.`
 	spaceport `Sankrit Moon is the hub for all the military activities which are going on in the area, vast ammounts of Heavy Warships are stationed here, ready to battle any second.`
 	shipyard "Sankrit Advanced"
@@ -2822,14 +2822,14 @@ planet "Sankrit Moon"
 
 planet "Sankrit Port"
 	attributes sankrit
-	landscape land/sankritstation
+	landscape land/space4
 	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
 	spaceport `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
 	bribe 0
 
 planet "Saraswati Station"
 	attributes sankrit
-	landscape land/saraswatistation
+	landscape land/station3
 	description `Saraswati Station seems to be a research center for DNA enhancements, it has a vast ammount of incubators with what you can figure out all sorts of species in them. The scenary gives a chill to anyone who is not part of the Sankrit system.`
 	spaceport `Saraswati Station seems to be a research center for DNA enhancements, it has a vast ammount of incubators with what you can figure out all sorts of species in them. The scenary gives a chill to anyone who is not part of the Sankrit system.`
 	bribe 0
@@ -2837,7 +2837,7 @@ planet "Saraswati Station"
 
 planet Sharivar
 	attributes sankrit
-	landscape land/sharivar
+	landscape land/canyon03
 	description `Sharivar is a small moon, without any useful resources, but it seems that the Sankrit are using it for something.`
 	spaceport `Sharivar is a small moon, without any useful resources, but it seems that the Sankrit are using it.`
 	bribe 0
@@ -2845,7 +2845,7 @@ planet Sharivar
 
 planet "Sharivar Moon"
 	attributes sankrit
-	landscape land/sankritstation1
+	landscape land/dmottl2
 	description `Sharivar's Moon is the final Sankrit base. Men made and the outpost to control wormholes.`
 	spaceport `Sharivar's Moon is the final Sankrit base.. Men made and the outpost to control wormholes.`
 	shipyard "Sankrit Advanced"
@@ -2854,7 +2854,7 @@ planet "Sharivar Moon"
 
 planet Shyama
 	attributes sankrit
-	landscape land/shyama
+	landscape land/mountain0
 	description `Shyama is a huge production site of the Sankrit, and they launched an operation here to move towards the Korath, they are making highly technical space ships which can create hyper links.`
 	spaceport `Shyama is a huge production site of the Sankrit, and they launched an operation here to move towards the Korath, they are making highly technical space ships which can create hyper links.`
 	shipyard "Sankrit Basic"
@@ -2863,7 +2863,7 @@ planet Shyama
 
 planet Silvanus
 	attributes sankrit
-	landscape land/silvanus
+	landscape land/mountain13-sfiera
 	description `Silvanus seems to be the heart of Sankrit space when it comes to production. The whole planet is one big factory, extracting each and every piece of metal out of the core and tranforming it into their weaponry. Most of the work is done by slaves and androids are also involved. A grim world with high polution, only the Sankrit themselves have their protective gear and seem to be overall fine in this kind of environment.`
 	spaceport `Silvanus seems to be the heart of Sankrit space when it comes to production. The whole planet is one big factory, extracting each and every piece of metal out of the core and tranforming it into their weaponry. Most of the work is done by slaves and androids are also involved. A grim world with high polution, only the Sankrit themselves have their protective gear and seem to be overall fine in this kind of environment.`
 	shipyard "Sankrit Basic"
@@ -2873,7 +2873,7 @@ planet Silvanus
 
 planet "Soraka Gateway"
 	attributes Sankrit
-	landscape land/sankritstation
+	landscape land/space1
 	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
 	spaceport `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
 	bribe 0
@@ -2881,7 +2881,7 @@ planet "Soraka Gateway"
 
 planet Stirbog
 	attributes sankrit
-	landscape land/stirbog
+	landscape land/snow7
 	description `Stirbog if on the edge of Sankrit space. It has only few facilities and is being used for research. Recently they have ramp-up their activities here.`
 	spaceport `Stirbog if on the edge of Sankrit space. It has only few facilities and is being used for research. Recently they have ramp-up their activities here.`
 	bribe 0

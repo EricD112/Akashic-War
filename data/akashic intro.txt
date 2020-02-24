@@ -50,7 +50,7 @@ mission "Akasha: Broken Jump Drive 1"
 	destination "Karek Fornati"
 	on offer
 		conversation
-			scene thumbnail/[that scout ship yet to be named]
+			scene thumbnail/inductor
 			`The signal comes from the shore of a large, old methane lake, which seem to be very common on Chira. As you come closer, you notice a ship of unknown design, consisting of a white hull with gray and yellow details all over it.`
 			`	Around it, some humanoid figures seem to be working on some sort of machinery, probably unmounted from the ship itself.`
 			choice
@@ -148,7 +148,7 @@ mission "Akasha: Broken Jump Drive 3"
 
 	npc disable
 		government Korath
-		personality heroic plunders entering target
+		personality heroic plunders staying target
 		fleet
 			names "korath"
 			variant
@@ -160,7 +160,7 @@ mission "Akasha: Akashic Space"
 	name "Akashic Space"
 	description "Escort Kachi to <destination>, an Akashic planet."
 	landing
-	destination Karieli
+	destination "Karieli"
 	source
 		planet "Chira"
 	to offer
@@ -174,10 +174,10 @@ mission "Akasha: Akashic Space"
 	npc save
 		government Akashic
 		personality disables escort target
-		ship "Redemption" "Kasic Isha"
+		ship "Inductor" "Kasic Isha"
 
 	on accept
-		event "Akashic Haballah Opens"
+		event "Akashic Space Reachable"
 		payment 2000000
 		
 	on complete

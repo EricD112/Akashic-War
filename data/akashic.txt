@@ -77,23 +77,73 @@ phrase "akashic"
 		"Shi"
 
 outfitter "Akashic Basics"
-	"Akashic Seeker"
-	"Akasha Shield Generator"
-	"Akashas Laser"
-	"Akashic Core"
-	"Akashic Battery"
-	"Small Bunk Room"
-	"Bunk Room"
-	"Fuel Pod"
-	"Ramscoop"
+	"Devastator Beam"
+	"Dismantler Beam"
+	"Demolisher Beam"
+	"Sentinel"
 	"Outfit Expansion"
 	"Cargo Expansion"
-	"Space Time Drive"
-	"Akasha Heavy Thruster"
-	"Akasha Steering"
-	"Small Akasha Laser"
-	"Quartic Missile Launcher"
-	"Quartic Missile"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Kinetic Submunition"
+	"Kinetic Submunition Array"
+	"Thermal Core (Small)"
+	"Thermal Core (Medium)"
+	"Support Cell"
+	"Defensive Matrix (Tiny)"
+	"Defensive Matrix (Small)"
+	"Defensive Matrix (Medium)"
+	"Thermal Control Unit (Small)"
+	"Tactical Analysis Unit"
+	"Lateral Motivator (Tiny)"
+	"Lateral Motivator (Small)"
+	"Angular Motivator (Tiny)"
+	"Angular Motivator (Small)"
+	"Burst Unit"
+
+outfitter "Akashic Advanced"
+	"Devastator Beam"
+	"Dismantler Beam"
+	"Demolisher Beam"
+	"Devastator Turret (Dual)"
+	"Dismantler Turret (Dual)"
+	"Demolisher Turret"
+	"Demolisher Turret (Dual)"
+	"Demotivator Turret"
+	"Deactivator Turret"
+	"Sentinel"
+	"Outfit Expansion"
+	"Cargo Expansion"
+	"Small Bunk Room"
+	"Bunk Room"
+	"Kinetic Submunition Ejector"
+	"Kinetic Submunition"
+	"Kinetic Submunition Array"
+	"Thermal Core (Small)"
+	"Thermal Core (Medium)"
+	"Thermal Core (Large)"
+	"Thermal Core (Huge)"
+	"Support Cell"
+	"Depot Cell"
+	"Storage Cell"
+	"Defensive Matrix (Tiny)"
+	"Defensive Matrix (Small)"
+	"Defensive Matrix (Medium)"
+	"Defensive Matrix (Large)"
+	"Thermal Control Unit (Small)"
+	"Thermal Control Unit (Large)"
+	"Tactical Analysis Unit"
+	"Lateral Motivator (Tiny)"
+	"Lateral Motivator (Small)"
+	"Lateral Motivator (Medium)"
+	"Lateral Motivator (Large)"
+	"Lateral Motivator (Huge)"
+	"Angular Motivator (Tiny)"
+	"Angular Motivator (Small)"
+	"Angular Motivator (Medium)"
+	"Angular Motivator (Large)"
+	"Angular Motivator (Huge)"
+	"Burst Unit"
 
 shipyard "Akashic Advanced"
 	"Persuasion"
@@ -107,29 +157,84 @@ shipyard "Akashic War"
 	"Redemption"
 	"Clairvoyance"
 	
-event "Akashic Haballah Opens"
-	system Haballah
-		pos 470.675 -453.373
-		government Uninhabited
-		habitable 486.68
-		asteroids "small rock" 16 7.4088
-		asteroids "medium rock" 6 9.7524
-		asteroids "large rock" 16 7.7868
-		asteroids "medium metal" 5 10.962
-		asteroids "large metal" 8 11.2644
+event "Akashic Space Reachable"
+	system Kayana
+		pos 466.694 -372.06
+		government Akashic
+		habitable 553.28
+		belt 1337
+		link Arkania
+		link Arkono
+		asteroids "small rock" 1 2.8458
+		asteroids "medium rock" 66 6.7014
+		asteroids "large rock" 2 6.885
+		asteroids "small metal" 31 5.4162
+		asteroids "medium metal" 12 4.8195
+		asteroids "large metal" 22 5.9211
+		minables copper 2 8.15517
+		minables silicon 7 11.0925
+		minables uranium 2 11.1351
+		trade Clothing 218
+		trade Electronics 706
+		trade Equipment 682
+		trade Food 499
+		trade "Heavy Metals" 799
+		trade Industrial 793
+		trade "Luxury Goods" 1064
+		trade Medical 505
+		trade Metal 426
+		trade Plastic 322
+		fleet "Small Akashic Military" 500
+		fleet "Akashic Mining" 900
+		fleet "Akashic Transport" 550
 		object
-			sprite star/k0
-			period 10
+			sprite star/m0
+			distance 32.8872
+			period 11.7147
 		object
-			sprite planet/rock19
-			distance 174.16
-			period 41.6736
+			sprite star/m4
+			distance 45.1128
+			period 11.7147
+			offset 180
 		object
-			sprite planet/lava2
-			distance 403.92
-			period 147.191
-	unvisit "Kor Nor'peli"
-	unvisit "Kor Tar'bei"
+			sprite planet/ice3
+			distance 257.873
+			period 70.42
+		object Karieli
+			sprite planet/forest5
+			distance 599.683
+			period 249.73
+			offset 28.0707
+		object
+			sprite planet/gas0
+			distance 1342.97
+			period 836.928
+			offset 7.4736
+			object
+				sprite planet/ice7
+				distance 279
+				period 13.6572
+			object
+				sprite planet/lava0
+				distance 411
+				period 24.4185
+		object
+			sprite planet/gas6
+			distance 2679.41
+			period 2358.56
+			offset 1.32427
+			object
+				sprite planet/desert4
+				distance 307
+				period 13.7395
+			object
+				sprite planet/rhea
+				distance 445
+				period 23.9775
+			object
+				sprite planet/dust5
+				distance 590
+				period 36.6052
 
 event "Akasha Basic Outfits Ships"
 	planet Akasha

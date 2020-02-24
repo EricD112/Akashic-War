@@ -4,8 +4,8 @@ ship "Inductor" "Inductor (Close)"
 		"Outfits Expansion"
 		"Dismantler Beam" 5
 		Sentinel
-		"Thermal Fusion Core (Large)"
-		"Storage Cell (Medium)"
+		"Thermal Core (Large)"
+		"Depot Cell"
 		"Defensive Matrix (Small)"
 		"Thermal Control Unit (Small)" 2
 		"Lateral Motivator (Large)"
@@ -20,8 +20,8 @@ ship "Inductor" "Inductor (Long)"
 		"Kinetic Submunition" 500
 		"Demolisher Turret (Dual)"
 		"Defensive Matrix (Small)"
-		"Thermal Fusion Core (Large)"
-		"Storage Cell (Medium)"
+		"Thermal Core (Large)"
+		"Depot Cell"
 		Sentinel
 		"Thermal Control Unit (Small)"
 		"Lateral Motivator (Large)"
@@ -33,10 +33,10 @@ ship "Persuader" "Persuader (Close)"
 		Hyperdrive
 		"Outfits Expansion"
 		"Dismantler Beam" 4
-		"Thermal Fusion Core (Huge)"
+		"Thermal Core (Huge)"
 		"Demotivator Turret" 2
 		Sentinel 2
-		"Storage Cell (Medium)"
+		"Depot Cell"
 		"Defensive Matrix (Medium)"
 		"Thermal Control Unit (Small)" 2
 		"Angular Motivator (Small)"
@@ -50,9 +50,9 @@ ship "Persuader" "Persuader (Long)"
 		"Demolisher Turret (Dual)" 2
 		"Angular Motivator (Large)"
 		Sentinel
-		"Storage Cell (Large)"
+		"Storage Cell"
 		"Lateral Motivator (Tiny)"
-		"Thermal Fusion Core (Large)"
+		"Thermal Core (Large)"
 		"Kinetic Submunition" 400
 		"Lateral Motivator (Large)"
 		"Kinetic Submunition Ejector" 4
@@ -65,11 +65,11 @@ ship "Redeemer" "Redeemer (Close)"
 		Hyperdrive
 		"Outfits Expansion" 2
 		"Dismantler Beam" 6
-		"Thermal Fusion Core (Huge)"
-		"Thermal Fusion Core (Medium)"
+		"Thermal Core (Huge)"
+		"Thermal Core (Medium)"
 		"Dismantler Turret (Dual)" 2
 		Sentinel
-		"Storage Cell (Large)"
+		"Storage Cell"
 		"Thermal Control Unit (Large)" 2
 		"Defensive Matrix (Large)"
 		"Burst Unit"
@@ -83,13 +83,13 @@ ship "Redeemer" "Redeemer (Long)"
 		Hyperdrive
 		"Demolisher Turret (Dual)" 3
 		"Burst Unit"
-		"Thermal Fusion Core (Huge)"
+		"Thermal Core (Huge)"
 		Sentinel
-		"Storage Cell (Large)"
+		"Storage Cell"
 		"Defensive Matrix (Large)"
 		"Thermal Control Unit (Large)"
 		"Demotivator Turret"
-		"Thermal Fusion Core (Large)"
+		"Thermal Core (Large)"
 		"Kinetic Submunition" 600
 		"Lateral Motivator (Large)"
 		"Lateral Motivator (Tiny)"
@@ -105,9 +105,9 @@ ship "Seeker" "Seeker (Close)"
 		"Dismantler Beam"
 		Sentinel
 		"Kinetic Submunition Ejector"
-		"Thermal Fusion Core (Small)"
+		"Thermal Core (Small)"
 		"Kinetic Submunition" 100
-		"Storage Cell (Medium)"
+		"Depot Cell"
 		"Defensive Matrix (Small)"
 		"Thermal Control Unit (Small)"
 		"Angular Motivator (Medium)"

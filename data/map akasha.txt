@@ -1613,7 +1613,7 @@ system Kassandra
 			period 21.2051
 
 system Kayana
-	pos 466.694 -372.06
+	pos 5466.694 -372.06
 	government Akashic
 	habitable 553.28
 	belt 1337

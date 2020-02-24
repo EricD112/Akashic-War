@@ -23,9 +23,9 @@ ship "Omnibus"
 			"hit force" 900
 	outfits
 		Hyperdrive
-		"Thermal Fusion Core (Large)"
+		"Thermal Core (Large)"
 		Sentinel 2
-		"Storage Cell (Medium)"
+		"Depot Cell"
 		"Lateral Motivator (Large)"
 		"Angular Motivator (Large)"
 		"Thermal Control Unit (Small)"
@@ -77,8 +77,8 @@ ship "Fast Picket"
 	outfits
 		Hyperdrive
 		Sentinel 2
-		"Thermal Fusion Core (Medium)"
-		"Storage Cell (Medium)"
+		"Thermal Core (Medium)"
+		"Depot Cell"
 		"Defensive Matrix (Small)"
 		"Lateral Motivator (Medium)"
 		"Thermal Control Unit (Small)" 2
@@ -128,8 +128,8 @@ ship "Superlifter"
 		"Demotivator Turret"
 		Sentinel 2
 		"Defensive Matrix (Medium)"
-		"Storage Cell (Medium)"
-		"Thermal Fusion Core (Large)"
+		"Depot Cell"
+		"Thermal Core (Large)"
 		"Lateral Motivator (Large)"
 		"Angular Motivator (Large)"
 	turret 53 -7.5
@@ -176,8 +176,8 @@ ship "Redeemer"
 		Sentinel
 		"Thermal Control Unit (Large)" 2
 		"Burst Unit"
-		"Storage Cell (Large)"
-		"Thermal Fusion Core (Huge)" 2
+		"Storage Cell"
+		"Thermal Core (Huge)" 2
 		"Lateral Motivator (Huge)"
 		"Angular Motivator (Huge)"
 		"Defensive Matrix (Large)"
@@ -233,8 +233,8 @@ ship "Persuader"
 		"Devastator Turret (Dual)"
 		Sentinel 2
 		"Defensive Matrix (Medium)"
-		"Storage Cell (Medium)"
-		"Thermal Fusion Core (Huge)"
+		"Depot Cell"
+		"Thermal Core (Huge)"
 		"Lateral Motivator (Large)"
 		"Thermal Control Unit (Small)" 2
 		"Angular Motivator (Large)"
@@ -286,8 +286,8 @@ ship "Inductor"
 		"Devastator Beam" 5
 		Sentinel
 		"Defensive Matrix (Small)"
-		"Storage Cell (Medium)"
-		"Thermal Fusion Core (Large)"
+		"Depot Cell"
+		"Thermal Core (Large)"
 		"Lateral Motivator (Medium)"
 		"Lateral Motivator (Tiny)"
 		"Burst Unit"
@@ -339,9 +339,9 @@ ship "Seeker"
 		"Devastator Beam"
 		Sentinel
 		"Kinetic Submunition Ejector"
-		"Thermal Fusion Core (Small)"
+		"Thermal Core (Small)"
 		"Kinetic Submunition" 100
-		"Storage Cell (Medium)"
+		"Depot Cell"
 		"Defensive Matrix (Small)"
 		"Thermal Control Unit (Small)"
 		"Angular Motivator (Medium)"
@@ -382,11 +382,11 @@ ship "Conveyor"
 			"hit force" 900
 	outfits
 		Hyperdrive
-		"Thermal Fusion Core (Huge)"
+		"Thermal Core (Huge)"
 		Sentinel 2
 		"Demolisher Turret" 2
 		"Devastator Beam" 4
-		"Storage Cell (Large)"
+		"Storage Cell"
 		"Lateral Motivator (Large)"
 		"Angular Motivator (Huge)"
 		"Thermal Control Unit (Large)"
@@ -449,11 +449,11 @@ ship "Supporter"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Thermal Fusion Core (Small)"
+		"Thermal Core (Small)"
 		"Kinetic Submunition Ejector"  2
 		"Kinetic Submunition" 250
 		"Kinetic Submunition Array"
-		"Storage Cell (Small)"
+		"Support Cell"
 		"Lateral Motivator (Tiny)"
 		"Angular Motivator (Tiny)"
 		"Thermal Control Unit (Small)"

@@ -2743,8 +2743,7 @@ planet Ayachan
 planet Chira
 	attributes uninhabited
 	landscape land/hills4
-	description `Chira is an small moon, far enough from the system's star that the methan on its surface condensates forming large lakes. Only a few plants live in this harsh enviroment, and a Human can't survive for more than a few seconds without wearing a respirator.`
-	security 0
+	description `Chira is an small moon, far enough from the system's star that the methan on its surface condensates forming large lakes. Only a few plants live in this harsh enviroment, and a human without a respirator couln't survive for more than a few seconds.`
 
 planet "Ione Station"
 	attributes akashic "akashic border"
@@ -2784,17 +2783,14 @@ planet Karieli
 	attributes akashic "safe outpost"
 	landscape land/water11-harro
 	description `Although it doesn't have a high population, the Akashic have recently begun building on Karieli many new cities and housing facilities, most of which are still uninhabited. In the case the Sankrit begins raiding their worlds, the Akashic will move the civilian population who lives the southernmost planets to Karieli, where they will be safer and further from the conflict.`
-	description `	Most of the shipyard facilities are still in construction, but when they are completed they might become some of the most advanced in Akashic space.`
-	spaceport `While the flats and skyscrapers reach impressive heights, you can't help but feel weird knowing that more than half of the buildings you see are completely empty, and might continue being like that still for years, or more.`
-	spaceport `	The largest construction area is near the existing ship building facilities, expanding the already existing production lines or creating new and larger ones.`
+	spaceport `While the flats and skyscrapers reach impressive heights, you can't help but feel weird knowing that more than half of the buildings you see are completely empty, and might continue being like that still for dozens of years.`
+	spaceport `	The largest construction area is near the existing ship building facilities, expanding the production lines into .`
 
 planet Kassandra
 	attributes akashic "akashic border"
 	landscape land/canyon2
-	description `Kassandra is a cold world always below freezing. There is very little wildlife here which can survive. It does however have a precious material which is used to enhance Quartic Metal. It is said that the enhanced metal is used in Akashic Heavy Warships.`
-	spaceport `The spaceport is surrounded by mines which reach the core of the planet similar to Arkania a lot of workers and androids are here.`
-	bribe 0
-	security 0
+	description `Kassandra is a cold world, only barely habitable for Akashic standards. Probably, it never would have been settled if it didn't have rich reserves of rare minerals, necessary for the Jump Drive construction. Most of the incoming ships are freighters, to transport the raw materials mined here, but an increasing amount of traffic is due to the Akashic warships patrolling the planet, in order to defend it from an eventual Sankrit attack.`
+	spaceport `The spaceport is very small and crowded, with aircrafts continously going back and forth from the mines with a full cargo hold. Most warships don't land for more than a couple minutes, landing in the depleted quarries near the spaceport and refuelling their tanks before departing again.`
 
 planet "Kontri Takir"
 	attributes sankrit

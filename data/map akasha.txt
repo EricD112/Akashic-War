@@ -2716,14 +2716,14 @@ planet Arkania
 	spaceport `The first spaceport with a lively bar in Akashic space, the workers seem hyped after their work in the mines, all the workers here are mainly drone operators, as the Akashic don't do any of the heavy lifting by themselves, they do enjoy their local food and drinks.`
 
 planet "Arkono Outpost"
-	attributes akashic
+	attributes akashic "safe outpost"
 	landscape land/sea3
 	description `A scenary unheard of in human space. Waterfalls reaching deep as if they fall to the planets core. The Akashic call it their research outpost and the access point to the rest of the Galaxy using their "Space Time Drives", all research in regard to the rest of the Galaxy seems to be conducted here.`
 	spaceport `Arkono's spaceport bar seems to be limited the Akashic do not seem to eat or drink that much in General it seems, it is as if they take the energy right out of the air to survive.`
 	security 0
 
 planet Arstone
-	attributes akashic
+	attributes akashic "safe outpost"
 	landscape land/hills7-harro
 	description `Arstone is an other beautiful planet of the Akashic. You can see that the cultural trades of the Akashic really is to be in harmony with nature. A big variety of wild life can be observed in this region.`
 	spaceport `The spaceport is rather small. you can access several towns on this mountainous planet which are all smill sized but have a high standard of technology.`
@@ -2769,7 +2769,7 @@ planet "Izanami Station"
 	security 0
 
 planet Karieli
-	attributes akashic
+	attributes akashic "safe outpost"
 	landscape land/water11-harro
 	description `Although it doesn't have a high population, the Akashic have recently begun building on Karieli many new cities and housing facilities, most of which are still uninhabited. In the case the Sankrit begins raiding their worlds, the Akashic will move the civilian population who lives the southernmost planets to Karieli, where they will be safer and further from the conflict.`
 	description `	Most of the shipyard facilities are still in construction, but when they are completed they might become some of the most advanced in Akashic space.`

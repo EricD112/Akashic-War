@@ -1205,7 +1205,7 @@ system Kapila
 
 system Karme
 	pos 826.997 -233.076
-	government Uninhabited
+	government Akashic
 	habitable 625
 	belt 1079
 	link Acantha
@@ -1243,11 +1243,11 @@ system Karme
 			distance 131
 			period 18.8482
 	object
-		sprite planet/forest5
+		sprite planet/dust6-b
 		distance 536.1
 		period 198.604
-	object
-		sprite planet/forest4
+	object Kassandra
+		sprite planet/rock18-b
 		distance 893.06
 		period 427.013
 	object
@@ -1807,7 +1807,7 @@ system Nakya
 
 system Nikimas
 	pos 856.272 -180.009
-	government Akashic
+	government Uninhabited
 	habitable 425.92
 	belt 1900
 	link Karme
@@ -1840,7 +1840,7 @@ system Nikimas
 		sprite planet/cloud6
 		distance 240.81
 		period 72.4282
-	object Kassandra
+	object
 		sprite planet/ice3
 		distance 479.06
 		period 203.227
@@ -2695,8 +2695,9 @@ system Zachiri
 planet Acantha
 	attributes akashic
 	landscape land/water8
-	description `One of the paradise planets of the Akashic, many tourists are around enjoying their time off. This would be a perfect location for humans as well, the atmosphere is just perfect with nice temperatures, and lower gravity than earth. The mountainous regions have beautiful forests, and near the equator there are many beach resorts.`
-	spaceport `Many bars and restaurants are lined up near the spaceport and the vast ammount of resorts. It seems that here the Akashic do drink and eat a lot.`
+	description `Acantha is a tropical world, with indigenous plants covering most of the surface. Trying to keep it as pristine as possible, the Akashic chose to build tiny and sparse outposts instead of the massive cities they placed on most planets nearby.`
+	description `	Nowadays the planet is a major tourist destination, with only a few thousand inhabitants and most of the settlements owned by people who visit the planet once or twice a year.`
+	spaceport `The spaceport is located in what you presume to be the largest settlement, which has half a dozen impressivly high silos used to store offworld supplies and food. Fast, light aircrafts then distribuite them to the rest of the planet, presumably to other storage facilities.`
 	security 0
 
 planet Akasha

@@ -39,6 +39,17 @@ outfit "Sankrit Core S"
 	category "Power"
 	cost 30000000
 	thumbnail "outfit/sankrit core s"
+	"mass" 57
+	"outfit space" -57
+	"energy generation" 16
+	"heat generation" 23
+	"hull repair rate" 1
+	"hull energy" 1.2
+
+outfit "Sankrit Core S Old"
+	category "Power"
+	cost 30000000
+	thumbnail "outfit/sankrit core s"
 	"mass" 33
 	"outfit space" -33
 	"energy generation" 12
@@ -48,19 +59,23 @@ outfit "Sankrit Core M"
 	category "Power"
 	cost 30000000
 	thumbnail "outfit/sankrit core m"
-	"mass" 61
-	"outfit space" -61
-	"energy generation" 26
-	"heat generation" 36
+	"mass" 102
+	"outfit space" -102
+	"energy generation" 32
+	"heat generation" 42
+	"hull repair rate" 2
+	"hull energy" 1.2
 
 outfit "Sankrit Core L"
 	category "Power"
 	cost 30000000
 	thumbnail "outfit/sankrit core l"
-	"mass" 115
-	"outfit space" -115
-	"energy generation" 56
-	"heat generation" 77
+	"mass" 153
+	"outfit space" -153
+	"energy generation" 48
+	"heat generation" 59
+	"hull repair rate" 3
+	"hull energy" 1.2
 
 outfit "Sankrit Hull Drone"
 	category "Systems"

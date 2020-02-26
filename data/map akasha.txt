@@ -2743,14 +2743,14 @@ planet Ayachan
 planet Chira
 	attributes uninhabited
 	landscape land/hills4
-	description `Chira is an small moon, far enough from the system's star that the methan on its surface condensates forming large lakes. Only a few plants live in this harsh enviroment, and a human without a respirator couln't survive for more than a few seconds.`
+	description `Chira is an small moon, far enough from the system's star that the methan on its surface condensates forming large lakes. Only a few plants survive in this harsh enviroment, and a human without a respirator couln't survive for more than a few seconds.`
 
 planet "Ione Station"
 	attributes akashic "akashic border"
 	landscape land/sivael6
-	description `Ione Station is one of the connecting points to Sankrit Space, it is much more massive than any human space station you have seen and is better compared to the Quarg Ring Worlds. 24/7 survailance is being conducted to keep Akashic space save from any possible raids. Even though there is no Hyperspace Link, the necessary pre-cautions are met in case the Sankrit ever obtain a Jump Drive.`
-	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
-	security 0
+	description `Ione Station is the centre of the operations in the Sankrit border, with room for more than three thousand Akashic. Most of the patrols in the regions start and end here, after checking out the system they were designated to.`
+	description `	Although the station doesn't have any proper shipyard, there are sections of the station where a large number of warships are parked, ready to leave as needed.`
+	spaceport `Most quarters are sealed off to civilians, and the only sections you are allowed to visit are the the trading hub and the refuelling station. There, an Akashic takes a quick look at your fuel port, and takes out of a cabinet a connector that fits your ship's.`
 
 planet "Ixchel Defence"
 	attributes akashic
@@ -2768,9 +2768,9 @@ planet "Ixchel Outpost"
 planet "Izanami Station"
 	attributes akashic "akashic border"
 	landscape land/sivael8
-	description `Izanami Station is one of the connecting points to Sankrit Space, it is fairly small compared to the other Akashic Space stations, however, its weapons and outfits are highly sophisticated and there is enough space for several Heavy Warships. It seems that there is a full time operation here on-going to protect Akashic Space.`
-	spaceport `A small bar with food replicators and vending machines is available, most Akashic here seem to be on a tight schedule and too busy to enjoy their time.`
-	security 0
+	description `This station was positioned in a strategical system, with the main purpose of stopping the Sankrit from invading the Akashic core systems. All but the largest Akashic ships are constructed here, using both the materials brought here by the merchant convoys and the ones mined from this system's asteroids.`
+	description `	The huge ring around the station serves mostly as a housing for the soldiers assigned here, with apartments and services adequate for about a thousand individuals.`
+	spaceport `The spaceport is located in a small part of the station, a little above the main ring. There, long and brightly coloured docking arms grab any civilian ship approaching the station, and gently brings it towards the designated landing pad. The whole process doesn't take more than a couple minutes, but the traffic is so high that some docking arms are always active, leading to the need of a frequent mantainance to the arms' joints.`
 
 planet Julot
 	attributes sankrit
@@ -2782,9 +2782,9 @@ planet Julot
 planet Karieli
 	attributes akashic "safe outpost"
 	landscape land/water11-harro
-	description `Although it doesn't have a high population, the Akashic have recently begun building on Karieli many new cities and housing facilities, most of which are still uninhabited. In the case the Sankrit begins raiding their worlds, the Akashic will move the civilian population who lives the southernmost planets to Karieli, where they will be safer and further from the conflict.`
-	spaceport `While the flats and skyscrapers reach impressive heights, you can't help but feel weird knowing that more than half of the buildings you see are completely empty, and might continue being like that still for dozens of years.`
-	spaceport `	The largest construction area is near the existing ship building facilities, expanding the production lines into .`
+	description `Although it doesn't have a high population, the Akashic have recently started building on Karieli many new cities and housing facilities, most of which are still uninhabited. In the case the Sankrit begins raiding their worlds, the Akashic will move the civilian population who lives in the southernmost planets to Karieli, at a much safer distance from the conflict.`
+	spaceport `While the flats and skyscrapers reach impressive heights, you can't help but feel weird knowing that most of the buildings you see are completely empty, waiting for the war with the Sankrit to begin.`
+	spaceport `	The largest construction area is near the existing ship building facilities, working on turning the small shipyard into a large manufacturing center.`
 
 planet Kassandra
 	attributes akashic "akashic border"

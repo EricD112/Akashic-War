@@ -120,7 +120,7 @@ outfit "Sankrit Battlesuit"
 outfit "Sankrit Cooling"
 	category "Systems"
 	cost 2500000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/sankrit cooling"
 	"mass" 25
 	"outfit space" -25
 	"cooling" 100

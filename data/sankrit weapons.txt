@@ -17,8 +17,8 @@ outfit "Sankrit Artillery"
 	"weapon capacity" -37
 	"gun ports" -1
 	weapon
-		sprite "projectile/sartillery"
-			"frame rate" 2.5
+		sprite "projectile/plasma"
+			"frame rate" 3
 		sound "detainer"
 		"hit effect" "sartillery impact" 3
 		"hit effect" "detainer smoke" 5
@@ -68,26 +68,26 @@ outfit "Sankrit Artillery Turret"
 	category "Turrets"
 	cost 3500000
 	thumbnail "outfit/sankrit artillary"
-	"mass" 120
-	"outfit space" -100
-	"weapon capacity" -100
+	"mass" 43
+	"outfit space" -43
+	"weapon capacity" -43
 	"turret mounts" -1
 	weapon
-		sprite "projectile/sartillery"
-			"frame rate" 2.5
+		sprite "projectile/plasma"
+			"frame rate" 3
 		sound "detainer"
 		"hit effect" "sartillery impact" 3
 		"hit effect" "detainer smoke" 5
 		"inaccuracy" 1
 		"velocity" 20
 		"lifetime" 120
-		"reload" 20
-		"firing energy" 300
+		"reload" 30
+		"firing energy" 110
 		"firing force" 30
-		"firing heat" 500
+		"firing heat" 545
 		"hit force" 100
-		"shield damage" 400
-		"hull damage" 300
+		"shield damage" 330
+		"hull damage" 220
 	description "Sankrit Artillery Turret"
 
 effect "sartillery sparks"
@@ -138,10 +138,10 @@ outfit "Sankrit Laser"
 		"velocity" 500
 		"lifetime" 1.1
 		"reload" 1
-		"firing energy" 20
+		"firing energy" 7.1
 		"firing heat" 30
-		"shield damage" 30
-		"hull damage" 20
+		"shield damage" 16
+		"hull damage" 18
 	description "Sankrit Laser is a basic equipment on all Akashic ships"
 	
 effect "akashaslaserimpact"

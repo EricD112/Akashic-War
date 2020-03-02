@@ -71,7 +71,7 @@ ship "Furor"
 	attributes
 		category "Light Warship"
 		"cost" 20000000
-		"hull" 35600
+		"hull" 41600
 		"required crew" 17
 		"bunks" 49
 		"mass" 370
@@ -116,7 +116,7 @@ ship "Furor"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "placeholder text"
+	description "The Sankrit Furor is a dedicated warship and counts is a common sight among the Sankrit fleets. It is not as agile as the Rumpus, instead, focussing more and firepower and survivability. The ship has a normal amount of hardpoints, by human standards, but turns into a deadly weapon when outfitted with the destructive Sankrit technology and instills fear in its opponents with both it's speed and firepower."
 
 ship "Furor" "Furor Jump"
 	outfits

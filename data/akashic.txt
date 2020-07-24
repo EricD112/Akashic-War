@@ -233,8 +233,8 @@ event "Akashic Space Reachable"
 		government Akashic
 		habitable 553.28
 		belt 1337
-		link Arkania
-		link Arkono
+		link Annika
+		link Kanis
 		asteroids "small rock" 1 2.8458
 		asteroids "medium rock" 66 6.7014
 		asteroids "large rock" 2 6.885

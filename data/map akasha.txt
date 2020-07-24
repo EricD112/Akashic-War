@@ -2830,7 +2830,7 @@ planet Sankrit
 	description `	This planet would not be fit for human life, and it is best to stay away from this area as far as possible.`
 	spaceport `You wouldn't go near to their spaceports`
 	shipyard "Sankrit Advanced"
-	outfitter "Sankrit Basic"
+	outfitter "Sankrit Basics"
 	bribe 0
 
 planet "Sankrit Port"

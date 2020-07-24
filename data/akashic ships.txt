@@ -160,9 +160,9 @@ ship "Redeemer"
 		"heat dissipation" 0.6
 		"fuel capacity" 600
 		"cargo space" 65
-		"outfit space" 1046
+		"outfit space" 1067
 		"weapon capacity" 425
-		"engine capacity" 179
+		"engine capacity" 218
 		weapon
 			"blast radius" 400
 			"shield damage" 4000
@@ -386,11 +386,11 @@ ship "Conveyor"
 		"Thermal Core (Large)"
 		"Thermal Core (Medium)"
 		Sentinel 2
-		"Outfit Expansion"
+		"Outfits Expansion"
 		"Demolisher Turret" 2
 		"Devastator Beam" 4
 		"Storage Cell"
-		"Outfit Expansion"
+		"Outfits Expansion"
 		"Lateral Motivator (Large)"
 		"Angular Motivator (Large)"
 		"Thermal Control Unit (Large)"

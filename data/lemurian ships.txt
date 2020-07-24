@@ -65,7 +65,7 @@ ship "Seraphim"
 		"fuel capacity" 2000
 		"cargo space" 40
 		"outfit space" 700
-		"weapon capacity" 150
+		"weapon capacity" 200
 		"engine capacity" 200
 		weapon
 			"blast radius" 250
@@ -75,7 +75,6 @@ ship "Seraphim"
 	outfits
 		"Lemurian Eyes" 2
 		"Lemurian Focus" 1
-
 		"Lemurian Energy"
 		"Lemurian Heart"
 		"Lemurian Aura"

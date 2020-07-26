@@ -79,6 +79,7 @@ outfit "Sankrit Artillery Turret"
 		"hit effect" "sartillery impact" 3
 		"hit effect" "detainer smoke" 5
 		"inaccuracy" 1
+		"turret turn" 3.7
 		"velocity" 20
 		"lifetime" 120
 		"reload" 30
@@ -135,6 +136,7 @@ outfit "Sankrit Laser"
 		sound "skylance"
 		"hit effect" "sankritlaserimpact"
 		"inaccuracy" .4
+		"turret turn" 3.7
 		"velocity" 500
 		"lifetime" 1.1
 		"reload" 1
@@ -144,6 +146,14 @@ outfit "Sankrit Laser"
 		"hull damage" 18
 	description "Sankrit Laser is a basic equipment on all Akashic ships"
 	
+effect "sankritlaserimpact"
+	sprite "effect/sankritlaserimpact"
+		"no repeat"
+		"frame rate" 12
+	"lifetime" 10
+	"random angle" 180
+	"velocity scale" 0.
+
 effect "akashaslaserimpact"
 	sprite "effect/akashaslaserimpact"
 		"no repeat"
@@ -247,6 +257,7 @@ outfit "Sankrit Lemurian Turret"
 		"hit effect" "sartillery impact" 3
 		"hit effect" "detainer smoke" 5
 		"inaccuracy" 1
+		"turret turn" 3.7
 		"velocity" 25
 		"lifetime" 140
 		"reload" 15

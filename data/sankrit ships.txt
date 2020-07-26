@@ -23,7 +23,7 @@ ship "Rumpus"
 		"cooling" 19
 		"fuel capacity" 400
 		"cargo space" 83
-		"outfit space" 359
+		"outfit space" 376
 		"weapon capacity" 147
 		"engine capacity" 82
 		weapon
@@ -33,11 +33,9 @@ ship "Rumpus"
 			"hit force" 400
 	outfits
 		"Sankrit Artillery" 3
-		
 		"Sankrit Core S"
 		"Sankrit Energizer S"
 		"Sankrit Hull Drone"
-		
 		`"Biroo" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
@@ -56,13 +54,12 @@ ship "Rumpus"
 
 ship "Rumpus" "Rumpus Jump"
 	outfits
-		"Sankrit Artillery" 4
-		"Sankrit Core"
-		"Sankrit Energizer"
+		"Sankrit Artillery" 3
+		"Sankrit Core S"
+		"Sankrit Energizer S"
 		"Sankrit Hull Drone"
-		"Sankrit Cooling"
-		"Type 3 Radiant Thruster"
-		"X5200 Ion Steering"
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
 		"Jump Drive"
 	
 ship "Furor"
@@ -79,9 +76,9 @@ ship "Furor"
 		"heat dissipation" 1.5
 		"fuel capacity" 400
 		"cargo space" 97
-		"outfit space" 573
+		"outfit space" 617
 		"weapon capacity" 315
-		"engine capacity" 127
+		"engine capacity" 170
 		weapon
 			"blast radius" 250
 			"shield damage" 2600
@@ -92,11 +89,9 @@ ship "Furor"
 		"Sankrit Artillery Turret" 2
 		"Sankrit D-Matter Launcher" 2
 		"D-Matter" 200
-
 		"Sankrit Core S"
 		"Sankrit Energizer M"
 		"Sankrit Cooling"
-		
 		`"Biroo" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
@@ -124,8 +119,8 @@ ship "Furor" "Furor Jump"
 		"Sankrit Artillery Turret" 2
 		"Sankrit D-Matter Launcher" 1
 		"D-Matter" 100
-		"Sankrit Core"
-		"Sankrit Energizer"
+		"Sankrit Core S"
+		"Sankrit Energizer M"
 		"Sankrit Hull Drone"
 		"Sankrit Cooling"
 		"Sankrit Thruster"
@@ -159,11 +154,9 @@ ship "Calamity"
 		"Sankrit Laser" 3
 		"Sankrit D-Matter Launcher" 4
 		"D-Matter" 400
-
 		"Sankrit Core M"
 		"Sankrit Energizer M"
 		"Sankrit Cooling"
-		
 		`"Bondir" Atomic Thruster`
 		`"Bondir" Atomic Steering`
 		"Hyperdrive"
@@ -196,8 +189,8 @@ ship "Calamity" "Calamity Jump"
 		"Sankrit Laser" 2
 		"Sankrit D-Matter Launcher" 2
 		"D-Matter" 200
-		"Sankrit Core"
-		"Sankrit Energizer" 2
+		"Sankrit Core M"
+		"Sankrit Energizer M" 2
 		"Sankrit Hull Drone" 2
 		"Sankrit Cooling"
 		"Sankrit Thruster"
@@ -295,16 +288,14 @@ ship "Annihilation"
 	outfits
 		"Sankrit Lemurian Turret" 2
 		"Lemurian Focus" 2
-
 		"Lemurian Heart"
-		"Sankrit Energizer" 3
+		"Sankrit Energizer L" 3
 		"Sankrit Hull Drone" 2
 		"Sankrit Cooling" 3
-		
 		"Sankrit Thruster"
 		"Sankrit Steering"
 		"Lemurian Jump"
-	
+
 	turret -163 -115
 	turret 158 -115
 	turret 134 -136 "Lemurian Focus"
@@ -357,13 +348,11 @@ ship "Extinction"
 	outfits
 		"Sankrit Lemurian Turret" 4
 		"Lemurian Focus" 4
-		
 		"Lemurian Heart"
 		"Lemurian Aura"
-		"Sankrit Energizer" 4
+		"Sankrit Energizer L" 4
 		"Sankrit Hull Drone" 4
 		"Sankrit Cooling" 3
-		
 		"Sankrit Thruster"
 		"Sankrit Steering"
 		"Lemurian Jump"

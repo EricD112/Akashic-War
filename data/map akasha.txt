@@ -1268,7 +1268,7 @@ system Karme
 			period 20.101
 
 system Kayana
-	pos 5466.69 -372.06
+	pos 466.694 -372.06
 	government Akashic
 	habitable 553.28
 	belt 1337
@@ -2711,7 +2711,7 @@ planet Akrona
 	attributes akashic "safe outpost"
 	landscape land/sea3
 	description `A scenary unheard of in human space. Waterfalls reaching deep as if they fall to the planets core. The Akashic call it their research outpost and the access point to the rest of the Galaxy using their "Space Time Drives", all research in regard to the rest of the Galaxy seems to be conducted here.`
-	spaceport `Arkono's spaceport bar seems to be limited the Akashic do not seem to eat or drink that much in General it seems, it is as if they take the energy right out of the air to survive.`
+	spaceport `Akrona's spaceport bar seems to be limited the Akashic do not seem to eat or drink that much in General it seems, it is as if they take the energy right out of the air to survive.`
 	security 0
 
 planet Areara
@@ -2830,7 +2830,7 @@ planet Sankrit
 	description `	This planet would not be fit for human life, and it is best to stay away from this area as far as possible.`
 	spaceport `You wouldn't go near to their spaceports`
 	shipyard "Sankrit Advanced"
-	outfitter "Sankrit Basic"
+	outfitter "Sankrit Basics"
 	bribe 0
 
 planet "Sankrit Port"

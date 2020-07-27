@@ -63,9 +63,9 @@ mission "Akasha: Korath Efret"
 			`	Hoping that you aren't being followed, you retreat to your ship as fast as you can and close the hatch, departing from the planet soon later. Your sensors can't detect any ship chasing you, and as you exit the atmosphere you start feeling a bit safer...`
 	on accept
 		log `Met a Korath Efret dressed in a bizarre way. He showed me some drawings of parts of space I had never seen before, and the location of a system located beyond Host.`
-	on enter Chira
+	on enter Azar
 		dialog
-			`Upon entering the system, your ship detects a signal incoming from the surface of a small moon, Chira [name will be changed to be different from the system].`
+			`Upon entering the system, your ship detects a signal incoming from the surface of a small moon, Chira.`
 			`	Even weirder, it seems to be sending a distress call in various languages, including Human ones. Given its location, it might come from an Alpha settlement.`
 				
 			
@@ -73,7 +73,8 @@ mission "Akasha: Broken Jump Drive 1"
 	name "Obtain a rare material"
 	description "Visit a "friend" of the Akashic on <destination> to get 7 tons of a special alloy, necessary for Kachi to repair his Jump Drive."
 	landing
-	source "Chira"
+	source
+		planet Chira
 	to offer
 		has "Akasha: Korath Efret: done"
 	destination "Karek Fornati"
@@ -124,7 +125,7 @@ mission "Akasha: Broken Jump Drive 2"
 		planet "Karek Fornati"
 	to offer
 		has "Akasha: Broken Jump Drive 1: done"
-	destination "Chira"
+	destination Chira
 	on offer
 		conversation
 			`As you enter the atmosphere of Karek Fornati, you set the autopilot to go to the place Kachi indicated you, which is a few kilometers away from the main spaceport. As you fly towards your destination, you can't help but think at what might happen once you press the button on the cylinder.`
@@ -148,7 +149,7 @@ mission "Akasha: Broken Jump Drive 3"
 	description "While Kachi is finishing the repairs to his Jump Drive, defend him from a Raider attack."
 	landing
 	source
-		planet "Chira"
+		planet Chira
 	to offer
 		has "Akasha: Broken Jump Drive 2: done"
 	on offer 
@@ -195,7 +196,7 @@ mission "Akasha: Akashic Space"
 	landing
 	destination "Karieli"
 	source
-		planet "Chira"
+		planet Chira
 	to offer
 		has "Akasha: Broken Jump Drive 3: done"
 	on offer 

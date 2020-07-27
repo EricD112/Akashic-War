@@ -51,7 +51,7 @@ fleet "Akashic Transport Convoy"
 		"Fast Picket"
 	variant 4
 		"Superlifter" 2
-		"Ominibus"
+		"Omnibus"
 		"Persuader" 2
 		"Inductor"
 	variant 3

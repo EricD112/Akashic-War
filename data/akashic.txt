@@ -432,12 +432,10 @@ event "Ixchel Back"
 	unlink Ixchel Sedna	
 	planet Akasha
 		shipyard "Akasha Basic Ships"
-		shipyard "Akasha Advanced Ships"
 		outfitter "Akasha Advanced Outfits"
 		outfitter "Akasha Basic Outfits"
 	planet Areara
 		shipyard "Akasha Basic Ships"
-		shipyard "Akasha Advanced Ships"
 		outfitter "Akasha Advanced Outfits"
 		outfitter "Akasha Basic Outfits"
 	system Akasha
@@ -537,8 +535,6 @@ event "Clairvoyance Available"
 		fleet "Akashic Big" 100
 	planet Akasha
 		shipyard "Akasha Basic Ships"
-		shipyard "Akasha Advanced Ships"
-		shipyard "Akasha War Ships"
 		outfitter "Akasha Advanced Outfits"
 		outfitter "Akasha Basic Outfits"
 		
@@ -945,15 +941,6 @@ outfitter "Akasha Advanced Outfits"
 	"Kinetic Submunition"
 	"Submunition Fragment"
 	"Kinetic Submunition Array"
-	
-shipyard "Akasha Basic Ships"
-	"Persuasion"
-	"Conviction"
-	"Seeker"
-	"Keeper"
 
-shipyard "Akasha Advanced Ships"
-	"Redemption"
-	
-shipyard "Akasha War Ships"
-	"Clairvoyance"
+shipyard "Akasha Basic Ships"
+	"Seeker"

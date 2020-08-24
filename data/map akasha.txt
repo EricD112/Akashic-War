@@ -2564,7 +2564,7 @@ system "Tzir Katri"
 	trade Medical 480
 	trade Metal 402
 	trade Plastic 272
-	object
+	object "Tzir Katri Gateway"
 		sprite planet/station1w
 		distance 4.54569
 		period 0.175727
@@ -2875,7 +2875,7 @@ planet Shyama
 	outfitter "Sankrit Basics"
 	bribe 0
 
-planet ""
+planet "Tzir Katri Gateway"
 	attributes Sankrit
 	landscape land/space1
 	description `One of the Sankrit Waypoints with the main purpose to make a possible Jump Gateway.`
@@ -2907,6 +2907,5 @@ planet "The Ark Gate Sankrit"
 
 planet "The Ark Gate South"
 
-planet ""
+planet "FIXME Unnamed Jump Gateway"
 	landscape land/station0
-

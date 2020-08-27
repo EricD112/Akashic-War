@@ -131,7 +131,7 @@ mission "Akasha: Broken Jump Drive 2"
 			`As you enter the atmosphere of Karek Fornati, you set the autopilot to go to the place Kachi indicated you, which is a few kilometers away from the main spaceport. As you fly towards your destination, you can't help but think at what might happen once you press the button on the cylinder.`
 			`	The only construction near the coords you were given is a small, typical Korath house, placed in the middle of an immense field. You park your ship right in front of the main building.`
 			choice
-				`	(Knock the door.)`
+				`	(Knock on the door.)`
 				`	(Get off your ship and press the button on the cylinder.)`
 					goto button
 			`	You knock the door, and in a couple seconds it opens revealing a Korath dressed the same way as the one you met some time ago. You press the button on the device, which first emits some strong beeping sounds and then creates some sort of holographic projection in front of the Korath.`

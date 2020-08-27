@@ -46,7 +46,7 @@ mission "Akasha: Korath Efret"
 	on offer
 		event "Azar Appears"
 		conversation
-			`As you walk over the spaceport in search of a bar, you notice two Korath in a rather weird blue attire, with occasional golden highlights near the cuffs. They appear to be reading some papers, bounded together in a way that resembles the one of a Human book.`
+			`As you walk over the spaceport in search of a bar, you notice two Korath in a rather weird blue attire, with occasional golden highlights near the cuffs. They appear to be reading some papers, bounded together in a way that resembles the spine of a Human book.`
 			`	You stare at them for a few minutes, when, all of a sudden, one of them starts walking towards you, speaking in what you presume to be Korath language.`
 			choice
 				`	"Sorry, I don't understand what you are saying."`
@@ -54,7 +54,7 @@ mission "Akasha: Korath Efret"
 					goto run
 			label end
 			`	The Korath, who doesn't seem to understand you either, hands you the pages you were looking at, repeating a word with a sound similar to 'Kashra'. Now that you are looking over them, you see that they contain drawings and photos of various planets and systems you are not familiar with. As you browse the pages, the Korath keeps talking and talking, perhaps describing the images you are seeing.`
-			`	Out of all the pages you saw, you can recognise the location of what you see only of one, which shows the northernmost part of once Korath space. The only difference you can notice is one lone system, placed east of the system where the Alphas were hiding, Host. Perhaps it might be worth to check it out, considering the Alphas were able to hide in such places before.`
+			`	Out of all the pages you saw, you can recognize the location of what you see only of one, which shows the northernmost part of once Korath space. The only difference you can notice is one lone system, placed east of the system where the Alphas were hiding, Host. Perhaps it might be worth to check it out, considering the Alphas were able to hide in such places before.`
 			choice
 				`	(Before leaving, take a picture of that page.)`
 			`	You compare the picture to your ship's map, and after a while you are finally convinced to have discovered the location of the system you were looking for. It looks like the only way to reach it, even with a Jump Drive, is to pass from the Host system.`
@@ -66,9 +66,9 @@ mission "Akasha: Korath Efret"
 	on enter Azar
 		dialog
 			`Upon entering the system, your ship detects a signal incoming from the surface of a small moon, Chira.`
-			`	Even weirder, it seems to be sending a distress call in various languages, including Human ones. Given its location, it might come from an Alpha settlement.`
-				
-			
+			`Even weirder, it seems to be sending a distress call in various languages, including Human ones. Given its location, it might come from an Alpha settlement.`
+
+
 mission "Akasha: Broken Jump Drive 1"
 	name "Obtain a rare material"
 	description "Visit a "friend" of the Akashic on <destination> to get 7 tons of a special alloy, necessary for Kachi to repair his Jump Drive."
@@ -81,8 +81,8 @@ mission "Akasha: Broken Jump Drive 1"
 	on offer
 		conversation
 			scene "thumbnail/inductor"
-			`The signal comes from the shore of a large, old methane lake, which seem to be very common on Chira. As you come closer, you notice a ship of unknown design, consisting of a white hull with gray and yellow details all over it.`
-			`	Around it, some humanoid figures seem to be working on some sort of machinery, probably unmounted from the ship itself.`
+			` The signal comes from the shore of a large, old methane lake, which seem to be very common on Chira. As you come closer, you notice a ship of unknown design, consisting of a white hull with gray and yellow details all over it.`
+			` Around it, some humanoid figures seem to be working on some sort of machinery, probably unmounted from the ship itself.`
 			choice
 				`	(Park your ship near theirs.)`
 				`	(Shoot the parked starship.)`
@@ -95,12 +95,12 @@ mission "Akasha: Broken Jump Drive 1"
 				`	"How do you know my language?"`
 			`	"Our two species closely resemble each other, but evolved in very different times and regions of this galaxy. We name ourselves Akashic, and we inhabit what by human standards is the galactic East.`
 			`	"Thanks to the translation device around my neck, our species is able to communicate with many of the sentient species we previously met, including yours.`
-			`	"The reason we hailed you, Captain, is that we are having some troubles fixing the Jump Drive on our ship, and from here our communicatious would take decades to reach the first Akashic settlement. We don't seem to have enough spare materials with us to repair it, so unless you can provide them to us, I fear we are blocked here."`
+			`	"The reason we hailed you, Captain, is that we are having some troubles fixing the Jump Drive on our ship, and from here our communications would take decades to reach the first Akashic settlement. We don't seem to have enough spare materials with us to repair it, so unless you can provide them to us, I fear we are blocked here."`
 			choice
 				`	"Can't I just bring you a new Jump Drive?"`
 				`	"Where can I get these materials?"`
 					goto material
-			`	"Unfortunately, we don't have the right tools to mount it either. As you may have imagined, this was supposed to be a quite routine flight, and we did not expect we would have needed to do such a maintainance in an unsettled planet.`
+			`	"Unfortunately, we don't have the right tools to mount it either. As you may have imagined, this was supposed to be a quite routine flight, and we did not expect we would have needed to do such a maintenance in an unsettled planet.`
 			label material
 			`	"Across the galaxy, we have "friends", if we can call them this way. Trusted individuals who helped us in the past, and may come in help again in the future. One of them, a Korath, has access to a large amount of a special alloy, very rare and almost impossible to produce artificially. We believe we need at least 7 tons of it in order to get the Jump Drive working again, so you would need to visit him at <destination>."`
 			choice
@@ -128,19 +128,19 @@ mission "Akasha: Broken Jump Drive 2"
 	destination Chira
 	on offer
 		conversation
-			`As you enter the atmosphere of Karek Fornati, you set the autopilot to go to the place Kachi indicated you, which is a few kilometers away from the main spaceport. As you fly towards your destination, you can't help but think at what might happen once you press the button on the cylinder.`
+			` As you enter the atmosphere of Karek Fornati, you set the autopilot to go to the place Kachi indicated you, which is a few kilometers away from the main spaceport. As you fly towards your destination, you can't help but think at what might happen once you press the button on the cylinder.`
 			`	The only construction near the coords you were given is a small, typical Korath house, placed in the middle of an immense field. You park your ship right in front of the main building.`
 			choice
 				`	(Knock on the door.)`
 				`	(Get off your ship and press the button on the cylinder.)`
 					goto button
-			`	You knock the door, and in a couple seconds it opens revealing a Korath dressed the same way as the one you met some time ago. You press the button on the device, which first emits some strong beeping sounds and then creates some sort of holographic projection in front of the Korath.`
+			`	You knock on the door, and in a couple seconds it opens revealing a Korath dressed the same way as the one you met some time ago. You press the button on the device, which first emits some strong beeping sounds and then creates some sort of holographic projection in front of the Korath.`
 				goto hologram
 			label button
 			`	You press the button on the device, which begins emitting some strong beeping sounds. Shortly after, the door opens revealing a Korath dressed the same way as the one you met some time ago. About at the same time, the cylinder creates some sort of holographic projection in front of the door.`
 			label hologram
 			`	Initially the hologram shows some planets and parts of the galaxy similar to the ones in the pictures you saw recently, while a voice speaks from the device in the Korath language.`
-			`	This countinues for about a minute, when the hologram begins showing rods of a material you can't identify, presumibly the one you were sent to take. As the projection stops, the Korath brings you to a vast bunker placed under the house, full of the bars the device showed. You esitmate there must be thousands, perhaps even millons of rods here.`
+			`	This continues for about a minute, when the hologram begins showing rods of a material you can't identify, presumably the one you were sent to take. As the projection stops, the Korath brings you to a vast bunker placed under the house, full of the bars the device showed. You estimate there must be thousands, perhaps even millions of rods here.`
 			`	In a few hours, you and the Korath are able to take enough of the alloy to your cargo hold. Time to head back to <planet>.`
 				accept
 
@@ -152,7 +152,7 @@ mission "Akasha: Broken Jump Drive 3"
 		planet Chira
 	to offer
 		has "Akasha: Broken Jump Drive 2: done"
-	on offer 
+	on offer
 		log `Kachi is an Akashic, who was stuck on an uninhabited planet after his Jump Drive broke. Promised to help him by taking a special alloy from a Korath world.`
 		conversation
 			`You unload your cargo near Kachi's ship, which seems happy to see that you made it back in one piece. "Thank you for your help, Captain <last>," he says, as he hands you a credit chip.`
@@ -161,17 +161,17 @@ mission "Akasha: Broken Jump Drive 3"
 				`	"What are you going to do with the rods?"`
 				`	"Will I be allowed to follow you to Akashic space?"`
 					goto space
-			`	"To put it simple, the Jump Drive can transform the alloy into energy, which then gets used to create a special field. That same field, once expanded, allows a spaceship to travel to another system. The storage you visited is old, originally used by the Korath after they discovered the Jump technology. Now only few Korath are aware of its existance, and even fewer are interested into its preservation."`
+			`	"To put it simply, the Jump Drive can transform the alloy into energy, which then gets used to create a special field. That same field, once expanded, allows a spaceship to travel to another system. The storage you visited is old, originally used by the Korath after they discovered the Jump technology. Now only few Korath are aware of its existence, and even fewer are interested into its preservation."`
 				goto attack
 			label space
-			`	"Without your assistance, we would have been stuck here forever, Captain. You have proven to be trustable, and it would be unfair for us to not allow you to come visit our space. Plus, I believe you could be able to help us further with a few problems we are having there."`
+			`	"Without your assistance, we would have been stuck here forever, Captain. You have proven to be trustworthy, and it would be unfair for us to not allow you to come visit our space. Plus, I believe you could be able to help us further with a few problems we are having there."`
 			label attack
 			`	Suddenly, one of Kachi's crew member gets out of the ship and gives says something in Akashic. Since he doesn't have a translator on the neck, you can't understand what he is saying, but it doesn't seem to be good news. Finally, Kachi says: "There are some Korath ships jumping in, Captain <last>. Three of those Raider, with two Chaser fighters each. They all belong to the Exiles near the Core."`
 			choice
-				`	"Why are they here? I have never seen any Raider in this region of space.`
+				`	"Why are they here? I have never seen any Raider in this region of space."`
 				`	"Is your Jump Drive ready now? If we hurry up, we could be able to leave the system before they arrive."`
 					goto repairs
-			`	"They must have come here looking for us specifically then. The Akashic didn't have many contacts with the Exiles after their civil war ended, but none of them was peaceful. And there's more.`
+			`	"They must have come here looking for us specifically then. The Akashic didn't have many contacts with the Exiles after their civil war ended, but none of them were peaceful. And there's more.`
 			label repairs
 			`	 "Repairing the Jump Drive will take some more hours, so we won't be able to defend ourselves much before then. If you don't destroy those warships before they land, they will blow our ship up."`
 			choice
@@ -188,7 +188,7 @@ mission "Akasha: Broken Jump Drive 3"
 			variant
 				"Korath Raider" 3
 				"Korath Chaser" 6
-		dialog `Shortly after you finish off the last Korath warship, Kachi hails you. "Our Jump Drive should be operational agains soon, so come back here if you are ready."`
+		dialog `Shortly after you finish off the last Korath warship, Kachi hails you. "Our Jump Drive should be operational again soon, so come back here if you are ready."`
 
 mission "Akasha: Akashic Space"
 	name "Akashic Space"
@@ -199,7 +199,7 @@ mission "Akasha: Akashic Space"
 		planet Chira
 	to offer
 		has "Akasha: Broken Jump Drive 3: done"
-	on offer 
+	on offer
 		conversation
 			`As you disembark from your ship, you find Kachi waiting for you, holding another credit chip in one hand. "Thanks again, Captain <last>. While you were fighting, we finished the repairs on our Jump Drive, and now it should be working again.`
 			`	Our next objective will be <planet>, an Akashic planet a few jumps away from here, where we will refuel and switch our Jump Drive with one in better conditions. In the meanwhile," he says as he gives you the chit, "I have decided to give 2,000,000 credits, to cover the cost of the last battle. Ready to go?`
@@ -213,14 +213,14 @@ mission "Akasha: Akashic Space"
 	on accept
 		event "Akashic Space Reachable"
 		payment 2000000
-		
+
 	on complete
 		log "Factions" "Sankrit" `The Sankrit are a young species, very warlike and capable of advancing in technology more quickly than most species. They were born near the Akashic, in an ancient but small region of space.`
 		log `Was given access to the region the Akashic inhabit, but not to the technology they possess. Was warned by Kachi of the Sankrit threat.`
 #		event "Akashic first timer" 14
 		conversation
-			`You disembark from your ship and approach Kachi, which seems to be relieved to be back in Akashic space. "Welcome in Akashic space, Captain <last>. The Jump Drive did well during the trip, but we are replacing it to avoid risking another breakdown."`
-			`	While Kachi is talking, you can't help but look at the massive buildings near the spaceport, which he says to be housings and apartments, mainly uninhabited. "The reason they have been built for is the same that took me in Korath space: the Sankrit empire."`
+			`You disembark from your ship and approach Kachi, who seems to be relieved to be back in Akashic space. "Welcome to Akashic space, Captain <last>. The Jump Drive did well during the trip, but we are replacing it to avoid risking another breakdown."`
+			`	While Kachi is talking, you can't help but look at the massive buildings near the spaceport, which he says are housing and apartments, mainly uninhabited. "The reason they have been built for is the same that took me in Korath space: the Sankrit empire."`
 			choice
 				`	"Who are the Sankrit?"`
 			`	"They are a young species, born in a small cluster rimward of ours. We first encountered them some millennia ago, shortly after we learned how to develop Jump Drives. Even though we had been spacefaring for much longer than them, their ships were very warlike, and were able to destroy some of the scout ships we had sent there before we were able to retreat.`
